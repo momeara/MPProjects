@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir intermediate_data
+mkdir product
+
+

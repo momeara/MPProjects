@@ -1,0 +1,22 @@
+
+
+
+
+rule load_image_features:
+    input:
+        "intermediate_data/plate_map_{plate_map_id}.Rdata"
+
+    output:
+        "product/image_scores_CQ1_{plate_map_id}.parquet"
+
+    shell:
+	"""
+	Rscript scripts/laod_image_features_CQ1.R \
+	    --database_driver RMySQL \
+	    --database_config ~/.mysql/connectors.cnf \
+	    --database_group covid19cq1 \
+	    --database_schema covid19cp \
+	    --plate_map {input} \
+	    --objects Cells Cytoplasm Droplets Nuclei Nucleoli syn_nucs syncytia
+    	"""
+    
