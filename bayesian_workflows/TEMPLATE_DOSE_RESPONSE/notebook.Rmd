@@ -1,0 +1,411 @@
+---
+title: "Bayesian dose response analysis"
+output: pdf_document
+bibliography: bibliography.bibtex.bib
+csl: apa.csl
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(
+  echo = TRUE,
+  fig.align = 'center',
+  cache = TRUE)
+
+library(plyr)
+library(tidyverse)
+
+# for loading Prism data files
+library(pzfx)
+
+# for Bayesian modeling
+library(brms)
+library(bayesplot)
+library(MPStats)
+MPStats::bayesplot_theme()
+
+# for laying out ggplot2 figures
+library(patchwork)
+
+```
+
+## Context
+<Problem statement>
+
+
+### Bayesian Regression Workflow
+Given a given dataset of treatments, each measured for a response at a range of doses, we will follow a Bayesian analysis workflow (@Gelman2020-sf, @Van_de_Schoot2020-ei), to build a series of regression models using tools from the Stan ecosystem (@Carpenter2017-pj, @Burkner2017-ww, @Vehtari2017-pw, @Gabry2017-jm, @Kay2018-kn, @Wickham2016-xy, @Wickham2019-jb, @Team2013-nq).  For each model we will,
+
+1. Define and fit a probabilistic model, which combines a *prior* distribution over a set of parameters with the data to draw samples from *posterior* distribution over the parameters using Hamiltonian Markov Chain Monte Carlo.
+2. Check for sampling convergence.
+3. Use prior and posterior predictive checks to evaluate the model specification and fit.
+4. Use cross validation to evaluate the generalizability of the model.
+5. Assess inferences that can be made from the model.
+
+Then, we will compare the models based on their fit of the data and inferences that can be made.
+
+
+
+## Load data
+
+First we will Load data from GraphPad Prism data file
+```{r data-paths, dependson=c("setup")}
+pzfx_fname <- "<data>.pzfx"
+pzfx::pzfx_tables(pzfx_fname)
+```
+
+```{r load-table, echo=FALSE, dependson=c("data-paths")}
+load_table <- function(pzfx_fname, table, drug_name=NULL){
+  # condition: factor with values NC, PC, treatment 
+  # treatment: treatment identifier
+  # replica: index for replicated measurements
+  # log_dose: log base 10 of the molar concentration
+  # response: [0,1] where no treatment is ~1 and 0 is the max treatment effect
+
+  data <- pzfx::read_pzfx(
+    pzfx_fname,
+    table = table) %>%
+    dplyr::mutate(
+       condition = ...,
+       treatment = ...,
+       replica = ...,
+       log_dose = ...,
+       response = ...)
+  
+  assertthat::assert_that(
+    all(data$dose >= 0), "Dose is non-negative")
+  assertthat::assert_that(
+    all(data$treatment >= 0), "Response is in [0,1]")
+  assertthat::assert_that(
+    all(data$treatment <= 0), "Response is in [0,1]")
+```
+
+```{r load-data, dependson=c("load-tables")}
+data <- dplyr::bind_rows(
+  load_table(pzfx_fname, 1, "<experiment1 name>"),
+  load_table(pzfx_fname, 2, "<experiment2 name>"))
+data %>% dplyr::glimpse()
+```
+
+
+```{r data-summary, dependson=c("load-data"), echo=FALSE}
+# e.g. check dose ranges are on the right scale
+data %>%
+  dplyr::group_by(drug) %>%
+  dplyr::summarize(
+    dose_min = min(10^log_dose),
+    dose_max = max(10^log_dose)) %>%
+  dplyr::ungroup() %>%
+  dplyr::transmute(
+    Drug = drug,
+    `Min Dose (uM)` = signif(dose_min * 1e6, 3),
+    `Max Dose (uM)` = signif(dose_max * 1e6, 3))
+```
+
+
+```{r functions, echo=FALSE}
+
+scale_x_treatment <- list(
+  ggplot2::scale_x_continuous(
+    "Drug (uM)",
+    breaks = log10(c(.1, .3, 1, 3, 10, 30, 100)),
+    labels = c("0.1", "0.3", "1", "3", "10", "30", "100"),
+    expand = c(.01,.01)))
+
+scale_y_response <- list(
+  ggplot2::scale_y_continuous(
+    "% Control",
+    breaks = c(0, .2, .4, .6, .8, 1, 1.2)
+    labels = c("0", "20", "40", "60", "80", "100", "120"),
+    expand = c(0, .01)))
+
+```
+
+
+# Fit Models
+
+## Fit flat regression model
+Now we will fit a flat regression model to use a model for no dependence of the response on the treatment
+
+```{r model-flat, dependson=c("load-data"), message=FALSE, warning=FALSE, cache=TRUE, echo=TRUE, results='hide'}
+model_flat <- brms::brm(
+  formula = response ~ 1,
+  prior = c(
+    brms::prior(student_t(3, 5, 5),  class = "Intercept"),
+    brms::prior(student_t(3, 0, 5),  class = "sigma")),
+  data = data,
+  iter = 8000,
+  cores = 4)
+model_flat$name <- "flat"
+```
+Here is a summary of the model fit, at this point we're looking primarily for the quality of the simulation. There are three areas to consider.
+
+   1. The Rhat should be close 1 indicating the chains are not exploring the same regions of parameter space and not getting stuck.
+   2. The Bulk and Tail effective sample sizes (Bulk_ESS, Tail_ESS) should be > 1000.
+   3. There are no divergences. The NUTs algorithm can detect when the parameter space is difficult to sample.
+   
+If these areas are not all satisfied, then either run the simulation for longer, or reparameterize the model. We'll return below to interpret model specification and parameter estimates.
+```{r model-flat-summary, dependson=c("model-flat"), echo=FALSE}
+model_flat
+```
+
+### Check for convergence
+To further check convergence we will evaluate the traceplot, which shows the sampled for each parameter and each chain across the MCMC trajectories. We're looking for convergence across the sampling.
+```{r model-flat-traceplot, dependson=c("model-flat", "functions"), echo=FALSE, fig.width = 8, fig.height=2}
+model_flat %>% MPStats::traceplot()
+```
+
+and the rank histogram. The idea here is that if the simulation has converged, then the rank of each sample should be uniform, which can be visually assessed by making a histogram.   
+```{r model-flat-rankplot, dependson=c("model-flat", "functions"), echo=FALSE, fig.width = 8, fig.height=2}
+model_flat %>% MPStats::rankplot()
+```
+
+### Check specification of priors
+Well specified priors should incorporate any domain knowledge ranging from uninformative, weakly informative, to strongly informative. Further the extent the inferences are sensitive to the priors should be clear.
+
+```{r model-flat-prior-posterior-draws, dependson=c("model-flat", "functions"), message = FALSE, warning = FALSE, echo = FALSE, results='hide', fig.width = 8, fig.height=2.5}
+MPStats::prior_posterior_plot(model = model_flat) +
+  ggplot2::theme(legend.position = c(.9, .7))
+```
+
+### Check quality of model fit
+To assess the model fit we will use leave-one-out cross validation, that is re-fitting the model for each (drug, dose) and measuring the posterior probability of the held out sample. This is a more reliable way to compare models and estimate how well the model will generalize, which we'll return to after we defined all the models. To make this more computationally tractable, we use a method called Pareto smoothed importance sampling to approximate it by re-sampling from the posterior distribution. To interpret these scores, we want the the expected log pointwise predictive density for a new dataset (`elpd_loo`{.R}) to be large, and `p_loo`{.R}, the p_loo is the difference between `elpd_loo`{.R} and the non-cross-validated log posterior predictive density to be small. `p_loo`{.R} can be interpreted as the effective number of parameters, and ideally it should be less than the total number of samples (`p_loo < N`{.R}) and less than the actual number of parameters `p_loo < p`{.R} where `p` is the number of parameters in the model. A rule of thumb for model selection is that all else being equal, the `elpd_loo`{.R} should be twice or four times the standard deviation better to prefer a different model.
+
+An interesting feature of using leave-one-out cross validation, is it can be used detect outliers as `pareto_k`{.R} estiamtes for each point. If there were any, they would show up as values `> .5`{.R} or worse here.
+```{r model-flat-criteria, dependson=c("model-flat"), message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
+model_flat <- model_flat %>% 
+  brms::add_criterion("loo") %>%
+  brms::add_criterion(
+    criterion = "kfold",
+    folds = loo::kfold_split_grouped(
+      K = data$treatment %>% unique() %>% length(),
+      x = data$treatment)) %>%
+  brms::add_criterion("loo_R2")
+model_flat$criteria$loo
+```
+
+We can also estimate the leave-one-drug-out cross validation, where the question is how well the model generalizes to *new treatments*. 
+```{r model-flat-criteria-kfold, dependson=c("model-flat-criteria"), message=FALSE, warning=FALSE, echo=FALSE}
+model_flat$criteria$kfold
+```
+
+A way to visualize if there is model mis-specification is through a posterior predictive checks. The idea is that if the model fits the data, we should have a hard time distinguishing the data from fake data generated from the fit model. In the upper two plots, samples generated from the model are shown in thin blue lines and the actual data is the thick black line. In the upper left plot, the x-axis is the response in this case the response, and in the right, the x-axis has been streched and compressed so the samples from the model are approximately uniform (they dip down at the edges because of uncertainty in the model). For more details on posterior predictive checks and these plots see (Gabry2019-ra). Below, it shows the average prediction error as a function of the response. For the flat model, the further above or below the mid-line, the worse the error. 
+```{r model-flat-ppc, dependson=c("model-flat-criteria"), message=FALSE, warning=FALSE, echo=FALSE}
+pp1 <- model_flat %>% brms::pp_check(nsamples = 50)
+pp2 <- model_flat %>% brms::pp_check("loo_pit_overlay", nsamples = 50)
+pp3 <- model_flat %>% brms::pp_check(type='error_scatter_avg') +
+  ggplot2::theme_bw() +
+  ggplot2::coord_flip() +
+  scale_x_response
+pp3$layers <- c(
+  ggplot2::geom_vline(xintercept = 0, color="grey20"),
+  pp3$layers)
+(pp1 | pp2) / pp3
+```
+
+### Interpret the model
+The pairs plot shows if there is any correlation in the among the parameters. This can help interpret the model, or indicate alternative models or paremterizations. This show very little correlation between the intercept (the b_ prefix comes from the brms framework).
+```{r model-flat-pairs, dependson=c("model-flat", "functions"), dev="png", echo=FALSE}
+model_flat %>% MPStats::pairsplot()
+```
+
+Now we will plot draws from the fitted model on scatter plot of the response vs treatment data  
+```{r regression-flat, dependson=c("model-flat", "functions"), echo=FALSE}
+regression_plot(model_flat)
+```
+
+
+
+## Fit sigmoid4 regression model
+Here we fit a four-parameter sigmoid curve, with parameters `top`{.R}, `bottom`{.R}, `ic50`{.R} and `hill`{.R}. We'll use a non-conventional parameterization of the hill coefficient, so that actual slope is independent of the `(top-bottom)`{.R} range.
+```{r model-sigmoid4, dependson=c("load-data"), message=FALSE, include=FALSE, refresh=-1, cache=TRUE}
+model_sigmoid4 <- brms::brm(
+  formula = brms::brmsformula(
+    response ~ (top-bottom) * inv_logit(hill*4/top*(log_dose - ic50) + bottom),
+      top + bottom + ic50 + hill ~ (1 | treatment),
+      center = TRUE,
+      nl = TRUE),
+  prior = c(
+    brms::prior(normal(1, .1), nlpar = "top"),
+    brms::prior(normal(0, .1), nlpar = "bottom"),
+    brms::prior(normal(0, 3), nlpar = "ic50"),
+    brms::prior(normal(1, 2), nlpar = "hill")),
+  inits=function(){
+    list(
+      top = as.array(1),
+      bottom = as.array(0),
+      ic50 = as.array(0),
+      hill = as.array(1))},
+  iter=8000,
+  cores = 4,
+  data = data,
+  stan_model_args = list(
+    verbose = FALSE))
+model_sigmoid4$name <- "sigmoid4"
+```
+```{r model-sigmoid4-summary, dependson=c("model-sigmoid4"), echo=FALSE}
+model_sigmoid4
+```
+
+### Check for convergence
+Note that for less restrictive prior on the hill and top and bottom parameters, the top and bottom can switch, leading to low Rhat scores. This is easily detected in the traceplots.
+```{r model-sigmoid4-traceplot, echo=FALSE, fig.width=8, fig.height=2.5}
+MPStats::traceplot(model_sigmoid4)
+```
+ 
+```{r model-sigmoid4-rankplot, dependson=c("model-sigmoid4"), echo=FALSE, fig.width=10, fig.height=3.5}
+model_sigmoid4 %>% MPStats::rankplot()
+```
+
+### Check specification of priors
+```{r model-sigmoid4-prior-posterior-draws, dependson=c("model-sigmoid4", "functions"), echo=FALSE, message=FALSE, results='hide'}
+MPStats::prior_posterior_plot(model = model_sigmoid4)
+```
+
+
+### Check quality of model fit
+Leave-one-out cross validation
+```{r model-sigmoid4-criteria, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
+model_sigmoid4 <- model_sigmoid4 %>% 
+  brms::add_criterion("loo") %>%
+  brms::add_criterion(
+    criterion = "kfold",
+    folds = loo::kfold_split_grouped(
+      K = data$treatment %>% unique() %>% length(),
+      x = data$treatment)) %>%
+  brms::add_criterion("loo_R2")
+
+model_sigmoid4$criteria$loo
+```
+
+
+Leave-one-drug-out cross validation
+```{r model-sigmoid4-criteria-kfold, dependson=c("model-sigmoid4-criteria"), message=FALSE, warning=FALSE, echo=FALSE}
+model_sigmoid4$criteria$kfold
+```
+
+
+
+```{r model-sigmoid4-ppc, dependson=c("model-sigmoid4-criteria"), message=FALSE, warning=FALSE, echo=FALSE}
+pp1 <- model_sigmoid4 %>% brms::pp_check("loo_pit_overlay", nsamples = 50)
+pp2 <- model_sigmoid4 %>% brms::pp_check(nsamples = 50)
+pp3 <- model_sigmoid4 %>% brms::pp_check(type='error_scatter_avg') +
+  ggplot2::theme_bw() +
+  ggplot2::coord_flip()
+  scale_y_response +
+pp3$layers <- c(
+  ggplot2::geom_vline(xintercept = 0, color="grey20"),
+  pp3$layers)
+
+(pp1 | pp2) / pp3
+```
+```{r model-sigmoid4-pairs, dependson=c("model-sigmoid4", "functions"), dev="png", echo=FALSE}
+model_sigmoid4 %>% MPStats::pairsplot()
+```
+
+### Interpret the model
+```{r regression-sigmoid4, dependson=c("model-sigmoid4", "functions"), echo=FALSE}
+regression_plot(model_sigmoid4)
+```
+
+
+
+## Compare all models
+```{r gather-models, dependson=c("model-flat", "model-sigmoid4"), echo=FALSE, results='hide'}
+models <- tibble::tibble( model = list(
+  model_flat,
+  model_sigmoid4)) %>%
+  dplyr::mutate(model_name = lapply(model, function(m){m$name}) %>% unlist(), .before = 1)
+
+models %>%
+  dplyr::rowwise() %>%
+  dplyr::do({
+    model_name <- .$model_name
+    model <- .$model
+    assertthat::assert_that(!is.null(model$name), msg = "Model name is null")
+    assertthat::assert_that(!is.null(model$criteria$loo), msg = paste0("loo is null for model ", model_name))
+    assertthat::assert_that(!is.null(model$criteria$loo_R2), msg = paste0("loo_R2 is null for model ", model_name))
+    assertthat::assert_that(!is.null(model$criteria$kfold), msg = paste0("kfold is null for model ", model_name))
+    data.frame()
+    })
+```
+
+```{r regression-all-fits, dependson=c("gather-models"), echo=FALSE, fig.width = 10, fig.height = 6}
+
+model_draws <- models %>%
+   dplyr::rowwise() %>%
+  dplyr::do({
+    model <- .$model
+    data %>% tidybayes::add_fitted_draws(
+      model,
+      n=40) %>%
+      dplyr::mutate(model = model$name)
+  }) %>%
+  dplyr::ungroup()
+
+format_R2 <- function(model){
+  paste0(
+    'R^2~"="~',
+    model$criteria$loo_R2 %>% mean() %>% signif(2),
+    '~" ["*', model$criteria$loo_R2 %>% quantile(0.025) %>% signif(2),
+    '*", "*', model$criteria$loo_R2 %>% quantile(0.975) %>% signif(2),
+    '*"]"')
+}
+
+R2_scores <- models %>%
+  dplyr::transmute(
+    label = lapply(model, format_R2),
+    model = model_name)
+
+
+args <- models$model
+args <- append(args, values = list(criterion = "loo"))
+args <- append(args, values = list(model_names = models$model_name))
+names(args)[1] <- "x"
+elpd_diff <- do.call(brms::loo_compare, args) %>%
+  data.frame() %>%
+  tibble::rownames_to_column(var = "model") %>%
+  dplyr::transmute(
+    model = model %>% stringr::str_replace("model_", ""),
+    label = paste0('"elpd"["diff"]~"="~', signif(elpd_diff, 2), '~"+/-"~', signif(se_diff, 2)))
+
+
+```
+
+
+Compare based on leave-one-out cross validation
+```{r model-compare-loo, dependson=c("gather-models"), echo=FALSE}
+args <- models$model
+args <- append(args, values = list(criterion = "loo"))
+args <- append(args, values = list(model_names = models$model_name))
+names(args)[1] <- "x"
+do.call(brms::loo_compare, args)
+
+```
+
+Compare based on leave-drug-out cross validation
+```{r model-compare-kfold, dependson=c("gather-models"), echo=FALSE}
+args <- models$model
+args <- append(args, values = list(criterion = "kfold"))
+args <- append(args, values = list(model_names = models$model_name))
+names(args)[1] <- "x"
+do.call(brms::loo_compare, args)
+```
+
+
+```{r model-model-weights-kfold, dependson=c("gather-models"), echo=FALSE}
+model_weights <- models$model %>%
+  lapply(function(m){m$criteria$kfold$pointwise[,"elpd_kfold"]}) %>%
+  do.call(cbind, .) %>%
+  loo::stacking_weights()
+attr(model_weights, "names") <- models$model_name
+model_weights
+```
+
+# Session Info
+For reproducibility, here is information about the R version and loaded packages
+```{r session-info}
+sessionInfo()
+```
+
+# References
