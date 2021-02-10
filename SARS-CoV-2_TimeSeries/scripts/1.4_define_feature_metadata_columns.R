@@ -27,7 +27,7 @@ coordinates <- c("X", "Y", "Z")
 cell_feature_columns_TS6h <- tibble::tibble(
     feature = cell_features_TS6h %>% names(),
     transform = "identity") %>%
-    dplyr::anti_join(image_metadata_columns_TS, by="feature") %>%
+    dplyr::anti_join(image_metadata_columns_TS, by = "feature") %>%
     dplyr::filter(!(feature %in% c("schema", "dose_nM"))) %>%
     dplyr::filter(!(feature %in% c("Nuclei_Distance_Centroid_InfectedCells"))) %>%    
     dplyr::anti_join(
