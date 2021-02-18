@@ -9,6 +9,8 @@ parameters <- list(
 
     # HLOs/datasets
     # a table of the datasets that have been collected for the project
-    datasets_googlesheet_id = "1R_dd-ccWajPZxOWkcjfX8EWNkAalNHmq0HfWn75-8Hk"
-    
+    datasets_googlesheet_id = "1R_dd-ccWajPZxOWkcjfX8EWNkAalNHmq0HfWn75-8Hk",
+    # path where the datasets table is stored
+    datasets_fname = "raw_data/datasets_20210208.tsv"
+
 )

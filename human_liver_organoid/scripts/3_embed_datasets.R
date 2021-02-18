@@ -1,44 +1,21 @@
 library(plyr)
 library(tidyverse)
 library(MPStats)
-library(googlesheets4)
-library(hdf5r)
 library(monocle3)
-library(Matrix)
 
 source("parameters.R")
+source("scripts/get_dataset.R")
 
+datasets <- readr::read_tsv("raw_data/datasets_20210208.tsv", col_types = readr::cols())
 
-# gather the dataset summary and ids from google drive
-# HLOs/datasets
-datasets <- googlesheets4::read_sheet(
-    ss = parameters$datasets_googlesheet_id)
-
-datasets %>%
-    readr::write_tsv("raw_data/datasets_20210208.tsv")
-
-datasets <- readr::read_tsv("raw_data/datasets_20210208.tsv")
-
-# Load the output of the 10x genomics CellRanger pipeline stored in turbo
-# https://cole-trapnell-lab.github.io/monocle3/docs/starting/#10x-output
 
 # to begin we'll load the off-chip and on-chip datasets and
 # and do a quick umap embedding as a sanity check
 
-get_dataset <- function(sample_id) {
-    dataset_path <- paste(
-        parameters$data_base_dir,
-        datasets %>%
-            dplyr::filter(sample_id == !!sample_id) %>%
-            dplyr::pull(data_path),
-        sep = "/")
-    cat("Loading cell range datset into Monocle3 with path '", dataset_path, "'\n", sep = "")
-    monocle3::load_cellranger_data(dataset_path)
-}
-
-
 # off chip control
 cds_CZ <- get_dataset("2603-CZ")
+
+reducedDims(cds_CZ)[["MAGIC"]] <- cds_CZ %>% SingleCellExperiment::counts() %>% Rmagic::magic()
 
 # we'll use the monocle3 defaults,
 # expect set the Louvian clustering resolution to 1e-4 to get ~8 clusters
@@ -281,9 +258,49 @@ ggplot2::ggsave(
 
 
 ##################
-# Ouchi2019 and CX_x
+# Ouchi2019 + on_chip control
 
-Ouchi2019_CX_x <- monocle3::combine_cds(
+Ouchi2019_CZ_2 <- monocle3::combine_cds(
+    cds_list = list(
+        Ouchi2019 = get_dataset("GSM3731527"),
+        Control = get_dataset("2602-CZ-2")))
+
+Ouchi2019_CZ_2 <- Ouchi2019_CZ_2 %>%
+    monocle3::preprocess_cds(num_dim = 100)
+
+
+Ouchi2019_CZ_2 <- Ouchi2019_CZ_2 %>%
+    monocle3::align_cds(
+        num_dim = 100,
+        alignment_group = "sample",
+        alignment_k = 200,
+        verbose = TRUE)
+
+
+Ouchi2019_CZ_2 <- Ouchi2019_CZ_2 %>%
+    monocle3::reduce_dimension(preprocess_method = "Aligned")
+
+Ouchi2019_CZ_2 <- Ouchi2019_CZ_2 %>%
+    monocle3::cluster_cells(
+        resolution = 1e-5,
+        verbose = TRUE)
+
+plot <- Ouchi2019_CZ_2 %>%
+    monocle3::plot_cells(
+        color_cells_by = "sample")
+ggplot2::ggsave(
+    filename = "product/figures/Ouchi2019_CZ_2/umap_aligned_k=200_1e-5_20210208.pdf")
+
+plot <- Ouchi2019_CZ_2 %>%
+    monocle3::plot_cells()
+ggplot2::ggsave(
+    filename = "product/figures/Ouchi2019_CZ_2/umap_aligned_k=200_clusters_1e-5_20210208.pdf")
+
+
+##################
+# Ouchi2019 and CZ_x
+
+Ouchi2019_CZ_x <- monocle3::combine_cds(
     cds_list = list(
         Ouchi2019 = get_dataset("GSM3731527"),
         Acetaminophen = get_dataset("2602-CZ-1"),
@@ -294,11 +311,11 @@ Ouchi2019_CX_x <- monocle3::combine_cds(
         Tenofovir_Inarigivir = get_dataset("2602-CZ-6")))
 
 
-Ouchi2019_CX_x <- Ouchi2019_CX_x %>%
+Ouchi2019_CZ_x <- Ouchi2019_CZ_x %>%
     monocle3::preprocess_cds(num_dim = 100)
 
 
-Ouchi2019_CX_x <- Ouchi2019_CX_x %>%
+Ouchi2019_CZ_x <- Ouchi2019_CZ_x %>%
     monocle3::align_cds(
         num_dim = 100,
         alignment_group = "sample",
@@ -306,28 +323,28 @@ Ouchi2019_CX_x <- Ouchi2019_CX_x %>%
         verbose = TRUE)
 
 
-Ouchi2019_CX_x <- Ouchi2019_CX_x %>%
+Ouchi2019_CZ_x <- Ouchi2019_CZ_x %>%
     monocle3::reduce_dimension(preprocess_method = "Aligned")
 
-Ouchi2019_CX_x <- Ouchi2019_CX_x %>%
+Ouchi2019_CZ_x <- Ouchi2019_CZ_x %>%
     monocle3::cluster_cells(
         resolution = 1e-5,
         verbose = TRUE)
 
-plot <- Ouchi2019_CX_x %>%
+plot <- Ouchi2019_CZ_x %>%
     monocle3::plot_cells(
         color_cells_by = "sample")
 ggplot2::ggsave(
     filename = "product/figures/Ouchi2019_CZ_x/umap_aligned_k=200_1e-5_20210208.pdf")
 
-plot <- Ouchi2019_CX_x %>%
+plot <- Ouchi2019_CZ_x %>%
     monocle3::plot_cells()
 ggplot2::ggsave(
     filename = "product/figures/Ouchi2019_CZ_x/umap_aligned_k=200_clusters_1e-5_20210208.pdf")
 
 
 
-z <- Ouchi2019_CX_x[,Ouchi2019_CX_x$sample=="Ouchi2019"]
+z <- Ouchi2019_CZ_x[,Ouchi2019_CZ_x$sample=="Ouchi2019"]
 plot <- z %>%
     monocle3::plot_cells()
 ggplot2::ggsave(
@@ -336,7 +353,7 @@ ggplot2::ggsave(
 
 ###
 # look for specific bio-markers in each cluster
-marker_test_res <- Ouchi2019_CX_x %>%
+marker_test_res <- Ouchi2019_CZ_x %>%
     monocle3::top_markers(
         group_cells_by = "cluster",
         reference_cells = 1000,
@@ -349,7 +366,7 @@ top_specific_markers <- marker_test_res %>%
 
 top_specific_marker_ids <- top_specific_markers %>% pull(gene_id) %>% unique()
 
-plot <- Ouchi2019_CX_x %>%
+plot <- Ouchi2019_CZ_x %>%
     monocle3::plot_genes_by_group(
         top_specific_marker_ids,
         group_cells_by = "cluster",
@@ -363,8 +380,8 @@ ggplot2::ggsave(
 
 
 cluster_by_sample <- tibble::tibble(
-    cluster_label = Ouchi2019_CX_x@clusters[['UMAP']]$clusters,
-    sample = colData(Ouchi2019_CX_x)$sample) %>%
+    cluster_label = Ouchi2019_CZ_x@clusters[['UMAP']]$clusters,
+    sample = colData(Ouchi2019_CZ_x)$sample) %>%
 
 
 cluster_by_sample %>%
