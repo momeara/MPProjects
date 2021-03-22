@@ -14,51 +14,9 @@ datasets <- readr::read_tsv(
     "raw_data/datasets_20210208.tsv",
     col_types = readr::cols())
 
-#TODO
-##what are size factors?
-#
-#   # run when creating a cell_data_se
-#   cds <- estimate_size_factors(cds)
-#             method = c("mean-geometric-mean-total", "mean-geometric-mean-log-total")
-#
-#   estimate_sf_sparse
-#      cell_total <- Matrix::colSums(counts)
-#      sfs <- cell_total / exp(mean(log(cell_total)))
-
-
-#   cds <- estimateDispersions(cds)    
-#  when combining datasets, what is going on with 'conf' conflicts?
-
-
-#' Compute important quality control covariates suggested by (Lueken and Theis 2019)
-#'
-#' Add count_depth, n_genes, mt_fraction values to
-#' the column data for the input cell_data_set
-#'
-#' @param cds cell_data_set
-#'@export
-compute_qc_covariates <- function(cds) {
-    count_depth <- cds %>%
-        SingleCellExperiment::counts() %>%
-        Matrix::colSums()
-    SummarizedExperiment::colData(cds)[["count_depth"]] <- count_depth
-    
-    # compute number of non-zero entries per-column for a dgCMatrix
-    # https://stackoverflow.com/a/51560622/198401
-    SummarizedExperiment::colData(cds)[["n_genes"]] <- SingleCellExperiment::counts(cds)@p %>% diff()
-    mt_genes <- SummarizedExperiment::rowData(cds) %>%
-        data.frame %>%
-        dplyr::mutate(index = dplyr::row_number()) %>%
-        dplyr::filter(gene_short_name %>% stringr::str_starts("MT-"))
-         
-    mt_count_depth <- cds[mt_genes$index, ] %>%
-        SingleCellExperiment::counts() %>%
-        Matrix::colSums()
-
-    SummarizedExperiment::colData(cds)[["mt_fraction"]] <- mt_count_depth / count_depth
-    cds
-}
-
+##
+## Cell based QC
+##
 qc_covariates <- datasets %>%
     dplyr::filter(type == "scRNAseq") %>%
     dplyr::rowwise() %>%
@@ -66,7 +24,7 @@ qc_covariates <- datasets %>%
         sample_name <- .$sample_name
         sample_id <- .$sample_id
         get_dataset(sample_id) %>%
-            compute_qc_covariates() %>%
+            MPStats::compute_qc_covariates() %>%
             SummarizedExperiment::colData() %>%
             data.frame() %>%
             dplyr::mutate(
@@ -138,11 +96,16 @@ ggplot2::ggsave(
     "product/figures/all/qc_covariates_pairs_gated_20210214.pdf")
 
 
+##
+## Gene based QC
+##
 
-
-#' Compute pearson residuals for each gene
-#' Jan Lause, Philipp Berens, and Dmitry Kobak
-# Analytic Pearson residuals for normalization of single-cell RNA-seq UMI data
-
-
-#
+compute_gene_qc_covariates <- function(cds) {
+    count_depth <- cds %>%
+        SingleCellExperiment::counts() %>%
+        Matrix::rowSums()
+    SummarizedExperiment::rowData(cds)[["count_depth"]] <- count_depth
+    SummarizedExperiment::rowData(cds)[["n_cells"]] <- SingleCellExperiment::counts(cds)@i %>%
+        magrittr::add(1) %>%
+        tabulate()
+}
