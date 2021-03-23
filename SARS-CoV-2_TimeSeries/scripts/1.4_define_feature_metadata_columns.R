@@ -12,19 +12,19 @@ source("parameters.R")
 ##########################
 
 image_scores_CQ1_TS <- arrow::read_parquet(
-    file = "product/image_scores_CQ1_TS.parquet")
+    file = "intermediate_data/image_scores_CQ1_TS.parquet")
 image_metadata_columns_TS <- tibble::tibble(
     feature = image_scores_CQ1_TS %>% names())
 
-cell_features_TS6 <- arrow::read_parquet(
-    file = "product/TS6h_Cell_MasterDataTable.parquet")
+cell_features_TS6h <- arrow::read_parquet(
+    file = "intermediate_data/covid19cq1_SARS_TS6h_Cell_MasterDataTable.parquet")
 
 objects <- c("Cytoplasm", "Cells", "Nuclei", "InfectedCells")
 dyes <- c("NP", "Spike", "ConA", "Hoe")
 coordinates <- c("X", "Y", "Z")
 
 # these are the features we want to exclude
-cell_feature_columns_TS6h <- tibble::tibble(
+cell_feature_columns_TS <- tibble::tibble(
     feature = cell_features_TS6h %>% names(),
     transform = "identity") %>%
     dplyr::anti_join(image_metadata_columns_TS, by = "feature") %>%
@@ -74,8 +74,8 @@ cell_feature_columns_TS6h <- tibble::tibble(
         dplyr::mutate(feature = paste0(objects, "_Number_Object_Number")),
         by = "feature")
 
-# these are the features we want to keep
-cell_feature_columns_TS6h %>%
+# antijoin against the ones we want to keep to make sure we haven't missed any
+cell_feature_columns_TS %>%
     dplyr::anti_join(
         expand.grid(
             object = objects,
@@ -165,17 +165,25 @@ cell_feature_columns_TS6h %>%
 
 
 #check that there are no missing values
-cell_features %>% nrow()
-cell_features %>%
+cell_features_TS6h %>% nrow()
+cell_features_TS6h %>%
     dplyr::select(
-        tidyselect::one_of(cell_feature_columns_TS6h$feature)) %>%
+        tidyselect::one_of(cell_feature_columns_TS$feature)) %>%
     tidyr::drop_na() %>%
     nrow()
 
-cell_features %>% summary()
+cell_features_TS6h %>% summary()
 
-cell_feature_columns_TS6h %>%
+cell_feature_columns_TS %>%
     readr::write_tsv("product/cell_feature_columns_TS.tsv")
+
+cell_metadata_columns_TS <- cell_features_TS6h %>%
+    names() %>%
+    data.frame(feature = .) %>%
+    dplyr::anti_join(
+        cell_feature_columns_TS6h,
+        by = "feature")
+
 cell_metadata_columns_TS %>%
     readr::write_tsv("product/cell_metadata_columns_TS.tsv")
 
@@ -184,12 +192,14 @@ cell_metadata_columns_TS %>%
 # Time Series 2 (202008) #
 ##########################
 
+image_scores_CQ1_TS_202008 <- arrow::read_parquet(
+    "intermediate_data/image_scores_CQ1_TS_202008.parquet")
 
 image_metadata_columns_TS_202008 <- tibble::tibble(
     feature = image_scores_CQ1_TS_202008 %>% names())
 
 cell_features_TS2PL1 <- arrow::read_parquet(
-    file = "product/TS2PL1_Cell_MasterDataTable.parquet")
+    file = "intermediate_data/covid19cq1_SARS_TS2PL1_Cell_MasterDataTable.parquet")
 
 objects <- c("Cells", "Nuclei", "Cytoplasm", "InfectedCells")
 dyes <- c("ConA", "Hoe", "NP", "Spike")
@@ -245,10 +255,19 @@ cell_feature_columns_TS_202008 <- tibble::tibble(
         dplyr::mutate(feature = paste0(objects, "_Number_Object_Number")),
         by = "feature")
 
-cell_features %>% summary()
+cell_feature_columns_TS_202008 %>% summary()
 
 cell_feature_columns_TS_202008 %>%
     readr::write_tsv("product/cell_feature_columns_TS_202008.tsv")
+
+
+cell_metadata_columns_TS_202008 <- cell_features_TS2PL1 %>%
+    names() %>%
+    data.frame(feature = .) %>%
+    dplyr::anti_join(
+        cell_feature_columns_TS_202008,
+        by = "feature")
+
 image_metadata_columns_TS_202008 %>%
     readr::write_tsv("product/cell_metadata_columns_TS_202008.tsv")
 
