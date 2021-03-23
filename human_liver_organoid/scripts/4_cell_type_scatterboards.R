@@ -85,6 +85,26 @@ marker_genes %>%
     })
 
 
+# extract sample and cluster ids for cells
+cds_CZ_x_clusters <- data.frame(
+    cluster_id = cds_CZ_x %>% monocle3::clusters(),
+    barcode = cds_CZ_x %>% monocle3::clusters() %>% names()) %>%
+    dplyr::mutate(
+        sample_id = barcode %>%
+            as.character() %>%
+            stringr::str_replace("^[^_]+_", ""))
+cds_CZ_x_clusters %>%
+    dplyr::count(cluster_id, sample_id) %>%
+    tidyr::pivot_wider(
+        id_cols = "sample_id",
+        names_from = "cluster_id",
+        values_from = "n")
+cds_CZ_x_clusters %>%
+    readr::write_tsv("product/figures/CZ_x/cluster_labels_20210323.tsv")
+
+hapatocyte_genes <- marker_genes %>%
+    dplyr::filter(gene_set == "hepatocyte")
+
 
 # Ouchi2019
 load("intermediate_data/cds_Ouchi2019.Rdata")
@@ -127,4 +147,7 @@ plot <- z %>%
     monocle3::plot_cells()
 ggplot2::ggsave(
     filename = "product/figures/Ouchi2019_CZ_x/umap_Ouchi2019_only_aligned_k=200_clusters_1e-5_20210208.pdf")
+
+
+
 
