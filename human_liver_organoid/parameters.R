@@ -10,7 +10,13 @@ parameters <- list(
     # HLOs/datasets
     # a table of the datasets that have been collected for the project
     datasets_googlesheet_id = "1R_dd-ccWajPZxOWkcjfX8EWNkAalNHmq0HfWn75-8Hk",
-    # path where the datasets table is stored
-    datasets_fname = "raw_data/datasets_20210208.tsv"
+    datasets_googlesheet_name = "Summary",
 
+    # path where the datasets table is stored
+    datasets_fname = "raw_data/datasets_20210208.tsv",
+
+    marker_genes_googlesheet_id = "1R_dd-ccWajPZxOWkcjfX8EWNkAalNHmq0HfWn75-8Hk",
+    marker_genes_googlesheet_sheet = "Marker Genes",
+
+    marker_genes_fname = "raw_data/marker_genes_20210306.tsv"
 )
