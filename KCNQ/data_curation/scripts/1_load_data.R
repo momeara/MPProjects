@@ -12,6 +12,7 @@ activities_summary <- googlesheets4::read_sheet(
     sheet = "Activities Summary") %>%
     dplyr::transmute(
         substance_class = `substance class`,
+        substance_source = `substance source`,
         substance_name = `substance name`,
         substance_smiles = `substance smiles`,
         substance_zinc_id = `substance zinc_id`,
@@ -42,22 +43,36 @@ activities_summary %>% readr::write_tsv(
 
 
 activities_summary %>%
-    dplyr::distinct(substance_name, .keep_all=TRUE) %>%
+    dplyr::distinct(substance_name, .keep_all = TRUE) %>%
     dplyr::count(substance_smiles) %>%
-    dplyr::filter(n>1) %>%
-    dplyr::left_join(activities_summary %>% dplyr::select(substance_name, substance_smiles, by="substance_name")) %>%
+    dplyr::filter(n > 1) %>%
+    dplyr::left_join(
+        activities_summary %>% dplyr::select(
+            substance_name,
+            substance_smiles,
+            by = "substance_name")) %>%
     data.frame()
 
-substances <- googlesheets4::read_sheet(
-    ss = parameters$project_data_googlesheets_id,
-    sheet = "Substances")
+
+substances <- activities_summary %>%
+    dplyr::distinct(substance_smiles, .keep_all = TRUE) %>%
+    dplyr::select(
+        substance_class,
+        substance_source,
+        substance_name,
+        substance_smiles,
+        substance_zinc_id,
+        substance_iupac,
+        substance_binding_site)
+
+substances %>%
+    googlesheets4::write_sheet(
+        ss = parameters$project_data_googlesheets_id,
+        sheet = "Substances")
 
 
 substances %>% readr::write_tsv(
     file = paste0("raw_data/substances_", parameters$date_code, ".tsv"))
-
-
-
 
 
 receptors <- googlesheets4::read_sheet(
@@ -101,7 +116,7 @@ activities <- googlesheets4::read_sheet(
         significant,
         info = INFO,
         retigabine_site = `Retigabine Site`,
-        ICA27243_site = `ICA-27243 Site`)
+        ICA27243_site = as.character(`ICA-27243 Site`))
 
 activities %>% readr::write_tsv(
     file = paste0("raw_data/activities_", parameters$date_code, ".tsv"))
