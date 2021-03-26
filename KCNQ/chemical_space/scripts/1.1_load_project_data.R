@@ -2,7 +2,6 @@
 library(plyr)
 library(tidyverse)
 library(googlesheets4)
-#library(dm)
 
 
 source("parameters.R")
@@ -36,7 +35,6 @@ activities_summary <- googlesheets4::read_sheet(
         dplyr::across(
             tidyselect::ends_with("uM"),
             function(x) {ifelse(x == "NULL", NA, as.character(x))}))
-
 activities_summary %>% readr::write_tsv(
     file = paste0("raw_data/activities_summary_", parameters$date_code, ".tsv"))
 
@@ -58,9 +56,8 @@ substances <- activities_summary %>%
             stringr::str_replace_all("′", "") %>%
             stringr::str_sub(-16, -1) %>%
             stringr::str_trim())
-
 substances %>% readr::write_tsv(
-    path= paste0("raw_data/substances_", parameters$date_code, ".tsv"))
+    file = paste0("raw_data/substances_", parameters$date_code, ".tsv"))
 
 
 receptors <- googlesheets4::read_sheet(
@@ -105,36 +102,6 @@ activities <- googlesheets4::read_sheet(
         info = INFO,
         retigabine_site = `Retigabine Site`,
         ICA27243_site = as.character(`ICA-27243 Site`))
-
 activities %>% readr::write_tsv(
     file = paste0("raw_data/activities_", parameters$date_code, ".tsv"))
 
-
-# check primary keys
-library(dm)
-
-kcnq_data <- dm::dm(
-    activities_summary,
-    receptors,
-    references,
-    substances,
-    activities) %>%
-    dm::dm_add_pk(table = activities_summary, columns = substance_name) %>%
-    dm::dm_add_pk(table = references, columns = reference) %>%
-    dm::dm_add_fk(table = activities_summary, columns = reference, ref_table = references) %>%
-    dm::dm_add_fk(table = activities, columns = reference, ref_table = references)
-
-
-kcnq_data %>%
-    dm::dm_examine_constraints()
-
-kcnq_database <- DBI::dbConnect(
-    RSQLite::SQLite(),
-    dbname = "intermediate_data/kcnq_database.sqlite3")
-
-# this fails because of contraint fails
-kcnq_data %>%
-    dm::copy_dm_to(
-        dest = kcnq_database,
-        dm = kcnq_data,
-        temporary = FALSE)
