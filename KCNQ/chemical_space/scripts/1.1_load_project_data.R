@@ -2,7 +2,7 @@
 library(plyr)
 library(tidyverse)
 library(googlesheets4)
-library(dm)
+#library(dm)
 
 
 source("parameters.R")
@@ -42,18 +42,6 @@ activities_summary %>% readr::write_tsv(
 
 
 
-activities_summary %>%
-    dplyr::distinct(substance_name, .keep_all = TRUE) %>%
-    dplyr::count(substance_smiles) %>%
-    dplyr::filter(n > 1) %>%
-    dplyr::left_join(
-        activities_summary %>% dplyr::select(
-            substance_name,
-            substance_smiles,
-            by = "substance_name")) %>%
-    data.frame()
-
-
 substances <- activities_summary %>%
     dplyr::distinct(substance_smiles, .keep_all = TRUE) %>%
     dplyr::select(
@@ -63,16 +51,16 @@ substances <- activities_summary %>%
         substance_smiles,
         substance_zinc_id,
         substance_iupac,
-        substance_binding_site)
-
-substances %>%
-    googlesheets4::write_sheet(
-        ss = parameters$project_data_googlesheets_id,
-        sheet = "Substances")
-
+        substance_binding_site) %>%
+    dplyr::mutate(
+        substance_dock_id = substance_name %>%
+            stringr::str_replace_all(" ", "_") %>%
+            stringr::str_replace_all("′", "") %>%
+            stringr::str_sub(-16, -1) %>%
+            stringr::str_trim())
 
 substances %>% readr::write_tsv(
-    file = paste0("raw_data/substances_", parameters$date_code, ".tsv"))
+    path= paste0("raw_data/substances_", parameters$date_code, ".tsv"))
 
 
 receptors <- googlesheets4::read_sheet(
