@@ -8,32 +8,61 @@ library(ggrepel)
 source("parameters.R")
 source("scripts/plot_embedding.R")
 
-tag <- "project_substances_20210323"
+tag <- "project_substances_decoys_APDP_20210323"
 dir.create(paste0("product/figures/", tag))
 
-substance_ids <- arrow::read_parquet(
-    "intermediate_data/project_substances_20210323/fingerprints.parquet",
-    col_select = "substance_id")
+project_substance_ids <- arrow::read_parquet(
+    "intermediate_data/project_substances_APDP_20210323/fingerprints.parquet",
+    col_select = "substance_id") %>%
+    dplyr::mutate(database = "project_substances")
+project_substances <- readr::read_tsv(
+    "raw_data/substances_20210323.tsv") %>%
+    dplyr::select(
+        substance_source,
+        substance_name)
 
-substances <- readr::read_tsv(
-    "../data_curation/raw_data/substances_20210323.tsv")
+project_decoy_ids <- arrow::read_parquet(
+    "intermediate_data/project_decoys_APDP_20210323/fingerprints.parquet",
+    col_select = "substance_id") %>%
+    dplyr::mutate(database = "project_decoys")
+project_decoys <- readr::read_tsv(
+    "intermediate_data/project_decoys_20210323.tsv") %>%
+    dplyr::transmute(
+        substance_source = "Decoy",
+        substance_name = substance_zinc_id)
+
+substance_ids <- dplyr::bind_rows(
+    project_substance_ids,
+    project_decoy_ids)
+
+substances <- dplyr::bind_rows(
+    project_substances,
+    project_decoys)
+
 
 source("scripts/plot_embedding.R")
 #for(dir in Sys.glob("intermediate_data/project_substances_*")) {
-for (dir in c("intermediate_data/project_substances_a=1,b=1_20210323")) {
+for (dir in c("intermediate_data/project_substances_decoys_APDP_a=1,b=1_20210323")) {
     tag <- dir %>% stringr::str_replace("intermediate_data/", "")
     cat("plotting embedding for tag ", tag, " ...\n", sep = "")
     substance_umap <- arrow::read_parquet(
         file = paste0("intermediate_data/", tag, "/umap_embedding.parquet"))
-    substance_data <- substances %>%
+    substance_data <- project_substances %>%
         dplyr::inner_join(
             dplyr::bind_cols(
                 substance_ids,
                 substance_umap),
-        by = c("substance_name" = "substance_id"))
+            by = c("substance_name" = "substance_id"))
+    background_data <- project_decoys %>%
+        dplyr::inner_join(
+            dplyr::bind_cols(
+                substance_ids,
+                substance_umap),
+            by = c("substance_name" = "substance_id"))
     plot_embedding(
         substance_data = substance_data,
         label = substance_source,
+        background_data = background_data,
         dataset_tag = tag,
         plot_tag = "source")
     substance_data <- substance_data %>%
@@ -45,6 +74,7 @@ for (dir in c("intermediate_data/project_substances_a=1,b=1_20210323")) {
     plot_embedding(
         substance_data = substance_data,
         label = to_classify,
+        background_data = substance_data,        
         dataset_tag = tag,
         plot_tag = "to_classify")
     cat("\n")

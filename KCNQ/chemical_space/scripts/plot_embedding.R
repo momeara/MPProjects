@@ -12,6 +12,9 @@ plot_embedding <- function(
         cat("creating '", output_path, "'\n", sep = "")
         dir.create(output_path)
     }
+
+    cat("Adding ", nrow(substance_data), " substances ...\n", sep = "")
+    
     label_data <- substance_data %>%
         dplyr::group_by({{label}}) %>%
         dplyr::summarize(
@@ -25,7 +28,7 @@ plot_embedding <- function(
     plot <- ggplot2::ggplot()
 
     if (!is.null(background_data)) {
-        cat("Adding background with ", nrow(background_data), " ...\n", sep = "")
+        cat("Adding background with ", nrow(background_data), " substances ...\n", sep = "")
         plot <- plot +
             ggplot2::geom_point(
                 data = background_data,
