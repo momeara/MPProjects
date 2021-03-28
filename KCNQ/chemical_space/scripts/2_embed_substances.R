@@ -8,14 +8,16 @@ source("parameters.R")
 date_code <- "20210323"
 tag <- paste0("project_substances_", date_code)
 
-system(paste0(
+cmd <- paste0(
 parameters$featurize_substances_program, " \\
-  --library_path ../data_curation/raw_data/substances_", date_code, ".tsv \\
+  --library_path intermediate_data/substances_sanitized_", date_code, ".tsv \\
   --substance_id_field 'substance_name' \\
-  --smiles_field 'substance_smiles' \\
-  --output_path intermediate_data/", tag, " \\
+  --smiles_field 'substance_smiles_rdkit' \\
+  --output_path intermediate_data/project_substances_", date_code, " \\
   --verbose
-"))
+")
+cat(cmd, sep = "")
+system(cmd)
 
 
 

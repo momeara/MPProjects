@@ -40,7 +40,10 @@ get_parameters <- function(
     } else if (system_id == "momeara@gimel.cluster.ucsf.bkslab.org") {
         parameters <- c(
             parameters,
-            dude_scritps_path = "/mnt/nfs/home/rstein/zzz.scripts/new_DUDE_SCRIPTS/")
+            dude_scritps_path = "/mnt/nfs/home/rstein/zzz.scripts/new_DUDE_SCRIPTS/",
+            featurize_substances_program = "/nfs/ex9/work/momeara/tools/anaconda3/envs/DeepSEA/bin/featurize_substances",
+            embed_umap_program = "/nfs/ex9/work/momeara/tools/anaconda3/envs/DeepSEA/bin/embed_umap")
+            
     } else {
         cat("ERROR: Unrecognized system_id='", system_id, "'. Please check parameters.R\n", sep = "")
     }
