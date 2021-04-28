@@ -2,10 +2,10 @@
 #' Group label by substance source
 plot_embedding <- function(
     substance_data,
-    label,
     dataset_tag,
-    background_data = NULL,
     plot_tag,
+    label = NULL,
+    background_data = NULL,
     save_plot = TRUE) {
     output_path <- paste0("product/figures/", dataset_tag)
     if (!dir.exists(output_path)) {

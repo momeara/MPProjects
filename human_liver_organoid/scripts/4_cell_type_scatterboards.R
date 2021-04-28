@@ -65,11 +65,16 @@ ggplot2::ggsave(
     filename = "product/figures/CZ_x/umap_aligned_k=200_clusters_1e-5_20210208.pdf")
 
 
-marker_genes %>%
+hepatocyte_iPSC <- marker_genes %>%
+    dplyr::filter(gene_set == "hepatocyte", tissue_type == "iPSC")
+        
+
+
+hepatocyte_iPSC %>%
     dplyr::group_by(gene_set) %>%
     dplyr::do({
         data <- .
-        cat("Plotting gene set ", data$gene_set[1], "\n", sep = "")
+        cat("Plotting gene set '", data$gene_set[1], "' \n", sep = "")
         plot <- cds_CZ_x %>%
             monocle3::plot_cells(genes = unique(data$gene)) +
             ggplot2::coord_fixed() +
@@ -77,7 +82,7 @@ marker_genes %>%
             ggplot2::theme(legend.position = "bottom")
         ggplot2::ggsave(
             filename = paste0(
-                "product/figures/CZ_x/umap_", data$gene_set[1], "_", MPStats::date_code(), ".png"),
+                "product/figures/CZ_x/umap_", data$gene_set[1], "_", data$tissue_type[1], "_", MPStats::date_code(), ".png"),
             width = 15,
             height = 14,
             plot = plot)

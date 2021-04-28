@@ -70,7 +70,7 @@ cds_CZ_CZ_2 <- cds_CZ_CZ_2 %>%
     monocle3::cluster_cells(
         resolution = 5e-4,
         verbose = TRUE)
-cds_CZ_CZ_2 %>% save(file = "intermediate_data/cds_CZ_CZ_2.Rdata")
+save(cds_CZ_CZ_2, file = "intermediate_data/cds_CZ_CZ_2.Rdata")
 
 
 
@@ -135,22 +135,25 @@ cds_CZ_x <- cds_CZ_x %>%
     monocle3::preprocess_cds(num_dim = 100)
 
 
+# Don't align because they were all run in the same lane
+#cds_CZ_x <- cds_CZ_x %>%
+#    monocle3::align_cds(
+#        num_dim = 100,
+#        alignment_group = "sample",
+#        alignment_k = 200,
+#        verbose = TRUE)
+
+
 cds_CZ_x <- cds_CZ_x %>%
-    monocle3::align_cds(
-        num_dim = 100,
-        alignment_group = "sample",
-        alignment_k = 200,
+    monocle3::reduce_dimension(
+        preprocess_method = "PCA",
         verbose = TRUE)
-
-
-cds_CZ_x <- cds_CZ_x %>%
-    monocle3::reduce_dimension(preprocess_method = "Aligned")
 
 cds_CZ_x <- cds_CZ_x %>%
     monocle3::cluster_cells(
         resolution = 1e-5,
         verbose = TRUE)
-cds_CZ_x %>% save(file = "intermediate_data/cds_CZ_x.Rdata")
+save(cds_CZ_x, file = "intermediate_data/cds_CZ_x.Rdata")
 
 ###
 # look for specific bio-markers in each cluster
@@ -214,7 +217,7 @@ cds_Ouchi2019 <- cds_Ouchi2019 %>%
     monocle3::cluster_cells(
         resolution = 1e-4,
         verbose = TRUE)
-cds_Ouchi2019 %>% save(file = "intermediate_data/cds_Ouchi2019.Rdata")
+save(cds_Ouchi2019, file = "intermediate_data/cds_Ouchi2019.Rdata")
 
 
 ##################
@@ -244,7 +247,7 @@ cds_Ouchi2019_CZ_2 <- cds_Ouchi2019_CZ_2 %>%
     monocle3::cluster_cells(
         resolution = 1e-5,
         verbose = TRUE)
-cds_Ouchi2019_CZ_2 %>% save(file = "intermediate_data/cds_Ouchi2019_CZ_2.Rdata")
+save(cds_Ouchi2019_CZ_2, file = "intermediate_data/cds_Ouchi2019_CZ_2.Rdata")
 
 
 
@@ -281,7 +284,7 @@ cds_Ouchi2019_CZ_x <- cds_Ouchi2019_CZ_x %>%
     monocle3::cluster_cells(
         resolution = 1e-5,
         verbose = TRUE)
-cds_Ouchi2019_CZ_x %>% save(file = "intermediate_data/cds_Ouchi2019_CZ_x.Rdata")
+save(cds_Ouchi2019_CZ_x, file = "intermediate_data/cds_Ouchi2019_CZ_x.Rdata")
 
 
 ###

@@ -13,7 +13,7 @@ get_system_id <- function(
     }
     
     system_id <- paste0(user, "@", nodename)
-    if (verbose){
+    if (verbose) {
         cat("Using parameters for system '", system_id, "'\n", sep = "")
     }
     system_id
@@ -31,8 +31,7 @@ get_parameters <- function(
         project_data_googlesheets_id = "1a7Y93LkvcgQkpqhmQN2CmRNdCjnJiRgIB6IaIaJktKw"
     )
 
-    if (system_id == "maom@gl-login1.arc-ts.umich.edu" ||
-        system_id == "maom@gl-login2.arc-ts.umich.edu") {
+    if (system_id %>% stringr::str_detect("maom@.+[.]arc-ts[.]umich[.]edu")) {
         parameters <- c(
             parameters,
             featurize_substances_program = "~/opt/miniconda3/envs/mplearn/bin/featurize_substances",
