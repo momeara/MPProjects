@@ -134,6 +134,25 @@ cat(cmd, sep = "")
 system(cmd)
 
 
+# library_substances_APDP
+command <- paste0(
+    parameters$embed_umap_program, " ",
+    "--dataset ",
+    "intermediate_data/AID2239_APDP_20210501/fingerprints.parquet ",
+    "intermediate_data/UPCMLD_1_APDP_20210501/fingerprints.parquet ",
+    "intermediate_data/UPCMLD_2_APDP_20210501/fingerprints.parquet ",
+    "--feature_columns intermediate_data/AID2239_APDP_20210501/fingerprint_feature_columns.tsv ",
+    "--tag library_substances_APDP ",
+    "--umap_a 1 ",
+    "--umap_b 1.8 ",
+    "--umap_metric cosine ",
+    "--verbose",
+    sep = "")
+cat(command, sep = "")
+system(command)
+
+
+
 tag <- paste0("project_substances_APDP_", parameters$date_code)
 expand.grid(
     a = c(1),

@@ -56,15 +56,10 @@ plot_embedding <- function(
                 y = UMAP_2,
                 label = {{label}}),
             force = 10) +
-        ggplot2::theme_bw() +
-        ggplot2::theme(legend.position = "none") +
-        ggplot2::scale_x_continuous("UMAP 1") +
-        ggplot2::scale_y_continuous("UMAP 2") +
-        ggplot2::coord_fixed() +
         ggplot2::ggtitle(
             label = "Emedding based on ECP4 fingerprints",
             subtitle = "Literature reported substances")
-    if(save_plot){
+    if(save_plot) {
         fname <- paste0(
             "product/figures/",
             dataset_tag, "/",
