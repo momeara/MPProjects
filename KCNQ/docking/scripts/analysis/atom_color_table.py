@@ -1,1 +1,0 @@
-../common/atom_color_table.py
