@@ -1,1 +1,0 @@
-../common/sybyl2dock.py

@@ -56,6 +56,7 @@ substances <- activities_summary %>%
             stringr::str_replace_all("′", "") %>%
             stringr::str_sub(-16, -1) %>%
             stringr::str_trim())
+
 substances %>% readr::write_tsv(
     file = paste0("raw_data/substances_", parameters$date_code, ".tsv"))
 
@@ -90,18 +91,25 @@ activities <- googlesheets4::read_sheet(
     ss = parameters$project_data_googlesheets_id,
     sheet = "Activity Annotations") %>%
     dplyr::transmute(
-        reference,
-        substance_name = `substance name`,
-        receptor,
-        cell_line = `cell line`,
-        measurement,
-        assay_params = `assay params`,
-        value = as.character(value),       # todo, move non-numeric scores to info
-        units,
-        significant,
-        info = INFO,
-        retigabine_site = `Retigabine Site`,
-        ICA27243_site = as.character(`ICA-27243 Site`))
+        reference = Reference,
+        document_location = `Document Location`,
+        substance_name = `Substance Name`,
+        receptor = `Receptor`,
+        receptor_variant = `Receptor Variant`,
+        cell_line = `Cell Line`,
+        assay_type = `Assay Type`,
+        assay_platform = `Assay Platform`,
+        assay_version = `Assay Version`,
+        assay_parameters = `Assay Parameters`,
+        assay_notes = `Assay Notes`,
+        fixed_dose = `Fixed Dose uM`,
+        measured_value = as.character(`Measured Value`),
+        measured_units = `Measured Units`,
+        measurement_notes = `Measurement Notes`,
+        retigabine_site = `Active at Retigabine Site`,
+        retigabine_site_gold = `Retigabine Site Gold`,
+        ICA27243_site = as.character(`Active at ICA-27243 Site`))
+
 activities %>% readr::write_tsv(
     file = paste0("raw_data/activities_", parameters$date_code, ".tsv"))
 
