@@ -2,7 +2,7 @@
 library(plyr)
 library(tidyverse)
 library(googlesheets4)
-library(dm)
+#library(dm)
 
 
 source("parameters.R")
@@ -40,7 +40,8 @@ activities_summary %>% readr::write_tsv(
     file = paste0("raw_data/activities_summary_", parameters$date_code, ".tsv"))
 
 
-
+# check for unique substance names
+# it appears that in some papers, several compounds are reported multiple times
 activities_summary %>%
     dplyr::distinct(substance_name, .keep_all=TRUE) %>%
     dplyr::count(substance_smiles) %>%
@@ -48,18 +49,26 @@ activities_summary %>%
     dplyr::left_join(activities_summary %>% dplyr::select(substance_name, substance_smiles, by="substance_name")) %>%
     data.frame()
 
+### SUBSTANCES ###
 substances <- googlesheets4::read_sheet(
     ss = parameters$project_data_googlesheets_id,
     sheet = "Substances")
 
+substances <- activities_summary %>%
+    dplyr::distinct(substance_smiles, .keep_all = TRUE) %>%
+    dplyr::select(
+        substance_class,
+        substance_name,
+        substance_smiles,
+        substance_zinc_id,
+        substance_iupac,
+        substance_binding_site)
 
 substances %>% readr::write_tsv(
     file = paste0("raw_data/substances_", parameters$date_code, ".tsv"))
 
 
-
-
-
+### RECEPTORS ###
 receptors <- googlesheets4::read_sheet(
     ss = parameters$project_data_googlesheets_id,
     sheet = "Receptors") %>%
@@ -73,6 +82,7 @@ receptors <- googlesheets4::read_sheet(
 receptors %>% readr::write_tsv(
     file = paste0("raw_data/receptors_", parameters$date_code, ".tsv"))
 
+### REFERENCES ###
 references <- googlesheets4::read_sheet(
     ss = parameters$project_data_googlesheets_id,
     sheet = "References") %>%
@@ -86,6 +96,7 @@ references %>% readr::write_tsv(
     file = paste0("raw_data/references_", parameters$date_code, ".tsv"))
 
 
+### ACTIVITIES ###
 activities <- googlesheets4::read_sheet(
     ss = parameters$project_data_googlesheets_id,
     sheet = "Activity Annotations") %>%
@@ -100,38 +111,38 @@ activities <- googlesheets4::read_sheet(
         units,
         significant,
         info = INFO,
-        retigabine_site = `Retigabine Site`,
+        retigabine_site = as.character(`Retigabine Site`),
         ICA27243_site = `ICA-27243 Site`)
-
 activities %>% readr::write_tsv(
     file = paste0("raw_data/activities_", parameters$date_code, ".tsv"))
 
-
-# check primary keys
-library(dm)
-
-kcnq_data <- dm::dm(
-    activities_summary,
-    receptors,
-    references,
-    substances,
-    activities) %>%
-    dm::dm_add_pk(table = activities_summary, columns = substance_name) %>%
-    dm::dm_add_pk(table = references, columns = reference) %>%
-    dm::dm_add_fk(table = activities_summary, columns = reference, ref_table = references) %>%
-    dm::dm_add_fk(table = activities, columns = reference, ref_table = references)
-
-
-kcnq_data %>%
-    dm::dm_examine_constraints()
-
-kcnq_database <- DBI::dbConnect(
-    RSQLite::SQLite(),
-    dbname = "intermediate_data/kcnq_database.sqlite3")
-
-# this fails because of contraint fails
-kcnq_data %>%
-    dm::copy_dm_to(
-        dest = kcnq_database,
-        dm = kcnq_data,
-        temporary = FALSE)
+## I had an idea
+# # check primary keys
+# library(dm)
+# 
+# kcnq_data <- dm::dm(
+#     activities_summary,
+#     receptors,
+#     references,
+#     substances,
+#     activities) %>%
+#     dm::dm_add_pk(table = activities_summary, columns = substance_name) %>%
+#     dm::dm_add_pk(table = references, columns = reference) %>%
+#     dm::dm_add_fk(table = activities_summary, columns = reference, ref_table = references) %>%
+#     dm::dm_add_fk(table = activities, columns = reference, ref_table = references)
+# 
+# 
+# kcnq_data %>%
+#     dm::dm_examine_constraints()
+# 
+# kcnq_database <- DBI::dbConnect(
+#     RSQLite::SQLite(),
+#     dbname = "intermediate_data/kcnq_database.sqlite3")
+# 
+# # this fails because of contraint fails
+# kcnq_data %>%
+#     dm::copy_dm_to(
+#         dest = kcnq_database,
+#         dm = kcnq_data,
+#         temporary = FALSE)
+# 
