@@ -38,9 +38,10 @@ ggplot2::ggsave(
     filename = "product/figures/CZ_x/umap_aligned_k=200_1e-5_20210208.pdf")
 
 plot <- cds_CZ_x %>%
-    monocle3::plot_cells()
+    monocle3::plot_cells() %>%
+    ggplot2::coord_fixed()
 ggplot2::ggsave(
-    filename = "product/figures/CZ_x/umap_aligned_k=200_clusters_1e-5_20210208.pdf")
+    filename = "product/figures/CZ_x/umap_aligned_k=200_clusters_1e-5_20210422.pdf")
 
 # Ouchi2019
 load("intermediate_data/cds_Ouchi2019.Rdata")

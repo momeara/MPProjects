@@ -1,0 +1,576 @@
+substance_class	substance_source	substance_name	substance_smiles	substance_zinc_id	substance_iupac	substance_binding_site
+retigabine Related	retigabine	retigabine	CCOC(=O)Nc1ccc(NCc2ccc(F)cc2)cc1N	ZINC16154	ethyl N-[2-amino-4-[(4-fluorophenyl)methylamino]phenyl]carbamate	retigabine
+retigabine Related	flupirtine	flupirtine	CCOC(=O)Nc1ccc(NCc2ccc(F)cc2)nc1N	ZINC1473	ethyl N-[2-amino-6-[(4-fluorophenyl)methylamino]pyridin-3-yl]carbamate	retigabine
+NA	NA	SF-0034	CCOC(=O)Nc1ccc(NCc2ccc(F)cc2)c(F)c1N	ZINC143342783	NA	retigabine
+NA	Kumar_Jun2016	NR561_40	CCOC(=O)Nc2ccc(NCc1ccc(C(F)(F)F)cc1)cc2N	NA	ethyl N-[2-amino-4-[[4-(trifluoromethyl)phenyl]methylamino]phenyl]carbamate	retigabine
+NA	Kumar_Jun2016	NR561_50	CCOC(=O)Nc2ccc(NCc1cccc(C(F)(F)F)c1)cc2N	NA	NA	retigabine
+NA	Kumar_Jun2016	NR561_29	CCOC(=O)Nc2ccc(NCc1ccc(S(F)(F)(F)(F)F)cc1)cc2N	NA	NA	retigabine
+NA	Kumar_Jun2016	NR561_45	CCOC(=O)Nc2ccc(NCc1cccc(S(F)(F)(F)(F)F)c1)cc2N	NA	NA	retigabine
+NA	Kumar_Jun2016	NR579_38	CCOC(=O)Nc2ccc(NCc1nccs1)cc2N	NA	NA	retigabine
+NA	Kumar_Jun2016	NR579_46	CCOC(=O)Nc2ccc(NCc1cccs1)cc2N	NA	ethyl N-[2-amino-4-(thiophen-2-ylmethylamino)phenyl]carbamate	retigabine
+NA	Kumar_Jun2016	NR561_87	[2H]C([2H])(Nc1ccc(NC(=O)OCC)c(N)c1)c2ccc(F)cc2	NA	NA	retigabine
+NA	Kumar_Jun2016	NR579_04	CCOC(=O)Nc2ccc(NC(c1ccccc1)C(F)(F)F)cc2N	NA	NA	retigabine
+NA	Kumar_Jun2016	NR561_62	CC(C)OC(=O)Nc2ccc(NCc1ccc(F)cc1)cc2N	NA	NA	retigabine
+NA	Kumar_Jun2016	NR579_45	CC3(COC(=O)Nc2ccc(NCc1ccc(F)cc1)cc2N)COC3	NA	NA	retigabine
+NA	Kumar_Jun2016	NR579_36	CC3(CS(=O)CCOC(=O)Nc2ccc(NCc1ccc(F)cc1)cc2N)COC3	NA	NA	retigabine
+NA	Kumar_Jun2016	RL673_02	CCOC(=O)Nc2ccc(NCc1cccc(S(F)(F)(F)(F)F)c1)c(F)c2N	NA	NA	retigabine
+NA	Kumar_Jun2016	RL648_86	CC(C)OC(=O)Nc2ccc(NCc1ccc(F)cc1)c(F)c2N	NA	NA	retigabine
+NA	Kumar_Jun2016	RL648_73	CCOC(=O)Nc2ccc(NCc1cccc(C(F)(F)F)c1)c(F)c2N	NA	NA	NA
+retigabine Related	Kumar_Jun2016	RL648_81	NC1=C(NC(OCC)=O)C=CC(NCC2=CC=C(C(F)(F)F)C=C2)=C1F	ZINC526061662	NA	NA
+retigabine Related	NA	RL648_81(D)	CCOC(=O)Nc2ccc(NCc1ccc(C(F)(F)F)cc1)c(F)c2NC(=O)OCC	Not Found	NA	retigabine
+retigabine Related	NA	NS15370	O=C(Cc1cc(F)cc(F)c1)Nc1ccc(NCc2ccc(F)cc2)nc1N1CCOCC1	ZINC68206324	NA	retigabine
+retigabine Related	NA	P-RTG	C#CN(Cc1ccc(F)cc1)c2ccc(NC(=O)OCC)c(N)c2	Not Found	NA	retigabine
+Acrylamides	Acrylamide (S)-1	Acrylamide (S)-1	C[C@H](NC(=O)/C=C/c1ccccc1)c3cccc(N2CCOCC2)c3	NA	NA	NA
+NA	BMS-204352	Oxindole (BMS-204352)	ClC1=CC=C(OC)C([C@@]2(F)C(NC3=C2C=CC(C(F)(F)F)=C3)=O)=C1	NA	(3R)-3-(5-chloro-2-methoxyphenyl)-3-fluoro-6-(trifluoromethyl)-1H-indol-2-one	retigabine
+Acrylamides	acrylamide (R)-1	Acrylamide (R)-1	C[C@@H](NC(=O)C=Cc1ccccc1)c3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_2	C[C@H](NC(=O)C=Cc1ccccc1F)c3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_3	C[C@H](NC(=O)C=Cc1cccc(F)c1)c3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_4	C[C@H](NC(=O)C=Cc1ccc(F)cc1)c3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_5	C[C@H](NC(=O)C=Cc1cc(F)ccc1F)c3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_6	C[C@H](NC(=O)C=Cc1ccc(F)cc1F)c3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_7	COc1ccccc1C=CC(=O)N[C@@H](C)c3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_8	COc3cccc(C=CC(=O)N[C@@H](C)c2cccc(N1CCOCC1)c2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_9	COc3ccc(C=CC(=O)N[C@@H](C)c2cccc(N1CCOCC1)c2)cc3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_10	COc2ccc(N1CCOCC1)cc2[C@H](C)NC(=O)C=Cc3ccccc3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_11	COc2ccc([C@H](C)NC(=O)C=Cc1ccccc1)cc2N3CCOCC3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_12	C[C@H](NC(=O)C=Cc1ccccc1)c3ccc(F)c(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_13	C[C@H](NC(=O)C=Cc1ccc(F)cc1)c3ccc(F)c(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_14	C[C@H](NC(=O)C=Cc1ccccc1)c3cccc(N2[C@@H](C)COC[C@H]2C)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_15	C[C@H](NC(=O)C=Cc1ccccc1)c3cccc(N2CCCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_16	C[C@H](NC(=O)C=Cc1ccccc1)c2cccc(N(C)C)c2	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_17	C[C@H](NC(=O)C=Cc1ccccc1)c4cccc(N2C[C@@H]3CC[C@H]2C3)c4	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_18	C[C@@H]1COC[C@H](C)N1c3cccc([C@H](C)NC(=O)C=Cc2ccccc2F)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_19	C[C@@H]1COC[C@H](C)N1c3cccc([C@H](C)NC(=O)C=Cc2ccc(F)cc2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_20	C[C@H](NC(=O)C=Cc1ccccc1F)c3cccc(N2CCN(C)CC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_21	C[C@H](NCC=Cc1ccccc1)c3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_22	O=C(C=Cc1ccccc1)NCc3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_23	C[C@H](NC(=O)CCc1ccccc1)c3cccc(N2CCOCC2)c3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_24	C[C@@H](c2cccc(N1CCOCC1)c2)N(C)C(=O)C=Cc3ccccc3	NA	NA	NA
+Acrylamides	Wu_Nov2004	Wu_Nov2004_25	CC3=C(C(=O)N[C@@H](C)c2cccc(N1CCOCC1)c2)Cc4ccccc34	NA	3-methyl-N-[(1S)-1-(3-morpholin-4-ylphenyl)ethyl]-1H-indene-2-carboxamide	NA
+Acrylamides	acrylamide	Acrylamide (S)-3	ClC1=C(/C=C/C(N[C@@H](C)C2=CC=C(OCO3)C3=C2)=O)C=CC=C1	NA	NA	NA
+Acrylamides	acrylamide	Acrylamide (S)-4	FC1=C(/C=C/C(N[C@@H](C)C2=CC=C(OCC3)C3=C2)=O)C(F)=CC=C1	NA	NA	NA
+Acrylamides	acrylamide	Acrylamide (S)-5	FC1=C(/C=C/C(N[C@@H](C)C2=CC=C(NCC3)C3=C2)=O)C=CC=C1	NA	NA	NA
+Acrylamides	acrylamide	Acrylamide (S)-6	FC1=C(/C=C/C(N[C@@H](C)C2=CC=CC(OC3=CC=CN=C3)=C2)=O)C=CC=C1	NA	NA	NA
+Acrylamides	acrylamide	Acrylamide (S)-7	O=C(N[C@@H](C)C1=CC=CC(OC2=CC=NC=C2)=C1)/C=C/C3=CC(F)=CC=C3F	NA	NA	NA
+Acrylamides	acrylamide	Acrylamide (S)-2	C[C@H](NC(=O)/C=C/c1ccccc1F)c1ccc2c(c1)N(CC1CC1)CCO2	NA	NA	NA
+Acrylamides	SMB-1	SMB-1	O=C(N(C)[C@@H](C)C1=CC=C(OCCN2CC3CC3)C2=C1)/C=C/C4=C(F)C=CC=C4	NA	NA	NA
+NA	BMS-568274	BMS-568274	O=C(N[C@@H](C)C1=CC=C(F)C(N2CCOCC2)=C1)/C=C/C3=CC=C(F)C=C3	NA	(E)-N-[(1S)-1-(4-fluoro-3-morpholin-4-ylphenyl)ethyl]-3-(4-fluorophenyl)prop-2-enamide	NA
+NA	NA	(Wang, 2019)	FC1=CC=C(CN(C#C)C2=CC(NC(OC(C)(C)C)=O)=C(NC(OCC)=O)C=C2)C=C1	NA	NA	retigabine
+NA	NA	HN38	FC1=CC=C(CN(CC(C)=C)C2=CC(NC(OCC)=O)=C(NC(OCC)=O)C=C2)C=C1	NA	NA	NA
+linopridine	linopirdine	linopirdine	O=C1N(C2=CC=CC=C2)C3=CC=CC=C3C1(CC4=CC=NC=C4)CC5=CC=NC=C5	NA	3,3-bis(4-pyridinylmethyl)-1-phenylindolin-2-one	NA
+linopridine	XE-991	XE-991	O=C1C2=CC=CC=C2C(CC3=CC=NC=C3)(CC4=CC=NC=C4)C5=C1C=CC=C5	NA	10,10-bis(4-pyridinylmethyl)-9(101-1)-anthracenone	NA
+linopridine	NA	DMP-543	O=C1C2=C(C=CC=C2)C(CC3=CC=NC(F)=C3)(CC4=CC(F)=NC=C4)C5=C1C=CC=C5	NA	10,10-bis(2-fluoro-4-pyridinylmethyl)-9(10H)-anthracenone	NA
+NA	NA	spooky toxin	peptide	NA	NA	NA
+linopridine	NA	UCL-2077	C1(CNC(C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)=CC=CN=C1	NA	NA	NA
+NA	ML	ML-252	O=C([C@H](C1=CC=CC=C1)CC)NC2=C(N3CCCC3)C=CC=C2	NA	NA	NA
+NA	ICA	ICA-105665	FC1=C(F)C=C(C(NC2=CN=C(Cl)C=C2)=O)C=C1	NA	NA	NA
+NA	NA	zinc pyrithione (ZnPy)	C12=S[Zn+2]3([O-]N(C=CC=C4)C4=S3)[O-]N1C=CC=C2	NA	NA	Non-retigabine Pore S5-S6 site
+NA	NA	tetraethylammonium	CC[N+](CC)(CC)CC	NA	tetraethylazanium	NA
+Benzamides	ICA	ICA-27243	FC1=CC=C(C(NC2=CC=C(Cl)N=C2)=O)C=C1F	NA	NA	S1–S4 voltage-sensor domain (VSD) (Padilla et al. 2009)
+Benzamides	ICA	ICA-069673 (ICA73)	ClC1=NC=C(NC(C2=CC=C(F)C(F)=C2)=O)C=N1	NA	NA	NA
+Benzamides	ICA	ICA-110381	ClC1=CC=C(C(NC2=CN=C(Cl)C=C2)=O)C=C1	NA	4-chloro-N-(6-chloropyridin-3-yl)benzamide	NA
+Benzamides	ztz240	ztz240	FC1=CC=C(C(NC2=CN=C(Cl)C=C2)=O)C=C1	NA	N-(6-chloropyridin-3-yl)-4-fluorobenzamide	7CR1
+NA	NA	S9947	O=C(NCC1=CC=CC=C1C2=C(C(NCCC3=CC=CC=N3)=O)C=CC=C2)OCC4=CC=CC=C4	NA	phenylmethyl N-[[2-[2-(2-pyridin-2-ylethylcarbamoyl)phenyl]phenyl]methyl]carbamate	NA
+NA	NA	DPO-1	CC1CCC(C(C)C)C(P(C2=CC=CC=C2)(C3=CC=CC=C3)=O)C1	NA	[(5-methyl-2-propan-2-ylcyclohexyl)-phenylphosphoryl]benzene	NA
+NA	NA	fasudil	O=S(C1=CC=CC2=C1C=CN=C2)(C3CCCNCC3)=O	NA	NA	NA
+NA	NA	amitriptyline	CN(C)CC/C=C1C2=CC=CC=C2CCC3=C/1C=CC=C3	NA	NA	NA
+Fenamates	Diclofenac	Diclofenac	ClC1=C(NC2=C(CC(O)=O)C=CC=C2)C(Cl)=CC=C1	NA	NA	NA
+Fenamates	Meclofenamic acid	Meclofenamic acid	ClC1=C(NC2=C(C(O)=O)C=CC=C2)C(Cl)=CC=C1C	NA	NA	different site from retigabine
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_1	O=C(CNCCO)Cc1ccccc1Nc2c(Cl)cccc2Cl	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_2	O=C(CNCCOCCO)Cc1ccccc1Nc2c(Cl)cccc2Cl	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_3	O=C(O)Cc1cc(N(=O)=O)ccc1Nc2c(Cl)cccc2Cl	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_4	O=C(Cc1ccccc1Nc2c(Cl)cccc2Cl)NCCO	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_5	O=C(Cc1cc(N(=O)=O)ccc1Nc2c(Cl)cc(N(=O)=O)cc2Cl)NCCO	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_6	O=C(Cc1cc(N(=O)=O)c(N(=O)=O)cc1Nc2c(Cl)cc(N(=O)=O)cc2Cl)NCCO	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_7	O=C(Cc1cc(N(=O)=O)ccc1Nc2c(Cl)cccc2Cl)NCCO	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_8	O=C(Cc1ccccc1Nc2c(Cl)cccc2Cl)OCCOCCO	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_9	O=C(Cc1ccccc1Nc2c(Cl)cccc2Cl)OCCO	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_10	COCCOCCOCCOCCOC(=O)Cc1ccccc1Nc2c(Cl)cccc2Cl	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_11	CC(C)COC(=O)Cc1ccccc1Nc2c(Cl)cccc2Cl	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_12	COCCOCCOC(=O)Cc1ccccc1Nc2c(Cl)cccc2Cl	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_13	NCCOCCOC(=O)Cc1ccccc1Nc2c(Cl)cccc2Cl	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_14	O=C(Cc1ccccc1Nc2c(Cl)cccc2Cl)OCC3CO3	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_15	O=C(Cc1cc(N(=O)=O)ccc1Nc2c(Cl)cccc2Cl)OCCO	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_16	Cc2c(Nc1ccccc1C(=O)NCCOCCO)cccc2C(F)(F)F	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_17	O=C(NCCOCCO)c1ccccc1Nc2cccc(C(F)(F)F)c2	NA	N-[2-(2-hydroxyethoxy)ethyl]-2-[[3-(trifluoromethyl)phenyl]amino]benzamide	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_18	Cc1c(Cl)cccc1Nc2ccccc2C(=O)NCCOCCO	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_19	Cc1c(Cl)cccc1Nc2ccccc2C(=O)OCC(C)C	NA	NA	NA
+Fenamates	Peretz_Dec2007	Peretz_Dec2007_20	CC(C)COC(=O)c1ccccc1Nc2cccc(C(F)(F)F)c2	NA	NA	NA
+NA	NA	celecoxib	FC(F)(F)C1=NN(C2=CC=C(S(N)(=O)=O)C=C2)C(C3=CC=C(C)C=C3)=C1	NA	4-[5-(4-methylphenyl)-3-(trifluoromethyl)pyrazol-1-yl]benzenesulfonamide	NA
+NA	ML	ML-213	O=C(NC1=C(C)C=C(C)C=C1C)C2CC3CCC2C3	NA	NA	NA
+NA	QO	QO58, QO58_lysine	ClC1=C(C(NC2=C(C3=CC=CC=C3)C(C(F)(F)F)=NN24)=CC4=O)C=C(F)C(Cl)=N1	NA	NA	NA
+NA	NA	NS-1643	OC1=C(NC(NC2=C(O)C=CC(C(F)(F)F)=C2)=O)C=C(C(F)(F)F)C=C1	NA	NA	NA
+NA	NA	Benzbromarone	CCC(O1)=C(C(C2=CC(Br)=C(O)C(Br)=C2)=O)C3=C1C=CC=C3	NA	NA	NA
+NA	NA	ZG1732	CC1=C(NC(C(Br)C(C)C)=O)C(C)=CC(C)=C1	NA	NA	NA
+NA	NA	ZG2083	O=C(NNC1=NC2=C(C=CC=C2)S1)C3=CC=CC=C3	NA	NA	NA
+NA	phospolipid	ARA-A	OC([C@H](NC(C/C=C\C/C=C\C/C=C\C/C=C\CCCC)=O)CO)=O	NA	NA	Binds to R1 or R2 on the S4
+NA	amino acid	GABA	OC(CCCN)=O	ZINC1532620	4-Aminobutanoic acid	NA
+NA	amino acid	β-hydroxybutyric acid (BHB)	CC(O)CC(O)=O	NA	3-hydroxybutanoic acid	NA
+NA	amino acid	γ-amino-β-hydroxybutyric acid	NCC(O)CC(O)=O	NA	4-Amino-3-hydroxybutanoic acid	NA
+NA	rottlerin	rottlerin	CC(=O)c1c(O)c(C)c(O)c(Cc2c(O)c3c(c(C(=O)/C=C/c4ccccc4)c2O)OC(C)(C)C=C3)c1O	ZINC3874886	NA	NA
+NA	NA	hexachlorophene	Oc1c(Cl)cc(Cl)c(Cl)c1Cc1c(O)c(Cl)cc(Cl)c1Cl	ZINC1530968	NA	NA
+NA	ML	ML-277	CC1=CC=C(S(=O)(N2[C@@H](C(NC3=NC(C4=CC=C(OC)C=C4)=CS3)=O)CCCC2)=O)C=C1	ZINC84712890	NA	NA
+NA	mefenamic acid	mefenamic acid	OC(C1=CC=CC=C1NC2=C(C)C(C)=CC=C2)=O	ZINC20241	NA	NA
+NA	DIDS	4,4′‐diisothiocyanatostilbene‐2,2′‐disulfonic acid (DIDS)	OS(=O)(=O)C1=C(C=CC2=C(C=C(C=C2)N=C=S)S(O)(=O)=O)C=CC(=C1)N=C=S	none	NA	NA
+NA	SITS	4‐acetamido‐4′‐isothiocyanatostilbene‐2,2′‐disulfonic acid (SITS)	O=S(C1=CC(NC(C)=O)=CC=C1/C=C/C2=C(S(=O)(O)=O)C=C(N=C=S)C=C2)(O)=O	ZINC3915614	NA	NA
+NA	L-364,373	L-364,373	CN1C2=CC=CC=C2C(C3=CC=CC=C3F)=N[C@H](CC4=CNC5=C4C=CC=C5)C1=O	ZINC4654954	NA	NA
+NA	NA	chromanol 293B	NCC1=CC(C(N(C)S(=O)(CC)=O)C2=O)=C(OC2(C)C)C=C1	None	NA	NA
+NA	NA	clofilium	CCCCCCC[N+](CC)(CC)CCCCc1ccc(Cl)cc1	ZINC8035458	4-(4-chlorophenyl)butyl-diethyl-heptylazanium	NA
+ginsenoside	ginsenoside	ginsenoside Rg3	CC1(C)C(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](CO)[C@H]3O)CC[C@@]4(C)C1CC[C@]5(C)C4C[C@@H](O)C6[C@@]5(C)CCC6[C@@](C)(CC/C=C(C)/C)O	None	NA	NA
+ginsenoside	ginsenoside	protopanaxatriol (PPT)	CC(C)=CCC[C@](C)(O)[C@@H]1CC[C@@]2(C)[C@H]1[C@@H](O)C[C@H]1[C@]3(C)CC[C@@H](O)C(C)(C)[C@H]3[C@H](O)C[C@@]12C	ZINC669679237,ZINC85531672	NA	NA
+ginsenoside	ginsenoside	compound K (CK)	CC1(C)C(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)CC[C@@]3(C)C1C([H])C[C@]4(C)C3C[C@@H](O)C5[C@@]4(C)CCC5[C@@](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O)(CC/C=C(C)/C)O	None	NA	NA
+antihistamines	antihistamine	promethazine	C[C@@H](CN1c2ccccc2Sc2ccccc21)N(C)C	ZINC20250	NA	NA
+antihistamines	antihistamine	mepyramine	COC1=CC=C(CN(C2=NC=CC=C2)CCN(C)C)C=C1	ZINC19144216	NA	NA
+antihistamines	antihistamine	diphenhydramine	CN(C)CCOC(c1ccccc1)c1ccccc1	ZINC20244	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_6	O=c1cc(CCl)[nH]c2c(-c3ccccc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_7	O=c1cc(C(F)(F)F)[nH]c2c(-c3ccccc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_8	CCOC(=O)c1c(C(F)(F)F)nn2c(=O)cc(CCl)[nH]c12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_9	O=c1cc(CN2CCCCC2)[nH]c2c(-c3ccccc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_10	Oc1cc(-c2ccccc2)nc2c(-c3ccccc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_11	Cc1nn2c(=O)cc(CCl)[nH]c2c1-c1ccccc1	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_12	O=c1cc(C(F)(F)F)[nH]c2c(-c3ccccc3)cnn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_13	Cc1cc(O)n2nc(C(F)(F)F)c(-c3ccccc3)c2n1	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_14	O=c1cc(C(F)(F)F)[nH]c2c(-c3c[nH]c4ccccc34)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_15	O=c1cc(CCl)[nH]c2c(-c3cccc4ccccc34)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_16	O=c1cc(C(F)(F)F)[nH]c2c(-c3cccc4ccccc34)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_17	O=c1cc(-c2cc(F)c(Cl)nc2Cl)[nH]c2c(-c3ccccc3)c(C(F)(F)F)nn12	NA	5-(2,6-dichloro-5-fluoropyridin-3-yl)-3-phenyl-2-(trifluoromethyl) pyrazolo[1,5-a]pyrimidin-7(4H)-one	NA
+NA	Qi_Mar2011	Qi_Mar2011_18	O=c1cc(-c2cc(F)c(Cl)nc2Cl)[nH]c2c(-c3cccc4ccccc34)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_19	O=c1cc(CCl)[nH]c2c(-c3ccc(Cl)cc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_20	COc1ccc(-c2cc(=O)n3nc(C(F)(F)F)c(-c4ccccc4)c3[nH]2)cc1	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_21	CC(C)(C)c1cc(=O)n2nc(C(F)(F)F)c(-c3ccccc3)c2[nH]1	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_22	O=c1cc(C(F)F)[nH]c2c(-c3ccccc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_23	O=c1cc(-c2cc(F)c(F)c(F)c2F)[nH]c2c(-c3ccccc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_24	O=c1cc(-c2cccc([N+](=O)[O-])c2)[nH]c2c(-c3ccccc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_25	COc1ccc(-c2c(C(F)(F)F)nn3c(=O)cc(-c4cc(F)c(Cl)nc4Cl)[nH]c23)cc1OC	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_26	O=c1cc(-c2cccc([N+](=O)[O-])c2)[nH]c2c(-c3cccs3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_27	O=c1cc(-c2cc(F)c(F)c(F)c2F)[nH]c2c(-c3cccs3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_28	CC(C)(C)c1cc(=O)n2nc(C(F)(F)F)c(-c3cccc4ccccc34)c2[nH]1	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_29	O=c1cc(C(F)(F)F)[nH]c2c(-c3ccc(Cl)cc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	Qi_Mar2011	Qi_Mar2011_30	O=c1cc(-c2cc(F)c(F)cc2F)[nH]c2c(-c3ccc(Cl)cc3)c(C(F)(F)F)nn12	NA	NA	NA
+NA	ICA	ICA-27242	CC1=NC=C(NC(C2=CC=C(F)C(F)=C2)=O)C=C1	ZINC34279515	NA	NA
+NA	QO	QO-26	FC(F)(F)C1=NN2C(C=C(CCl)NC2=C1C3=CC=CC=C3)=O	ZINC101404844	NA	NA
+NA	QO	QO-28	FC(F)(F)C1=NN2C(C=C(C(F)(F)F)NC2=C1C3=CC=CC=C3)=O	ZINC100232446	NA	NA
+NA	QO	QO-40	FC(F)(F)C1=NN2C(C=C(CCl)NC2=C1C3=CC=CC4=C3C=CC=C4)=O	ZINC101404851	NA	NA
+NA	QO	QO-41	FC(F)(F)C1=NN2C(C=C(C(F)(F)F)NC2=C1C3=CC=CC4=C3C=CC=C4)=O	ZINC101404853	NA	NA
+NA	retigabine	SCR-2682	Cc1cc(N2CCc3sc(Br)cc3C2)cc(C)c1NC(=O)CC(C)(C)C	ZINC207538810	NA	NA
+NA	DS-1291	DS-1291	COC(NC(=O)C=Cc1ccccc1F)C3CC4(N2CCOCC2)CCC3C4(OC)OC	NA	NA	NA
+NA	LAC-278	LAC-278	COC(NC(=O)C=Cc1ccccc1F)C2C4CCC2(N3CCOCC3)CC4	NA	NA	NA
+NA	Wipf_lab	RL-648-73	CCOC(Nc(c(N)c1F)ccc1NCc1cc(C(F)(F)F)ccc1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-648-81	CCOC(Nc(c(N)c1F)ccc1NCc1ccc(C(F)(F)F)cc1)=O	ZINC526061662	NA	NA
+NA	Wipf_lab	RL-648-86	CC(C)OC(Nc(c(N)c1F)ccc1NCc(cc1)ccc1F)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-673-02	CCOC(Nc(ccc(NCc1cccc(S(F)(F)(F)(F)F)c1)c1F)c1N)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-702-18	CCOC(Nc(c(N)c1F)ccc1NCc(ccc(C(F)(F)F)c1)c1F)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-702-24	CCOC(Nc(c(N)c1F)ccc1NCc1cnc(C(F)(F)F)cc1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-702-31	CCOC(Nc(c(N)c1F)ccc1NCc1ncc(C(F)(F)F)cc1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-702-32	CC(C)OC(Nc(c(N)c1F)ccc1NCc1ccc(C(F)(F)F)cc1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-702-56	Nc(c(NC(OC1CC1)=O)ccc1NCc2ccc(C(F)(F)F)cc2)c1F	ZINC1776011349	NA	NA
+NA	Wipf_lab	RL-719-58	CCOC(Nc(c(N)c1F)cc(-c(c(NCc2ccc(C(F)(F)F)cc2)c2F)cc(NC(OCC)=O)c2N)c1NCc1ccc(C(F)(F)F)cc1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-719-71	CCOC(Nc(cc(c(NCc1ccc(C(F)(F)F)cc1)c1F)F)c1N)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-740-73	CCOC(Nc(cc(C(F)(F)F)c(NCc1ccc(C(F)(F)F)cc1)c1F)c1N)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-762-27	CCOC(Nc(c(N)c1)cc(-c(cc(c(N)c2)NC(OCC)=O)c2NCc(cc2)ccc2F)c1NCc(cc1)ccc1F)=O	ZINC1848436007	NA	NA
+NA	Wipf_lab	RL-762-72	CCOC(Nc(c(N)c1)cc(F)c1NCc1ccc(C(F)(F)F)cc1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-783-23	CCOC(Nc(c(N)c1F)ccc1NCc1nc(C#N)c(C(F)(F)F)cc1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-844-35	Nc(c(NC(OC1CC1)=O)ccc1NCc(ccc(C(F)(F)F)c2)c2F)c1F	"NA"	NA	NA
+NA	Wipf_lab	RL-844-36	Nc(c(F)c(c(F)c1)NCc(ccc(C(F)(F)F)c2)c2F)c1NC(OC1CC1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-844-46	Nc(c(NC(OC1CC1)=O)c(cc1NCc(ccc(C(F)(F)F)c2)c2F)F)c1F	"NA"	NA	NA
+NA	Wipf_lab	RL-844-50	Nc(c(F)c(c(F)c1F)NCc(ccc(C(F)(F)F)c2)c2F)c1NC(OC1CC1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-844-67	Nc(c(NC(OC1CC1)=O)ccc1NCc2cnc(C(F)(F)F)cc2)c1F	"NA"	NA	NA
+NA	Wipf_lab	RL-844-68	Nc(c(NC(OC1CC1)=O)ccc1NCc2ncc(C(F)(F)F)cc2)c1F	"NA"	NA	NA
+NA	Wipf_lab	RL-844-96	Nc(c(NC(OC1CC1)=O)ccc1NCc2ncc(C(F)(F)F)cc2F)c1F	"NA"	NA	NA
+NA	Wipf_lab	RL-880-01	Nc(c(F)c(c(F)c1)NCc2ncc(C(F)(F)F)cc2F)c1NC(OC1CC1)=O	"NA"	NA	NA
+NA	Wipf_lab	RL-880-12	Nc(c(NC(OC1CC1)=O)c(cc1NCc2ncc(C(F)(F)F)cc2F)F)c1F	"NA"	NA	NA
+NA	Wipf_lab	RL-880-15	Nc(c(F)c(c(F)c1F)NCc2ncc(C(F)(F)F)cc2F)c1NC(OC1CC1)=O	"NA"	NA	NA
+NA	rottlerin	rottlerin	O=C(c1c(O)c(c(O)c(c1O)C)Cc3c(O)c(C(=O)\C=C\c2ccccc2)c4OC(/C=C\c4c3O)(C)C)C	ZINC3874886	NA	NA
+NA	CPT1	3-ethyl-2-hydroxy-2-cyclopenten-1-one (CPT1)	CCC1=C(C(=O)CC1)O	ZINC25695693	3-Ethyl-2-hydroxycyclopent-2-en-1-one	NA
+NA	amino acid	glutaconic acid	O=C(O)\C=C\CC(=O)O	ZINC160274	NA	NA
+NA	phospholipid	1-heptane	C=CCCCCC	ZINC1699515	hept-1-ene	NA
+NA	amino acid	isovaleric acid	O=C(O)CC(C)C	ZINC388188	3-Methylbutanoic acid	NA
+NA	natural product	2-Mercaptophenol	Oc1ccccc1S	ZINC19597470	2-Sulfanylphenol	NA
+NA	phospholipid	oleamide	O=C(N)CCCCCCC\C=C/CCCCCCCC	ZINC8036015	NA	NA
+NA	phospholipid	palmitic acid	CCCCCCCCCCCCCCCC(=O)O	ZINC6072466	Hexadecanoic acid	NA
+NA	phospholipid	sorbic acid	O=C(O)\C=C\C=C\C	ZINC1558385	NA	NA
+NA	natural product	valeric acid	CCCCC(O)=O	ZINC31500905	Pentanoic acid	NA
+NA	Chanda_Jan2012	HMR1556	CC2(C)[C@H](O)[C@@H](N(S(C)(=O)=O)C)C1=CC(OCCCC(F)(F)F)=CC=C1O2	NA	N‐(6‐cyano‐3‐hydroxy‐2,2‐dimethyl‐3,4‐dihydrochromen‐4‐yl)‐N‐methylethanesulfonamide	NA
+NA	Chanda_Jan2012	L-768,673	O=C(N[C@H]1C(N(CC(F)(F)F)C2=CC=CC=C2C(C3=CC=CC=C3)=N1)=O)CC4=CC=C(C(F)(F)F)C=C4C(F)(F)F	NA	6732‐[2,4‐bis(trifluoromethyl)phenyl]‐N‐[(3R)‐2‐oxo‐5‐phenyl‐1‐(2,2,2‐trifluoroethyl)‐3H‐1,4‐benzodiazepin‐3‐yl]acetamide	NA
+NA	Chanda_Jan2012	JNJ-39490282	CC(C)(Oc1ccc(Cl)cc1Br)C(=O)NC2C4CC3CC2C[C@](NS(C)(=O)=O)(C3)C4	"NA"	2‐(2‐bromo‐4‐chlorophenoxy)‐2‐methyl‐N‐{5 [(methylsulfonyl)amino]tricyclo[3.3.1.13,7]dec‐2‐yl}propanamide	NA
+NA	Chanda_Jan2012	L-364373 (R-L3)	CN(C1=CC=CC=C1C(C5=CC=CC=C5F)=N[C@@H]2CC3=CNC4=C3C=CC=C4)C2=O	ZINC4654954	[(3‐R)‐1, 3‐dihydro‐5‐(2‐fluorophenyl)‐3‐(1H‐indol‐3‐ylmethyl)‐1‐methyl‐2H‐ 1,4‐benzodiazepin‐2‐one]	S5–S6 pore domain site
+NA	gabapentin	gabapentin	O=C(O)CC1(CN)CCCCC1	ZINC4949	2-[1-(aminomethyl)cyclohexyl]acetic acid	NA
+NA	pregabalin	pregabalin	CC(C)CC(CC(=O)O)CN	ZINC5152	3-(aminomethyl)-5-methylhexanoic acid	NA
+NA	amino acid	glycine	C(C(=O)O)N	ZINC4658552	NA	NA
+NA	Lemmerhirt_2015	Lemmerhirt_2015_20	CCOC(=O)Nc2ccc(N(C)Cc1ccc(F)cc1)cc2N	"NA"	NA	NA
+NA	Lemmerhirt_2015	Lemmerhirt_2015_5	CCOC(=O)N(C)c2ccc(NCc1ccc(F)cc1)cc2N	"NA"	NA	NA
+NA	Lemmerhirt_2015	Lemmerhirt_2015_7	CCOC(=O)n3c(=O)[nH]c2nc(NCc1ccc(F)cc1)ccc23	"NA"	NA	NA
+NA	Lemmerhirt_2015	Lemmerhirt_2015_27	CCOC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2	ZINC242943868	NA	NA
+NA	Lemmerhirt_2015	Lemmerhirt_2015_4	CCOC(=O)N(C)c2ccc(NCc1ccc(F)cc1)nc2N	ZINC224796962	NA	NA
+NA	Lemmerhirt_2015	Lemmerhirt_2015_28	CCOC(=O)Nc2ccc(N(C)Cc1ccc(F)cc1)nc2	"NA"	NA	NA
+NA	Lemmerhirt_2015	acetaminophen	C/C(O)=N\c1ccc(O)cc1	ZINC13550868	NA	NA
+NA	Lemmerhirt_2015	N-methylacetaminophen	Cc1cc(ccc1O)NC(=O)C	ZINC1747085	N-(4-hydroxy-3-methylphenyl)acetamide	NA
+Flupirtine	Bock_2018	Bock_2018_6a	CCOC(=O)Nc2ccc(SCc1ccc(F)cc1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_6b	CCOC(=O)Nc2ccc(SCc1ccccc1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_6c	CCOC(=O)Nc2ccc(SCc1ccc(F)c(F)c1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_6d	CCOC(=O)Nc2ccc(SCc1ccc(C(F)(F)F)cc1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_7a	CCOC(=O)Nc2ccc(S(=O)Cc1ccc(F)cc1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_7c	CCOC(=O)Nc2ccc(S(=O)Cc1ccc(F)c(F)c1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_7d	CCOC(=O)Nc2ccc(S(=O)Cc1ccc(C(F)(F)F)cc1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_8a	CCOC(=O)Nc2ccc(S(=O)(=O)Cc1ccc(F)cc1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_8b	CCOC(=O)Nc2ccc(S(=O)(=O)Cc1ccccc1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_8c	CCOC(=O)Nc2ccc(S(=O)(=O)Cc1ccc(F)c(F)c1)nc2N	NA	NA	NA
+Flupirtine	Bock_2018	Bock_2018_8d	CCOC(=O)Nc2ccc(S(=O)(=O)Cc1ccc(C(F)(F)F)cc1)nc2N	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_9a	Nc2nc(Sc1ccc(F)cc1)ccc2NC(=O)C3CCC(F)C(F)C3	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_9b	CCOC(=O)Nc3ccc(Sc2ccc(c1ccccc1)cc2)nc3N	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_9c	CCOC(=O)Nc2ccc(Sc1ccc(OC)c(OC)c1)nc2N	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_9d	CCOC(=O)Nc2ccc(Sc1ccccn1)nc2N	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_9e	CCOC(=O)Nc2ccc(Sc1ccc(F)cc1)nc2N	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_9f	CCOC(=O)Nc2ccc(SCN1CCCCC1)nc2N	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_9g	CNc2nc(Sc1ccccc1)ccc2NC(=O)c3cc(F)cc(F)c3	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_9h	CCOC(=O)Nc2ccc(Sc1ccc(F)cc1)nc2C	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_10a	Nc2nc(S(=O)c1ccc(F)cc1)ccc2NC(=O)c3ccc(F)c(F)c3	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_10b	CCOC(=O)Nc3ccc(S(=O)c2ccc(c1ccccc1)cc2)nc3N	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_10c	CCOC(=O)Nc2ccc(S(=O)c1cc(OC)cc(OC)c1)nc2N	NA	NA	NA
+NA	Surur_Jan2019	Surur_Jan2019_10d	CCOC(=O)Nc2ccc(S(=O)c1ccc(F)cc1)nc2C	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7a	CCOC(=O)Nc2ccc(NC1CCCCC1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7b	CCOC(=O)Nc2ccc(NCCCN1CCOCC1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7c	CCOC(=O)Nc2ccc(NC1CC1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7d	CCOC(=O)Nc2ccc(NC1CCCC1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7f	CCOC(=O)Nc2ccc(N1CCN(CCO)CC1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7g	CCOC(=O)Nc2ccc(N1CCN(C)CC1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7h	CCOC(=O)Nc2ccc(NCCc1ccc(F)cc1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7i	CCOC(=O)Nc2ccc(Nc1ccc(F)cc1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7j	CCOC(=O)Nc2ccc(NC(=O)c1ccc(F)cc1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_7k	CCOC(=O)Nc2ccc(OCc1ccc(F)cc1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_11a	CCOC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2C	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_11b	CCOC(=O)Nc2ccc(NCc1ccccc1)nc2C	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_11c	CCOC(=O)Nc2ccc(NCc1cccc(OC)c1)nc2C	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_11d	CCOC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2NC	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_11e	CCOC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2O	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_11f	CCOC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2OC	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_11g	CCOC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2OC(C)C	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_11h	CCOC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2N3CCOCC3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12a	CCCC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12b	NCC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12c	Nc2nc(NCc1ccc(F)cc1)ccc2NC(=O)[C@H](N)c3ccccc3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12d	Nc2nc(NCc1ccc(F)cc1)ccc2NC(=O)[C@@H](N)c3ccccc3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12e	Nc3ccc(C(=O)Nc2ccc(NCc1ccc(F)cc1)nc2N)cc3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12f	Nc2nc(NCc1ccc(F)cc1)ccc2NC(=O)c3ccc(N(=O)=O)cc3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12g	Cc3cccc(NC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2N)c3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12h	Nc2nc(NCc1ccc(F)cc1)ccc2NC(=O)c3ccc(F)cc3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12i	Nc2nc(NCc1ccc(F)cc1)ccc2NC(=O)Cc3cc(F)cc(F)c3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12j	Cc3ccc(NC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2N)cc3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12k	Nc2nc(NCc1ccc(F)cc1)ccc2N3C(=O)CCC3=O	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_12l	Nc2nc(NCc1ccc(F)cc1)ccc2n4c(=O)c3ccccc3c4=O	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_16a	Nc2cc(NCc1ccc(F)cc1)ccc2NC(=O)c3ccc(F)cc3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_16b	Nc2cc(NCc1ccc(F)cc1)ccc2NC(=O)Cc3cc(F)cc(F)c3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_21a	CCOC(=O)Nc2cc(C)c(NCc1ccc(F)cc1)nc2N	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_21b	CCOC(=O)Nc2cc(C)c(NCc1ccc(F)cc1)nc2N3CCOCC3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_22a	Nc2nc(NC1CCCCC1)ccc2NC(=O)OCc3ccccc3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_22b	Nc2nc(NC1CCCCC1)ccc2NC(=O)c3ccc(F)c(F)c3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_22c	Nc2nc(NC1CC1)ccc2NC(=O)c3ccc(F)c(F)c3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_22d	CCCC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2OCc3ccccc3	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_22e	CCCC(=O)Nc2ccc(NCc1ccc(F)cc1)nc2OC(C)C	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_25a	O=C(Nc2ccc(NC1CCCCC1)nc2N3CCOCC3)c4ccc(F)c(F)c4	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_25b	O=C(Nc2ccc(NC1CCCCC1)cc2N3CCOCC3)c4ccc(F)c(F)c4	NA	NA	NA
+NA	Surur_Apr2019	Surur_Apr2019_25c	COc4ccc(C(=O)Nc2ccc(NC1CCCCC1)cc2N3CCOCC3)cc4OC	NA	NA	NA
+NA	PF-05020182	PF-05020182	COc2nc(N1CCC(OC)CC1)nc(OC)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_3	COc2nc(N1CCSCC1)nc(OC)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_4	COc2nc(N1CCC(F)(F)CC1)nc(OC)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_5	COc2nc(N1CCCOCC1)nc(OC)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_6	COc2nc(N1CCCCC1)nc(OC)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_7	COc2nc(N1CC(F)(F)C1)nc(OC)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_8	COc2nc(N1CCOCC1)nc(OC)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_9	COCCN(C)c1nc(OC)c(NC(=O)CC(C)(C)C)c(OC)n1	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_10	COc2nc(N1CCC(OC(C)C)CC1)nc(OC)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_11	COc2nc(N1CC(OC)C1)nc(OC)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_12	COc3nc(N1C[C@H]2C[C@@H]1CO2)nc(OC)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_13	COc3nc(N2CC1(COC1)C2)nc(OC)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_14	COc2nc(N1CCC(OC)CC1)nc(OC)c2NC(=O)CCC3CCCC3	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_15	COc2nc(N1CCC(OC)CC1)nc(OC)c2NC(=O)CC3CCCCC3	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_16	COc2nc(N1CCC(OC)CC1)nc(OC)c2NC(=O)CCC(C)C	NA	NA	NA
+NA	Davoren_2015	Davoren_2015_18	COc2nc(N1CCC(OC)CC1)nc(OC)c2NC(=O)CC(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_1	Cc2cc(N1CCCCC1)cc(C)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_2	Cc2cc(N1CCC(C)(C)CC1)cc(C)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_3	Cc2cc(N1CCC(=O)CC1)cc(C)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_4	Cc2cc(C1CCCCN1)cc(C)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_5	Cc2cc(CN1CCCCC1)cc(C)c2NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_6	Cc3cc(N2CCC(N1CCCCC1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_7	Cc3cc(N2CCC(N1CCOCC1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_8	Cc3cc(N2CCC(c1ccccc1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_9	Cc3cc(N2CCC(c1ccccc1F)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_10	Cc3cc(N2CCC(c1ccccc1C(F)(F)F)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_11	Cc3cc(N2CCC(c1cccc(F)c1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_12	Cc3cc(N2CCC(c1cccc(C(F)(F)F)c1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_13	Cc3cc(N2CCC(c1cccc(Cl)c1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_14	Cc3cc(N2CCC(c1ccc(C(F)(F)F)cc1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_15	Cc3cc(N2CCC(c1ccc(Cl)cc1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_16	Cc3cc(N2CCC(c1ccncc1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_17	Cc3cc(N2CCC(c1cccnc1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_18	Cc3cc(N2CCN(c1cccc(C(F)(F)F)c1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_19	Cc3cc(N2CCN(c1ccc(C(F)(F)F)cc1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_20	Cc3cc(N2CCN(c1ccccn1)CC2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_21	Cc3cc(CN2CCc1ccccc1C2)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Yang_2018	Yang_2018_22	Cc3cc(CN2CCCc1ccccc12)cc(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	Seefeld_2018_1	Seefeld_2018_15	CS(=O)(=O)c3cccc(CNC(=O)c1cc(C(F)(F)F)ccc1Sc2ccccc2)c3	NA	NA	NA
+NA	Seefeld_2018_1	Seefeld_2018_16	CS(=O)(=O)c3cccc(CNC(=O)c1cc(C(F)(F)F)ccc1Oc2ccccc2)c3	NA	NA	NA
+NA	Seefeld_2018_1	Seefeld_2018_8	C[C@H](NC(=O)c1cc(C(F)(F)F)ccc1Oc2ccccc2)c3cccc(S(C)(=O)=O)c3	NA	NA	NA
+NA	Seefeld_2018_1	Seefeld_2018_17	CS(=O)(=O)c3cccc([C@H](CO)NC(=O)c1cc(C(F)(F)F)ccc1Oc2ccccc2)c3	NA	NA	NA
+NA	Seefeld_2018_1	Seefeld_2018_18	CS(=O)(=O)c3cccc(CNC(=O)c1cc(S(F)(F)(F)(F)F)ccc1Oc2ccccc2)c3	NA	NA	NA
+NA	Seefeld_2018_1	Seefeld_2018_19	CS(=O)(=O)c3cccc([C@H](CO)NC(=O)c1cc(S(F)(F)(F)(F)F)ccc1Oc2ccccc2)c3	NA	NA	NA
+NA	Seefeld_2018_1	Seefeld_2018_20	C[C@H](NC(=O)c1cc(F)c(F)cc1Oc2ccccc2)c3cccc(S(C)(=O)=O)c3	NA	NA	NA
+NA	Seefeld_2018_2	Seefeld_2018_21	C[C@H](NC(=O)[C@H]1CCCCC1c2ccccc2)c3ccccc3	NA	NA	NA
+NA	Seefeld_2018_2	Seefeld_2018_22	O=C(N[C@@H](CO)c1ccccc1)[C@H]2CCCCC2c3ccccc3	NA	NA	NA
+NA	Seefeld_2018_2	Seefeld_2018_23	O=C(N[C@@H](CO)c1ccccc1)[C@H]2CC(F)(F)CCC2c3ccccc3	NA	NA	NA
+NA	Seefeld_2018_2	Seefeld_2018_24	C[C@H](NC(=O)[C@H]1CC(F)(F)CCC1c2ccccc2)c3ccccc3	NA	NA	NA
+NA	Seefeld_2018_2	Seefeld_2018_14	O=C(N[C@@H](CO)c1cccc(Cl)c1)[C@H]2CC(F)(F)CCC2c3ccccc3	NA	NA	NA
+NA	Seefeld_2018_2	Seefeld_2018_25	O=C(N[C@@H](CO)c1cccc(C(F)(F)F)c1)[C@H]2CC(F)(F)CCC2c3ccccc3	NA	NA	NA
+NA	Combee2020	C4-CH2	C1[C@]2(CC[C@@](C1)(C2)N1CCOCC1)[C@@H](NC(=O)/C=C/c1c(cccc1)F)C	NA	NA	NA
+NA	Combee2020	C4-di-Me	C1[C@]2(CC[C@@](C1)(C2(C)C)N1CCOCC1)[C@@H](NC(=O)/C=C/c1c(cccc1)F)C	NA	NA	NA
+NA	DS-1291	DS-1291	[C@H]1(C[C@@]2(CC[C@H]1C2(C)C)N1CCOCC1)[C@@H](NC(=O)/C=C/c1ccccc1F)C	NA	NA	NA
+NA	Combee2020	R-C3ax-CH2	[C@@H]1([C@H]2CC[C@@](C1)(C2)N1CCOCC1)[C@@H](NC(=O)/C=C/c1c(cccc1)F)C	NA	NA	NA
+NA	Combee2020	R-C3eq-CH2	[C@@H](NC(=O)/C=C/c1c(cccc1)F)([C@H]1[C@@H]2CC[C@](C1)(C2)N1CCOCC1)C	NA	NA	NA
+NA	Combee2020	R-C3eq	[C@@H](NC(=O)/C=C/c1c(cccc1)F)([C@H]1[C@@H]2CC[C@](C1)(C2(C)C)N1CCOCC1)C	NA	NA	NA
+NA	Combee2020	S-C3ax-CH2	O=C(/C=C/c1ccccc1F)N[C@H]([C@H]1C[C@]2(N3CCOCC3)C[C@H]1CC2)C	NA	NA	NA
+NA	Combee2020	S-C3ax	O=C(/C=C/c1ccccc1F)N[C@H]([C@H]1C[C@]2(N3CCOCC3)C([C@H]1CC2)(C)C)C	NA	NA	NA
+NA	Combee2020	S-C3eq-CH2	[C@@H](NC(=O)/C=C/c1c(cccc1)F)([C@@H]1[C@H]2CC[C@@](C1)(C2)N1CCOCC1)C	NA	NA	NA
+NA	Combee2020	S-C3eq	[C@@H](NC(=O)/C=C/c1c(cccc1)F)([C@@H]1[C@H]2CC[C@@](C1)(C2(C)C)N1CCOCC1)C	NA	NA	NA
+NA	Combee2020	TMS0535	C1C[C@@]2(CC[C@H]1[C@H]2[C@@H](NC(=O)/C=C/c1ccccc1F)C)N1CCOCC1	NA	NA	NA
+NA	aromatic acid	quercetin	O=C1c3c(O/C(=C1/O)c2ccc(O)c(O)c2)cc(O)cc3O	ZINC3869685	NA	NA
+NA	aromatic acid	rutin	CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O	ZINC4096846	NA	NA
+NA	phospholipid	decanal	CCCCCCCCCC=O	ZINC1693270	NA	NA
+NA	phospholipid	(E)-2-dodecenal	CCCCCCCCCC=CC=O	"NA"	NA	NA
+NA	phospholipid	undecanal	O=CCCCCCCCCCC	ZINC1595727	NA	NA
+NA	phospholipid	(E)-2-undecenal	CCCCCCCCC=CC=O	"NA"	NA	NA
+NA	phospholipid	tridecanal	CCCCCCCCCCCCC=O	ZINC2023332	NA	NA
+NA	phospholipid	phytol	C/C(=C\CO)CC[C@H](C)CCC[C@H](C)CCCC(C)C	ZINC3978631	NA	NA
+NA	aromatic acid	vanillic acid	COc1cc(C(=O)O)ccc1O	ZINC338275	NA	NA
+NA	aromatic acid	3,4-dihydroxybenzoic acid	O=C(O)c1ccc(O)c(O)c1	ZINC13246	NA	NA
+NA	NA	arginine vasopressin	c1ccc(cc1)C[C@H]2C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CSSC[C@@H](C(=O)N[C@H](C(=O)N2)Cc3ccc(cc3)O)N)C(=O)N4CCC[C@H]4C(=O)N[C@@H](CCCN=C(N)N)C(=O)NCC(=O)N)CC(=O)N)CCC(=O)N	ZINC199604478 ZINC169621177	1-{[(4R,7S,10S,13S,16S,19R)-19-Amino-7-(2-amino-2-oxoethyl)-10-(3-amino-3-oxopropyl)-13-benzyl-16-(4-hydroxybenzyl)-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentaazacycloicosan-4-yl]carbonyl}-L-p rolyl-L-arginylglycinamide	NA
+NA	aromatic acid	4-Aminopyridine	n1ccc(N)cc1	NA	pyridine‐4‐amine	NA
+NA	NA	L-735821	CN1c2ccccc2C(=N[C@H](C1=O)NC(=O)/C=C/c3ccc(cc3Cl)Cl)c4ccccc4	ZINC3812120	(2E)-3-(2,4-Dichlorophenyl)-N-[(3R)-1-methyl-2-oxo-5-phenyl-2,3-dihydro-1H-1,4-benzodiazepin-3-yl]acrylamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_330	CC(C)(C)N1C(NC(=O)CC(C)(C)C(F)(F)F)=NC2=C1C(=CC(F)=C2)C#N	NA	N-(1-(tert-butyl)-7-cyano-5-fluoro-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_331	CC(C)(C)CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2F)N1C1CCC1	NA	N-(1-cyclobutyl-6-(difluoromethoxy)-4-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_332	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C1CC(F)(F)C1	NA	N-(1-(3,3-difluorocyclobutyl)-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_333	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1C(C)(C)C(F)(F)F)C1CC1	NA	N-(6-cyano-1-(1,1,1-trifluoro-2-methylpropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_334	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=C(OCC(F)(F)F)C=C2	NA	N-(1-cyclobutyl-7-fluoro-6-(2,2,2-trifluoroethoxy)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_335	CC(C)(O)C1=CC2=C(C=C1)N=C(NC(=O)CC(C)(O)C1=CC=CC=C1)N2C12CC(C1)C2	NA	N-(1-(bicyclo[1.1.1]pentan-1-yl)-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_336	C[C@H](CC(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C1CCC1)C1=CC=CC=C1	NA	(R)-N-(1-cyclobutyl-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_337	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1C1(C)CCC1	NA	N-(6-cyano-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_338	CC(C)(CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2F)N1C1(C)CCC1)C1CC1	NA	3-cyclopropyl-N-(6-(difluoromethoxy)-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_339	CC(C)(C)N1C(NC(=O)CC(C)(O)C2=CC=CC(F)=C2)=NC2=C1C=C(C=C2F)C#N	NA	N-(1-(tert-butyl)-6-cyano-4-fluoro-1H-benzo[d]imidazol-2-yl)-3-(3-fluorophenyl)-3-hydroxybutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_340	CC(C)(CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(=CC(F)=C2)C#N)C(F)(F)F	NA	N-(7-cyano-5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_341	CC(C)(C)CN1C(NC(=O)CC(C)(O)C2=CC=CC=C2)=NC2=C1C=C(C=C2)C#N	NA	N-(6-cyano-1-neopentyl-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_342	[2H]C([2H])([2H])C(C)(CC(=O)NC1=NC2=C(C=C(C=C2F)C(C)(C)O)N1C1CCC1)C([2H])([2H])[2H]	NA	N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3,3-bis(methyl-d3)butanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_343	CC(C)(C)CC(=O)NC1=NC2=C(F)C=C(Br)C=C2N1C1CCC1	NA	N-(6-bromo-1-cyclobutyl-4-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_344	CC(O)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1CC1CC1)C1=CC=CC=C1	NA	N-(6-cyano-1-(cyclopropylmethyl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_345	CC(C)(CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=C(C=C2)C#N)CC(F)(F)F	NA	N-(6-cyano-1-cyclobutyl-7-fluoro-1H-benzo[d]imidazol-2-yl)-5,5,5-trifluoro-3,3-dimethylpentanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_346	CC(C)(C)CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2)N1C1(C)CCC1	NA	N-(6-(difluoromethoxy)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_347	CC(O)(CC(=O)NC1=NC2=CC(Cl)=C(C=C2N1C1CCC1)C#N)C1=CC=CC=C1	NA	N-(5-chloro-6-cyano-1-cyclobutyl-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_348	CC(C)(C)N1C(NC(=O)CC(C)(O)C2=CC=CC=C2F)=NC2=C1C=C(C=C2F)C#N	NA	N-(1-(tert-butyl)-6-cyano-4-fluoro-1H-benzo[d]imidazol-2-yl)-3-(2-fluorophenyl)-3-hydroxybutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_349	CC(C)(C)N1C(NC(=O)CC(C)(C)C(F)(F)F)=NC2=C1C(F)=C(C=C2F)C#N	NA	N-(1-(tert-butyl)-6-cyano-4,7-difluoro-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_350	CC(O)(CC(=O)NC1=NC2=C(C=C(C#N)C(F)=C2)N1C1CCC1)C1=CC=CC=C1	NA	N-(6-cyano-1-cyclobutyl-5-fluoro-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_351	CC(C)(O)CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(F)=C(OC(F)F)C=C2	NA	N-(6-(difluoromethoxy)-7-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_352	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2F)C2(O)CCC2)N1C1CCC1)C(F)(F)F	NA	N-(1-cyclobutyl-4-fluoro-6-(1-hydroxycyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_353	CC(C)(O)C1=CC2=C(C=C1)N=C(NC(=O)CC1CC(F)(F)C1(F)F)N2C1CCC1	NA	N-(1-cyclobutyl-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_354	CC(C)(C)N1C(NC(=O)CC(C)(C)C2CC2)=NC2=C1C=C(C=C2)C#N	NA	N-(1-(tert-butyl)-6-cyano-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_355	COC1=CC2=C(N=C(NC(=O)CC(C)(C)C)N2C2(C)CCC2)C(F)=C1	NA	N-(4-fluoro-6-methoxy-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_356	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=C(C#N)C(F)=C2	NA	N-(6-cyano-1-cyclobutyl-5,7-difluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_357	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=CC(F)=C2	NA	N-(1-cyclobutyl-5,7-difluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_358	COC1=CC=CC2=C1N(C1CCC1)C(NC(=O)CC(C)(O)C1=CC=CC=C1)=N2	NA	N-(1-cyclobutyl-7-methoxy-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_359	CC(C)(CC(=O)NC1=NC2=C(C=C(O)C=C2F)N1C1CCC1)C(F)(F)F	NA	N-(1-cyclobutyl-4-fluoro-6-hydroxy-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_360	CC(=O)C1=C(F)C=CC2=C1N(C(NC(=O)CC(C)(O)C1=CC=CC=C1)=N2)C1(C)CCC1	NA	N-(7-acetyl-6-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_361	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1C1(C)CCC1)C(F)(F)F	NA	N-(6-cyano-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_362	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=C(C(F)=C2)C(C)(C)O	NA	N-(1-cyclobutyl-5,7-difluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_363	CC(C)(CC(=O)NC1=NC2=C(C=C(OC(F)F)C(F)=C2)N1C1CCC1)C1CC1	NA	N-(1-cyclobutyl-6-(difluoromethoxy)-5-fluoro-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_364	CC(C)(C)N1C(NC(=O)CC(C)(C)C(F)F)=NC2=C1C=C(C=C2F)C#N	NA	N-(1-(tert-butyl)-6-cyano-4-fluoro-1H-benzo[d]imidazol-2-yl)-4,4-difluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_365	C[C@H](C(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C1CC(F)(F)C1)C(C)(C)C	NA	(S)-N-(1-(3,3-difluorocyclobutyl)-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-2,3,3-trimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_366	CC(C)(CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2)N1C1(C)CCC1)C(F)(F)F	NA	N-(6-(difluoromethoxy)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_367	CC(C)(CC(=O)NC1=NC2=C(C=C(OC(F)F)C(F)=C2)N1C1(C)CCC1)C1CC1	NA	3-cyclopropyl-N-(6-(difluoromethoxy)-5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_368	CC(C)(C)N1C(NC(=O)CC(C)(C)C2CC2)=NC2=C1C=C(OC(F)F)C(F)=C2	NA	N-(1-(tert-butyl)-6-(difluoromethoxy)-5-fluoro-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_369	CC(CC(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C1CCC1)C1=CC=CC=C1	NA	(S)-N-(1-cyclobutyl-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_370	CC(C)(O)C1=CC2=C(C=C1)N=C(NC(=O)CC(C)(CF)CF)N2C1CCC1	NA	N-(1-cyclobutyl-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-4-fluoro-3-(fluoromethyl)-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_371	CC(C)(O)c5ccc4nc(NC(=O)CC(C)(O)c1ccccc1)n(C23CC(C2)C3)c4c5	NA	N-(1-(bicyclo[1.1.1]pentan-1-yl)-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_372	CC(C)(C)N1C(NC(=O)[C@H]2CC2(C)C)=NC2=C1C=C(C=C2F)C#N	NA	(S)-N-(1-(tert-butyl)-6-cyano-4-fluoro-1H-benzo[d]imidazol-2-yl)-2,2-dimethylcyclopropane-1-carboxamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_373	CC(O)(CC(=O)NC1=NC2=C(C=C(C#N)C(F)=C2)N1C1(C)CCC1)C1=CC=CC=C1F	NA	N-(6-cyano-5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-(2-fluorophenyl)-3-hydroxybutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_374	CC(O)(CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(F)=C(OC(F)F)C=C2)C1=CC=CC=C1	NA	N-(6-(difluoromethoxy)-7-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_375	CC(O)(CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(=CC=C2)C#N)C1=CC=CC=C1	NA	N-(7-cyano-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_376	CC(C)(O)C1=CC2=C(C=C1)N=C(NC(=O)CC1CC(F)(F)C1(F)F)N2C1(C)CCC1	NA	N-(6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_377	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2Cl)C#N)N1C1CCC1	NA	N-(4-chloro-6-cyano-1-cyclobutyl-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_378	CC(C)(C)N1C(NC(=O)CC(C)(C)C(F)(F)F)=NC2=C1C=C(C=C2F)C#N	NA	N-(1-(tert-butyl)-6-cyano-4-fluoro-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_379	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1C1(C)CCC1)C1CC1	NA	N-(6-cyano-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_380	CC(C)(O)CC(=O)NC1=NC2=C(N1C1CCC1)C(OC(F)(F)F)=CC=C2	NA	N-(1-cyclobutyl-7-(trifluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_381	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2OC(F)F)C#N)N1C1(C)CCC1	NA	N-(6-cyano-4-(difluoromethoxy)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_382	COC1=CC(Br)=CC2=C1N=C(NC(=O)CC(C)(C)C)N2C1CCC1	NA	N-(6-bromo-1-cyclobutyl-4-methoxy-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_383	C[C@H](C(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C1(C)CCC1)C(C)(C)C	NA	(S)-N-(6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2,3,3-trimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_384	CC(O)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1C1(C)CCC1)C1=C(F)C=CC=C1F	NA	N-(6-cyano-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-(2,6-difluorophenyl)-3-hydroxybutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_385	CC(C)(O)C1=C(F)C2=C(N=C(NC(=O)CC(C)(C)C(F)(F)F)N2C2CCC2)C(F)=C1	NA	N-(1-cyclobutyl-4,7-difluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_386	CC(C)(O)C1=CC2=C(C=C1)N=C(NC(=O)CC(C)(C)C(F)F)N2C1CCC1	NA	N-(1-cyclobutyl-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-4,4-difluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_387	CC(C)(C)CC(=O)NC1=NC2=C(N1C(C)(C)C)C(F)=C(C=C2)C#N	NA	N-(1-(tert-butyl)-6-cyano-7-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_388	CC(C)(C)CC(=O)NC1=NC2=C(C=C(OCC3=CC=CC=C3)C=C2F)N1C1CCC1	NA	N-(6-(benzyloxy)-1-cyclobutyl-4-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_389	CC(C)(C)CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2)N1C1CCC1	NA	N-(1-cyclobutyl-6-(difluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_390	CC(C)(CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2F)N1C1CCC1)C1CC1	NA	N-(1-cyclobutyl-6-(difluoromethoxy)-4-fluoro-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_391	CC(C)(O)C1=CC=C2N=C(NC(=O)CC3(C)CC3)N(C2=C1)C1(C)CCC1	NA	N-(6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-methylcyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_392	COC1=CC(Br)=CC2=C1N=C(NC(=O)CC(C)(C)C)N2C1(C)CCC1	NA	N-(6-bromo-4-methoxy-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_393	CC(C)(C)CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2)N1C(C)(C)C	NA	N-(1-(tert-butyl)-6-(difluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_394	COCC1=C(F)C=CC2=C1N(C1CCC1)C(NC(=O)CC(C)(C)C)=N2	NA	N-(1-cyclobutyl-6-fluoro-7-(methoxymethyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_395	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(Br)=C(F)C=C2	NA	N-(7-bromo-1-cyclobutyl-6-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_396	CC(O)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1CC(F)(F)F)C1=CC=CC=C1	NA	N-(6-cyano-1-(2,2,2-trifluoroethyl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_399	COCC1=C(Cl)C=CC2=C1N(C1CCC1)C(NC(=O)CC(C)(C)C)=N2	NA	N-(6-chloro-1-cyclobutyl-7-(methoxymethyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_400	CC(C)(O)C1=CC2=C(N=C(NC(=O)CC3CC(F)(F)C3(F)F)N2C2CCC2)C(F)=C1	NA	N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_401	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1C(C)(C)C(F)(F)F	NA	N-(6-cyano-1-(1,1,1-trifluoro-2-methylpropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_402	CC(O)(CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2)N1C1CCC1)C1=CC=CC=C1	NA	N-(1-cyclobutyl-6-(difluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_403	CC(C)(O)C1=CC(F)=C2N=C(NC(=O)CC3(C)CC3)N(C3CCC3)C2=C1	NA	N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-2-(1-methylcyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_404	CC(C)(O)C1=CC2=C(C=C1)N=C(NC(=O)CC(C)(C)C(F)(F)F)N2C12CC(C1)C2	NA	N-(1-(bicyclo[1.1.1]pentan-1-yl)-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_406	CC(C)(O)C1=CC2=C(C=C1)N=C(NC(=O)CC(C)(C)C1CC1)N2CC(F)(F)F	NA	3-cyclopropyl-N-(6-(2-hydroxypropan-2-yl)-1-(2,2,2-trifluoroethyl)-1H-benzo[d]imidazol-2-yl)-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_407	C[C@H](C(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1CC(F)(F)F)C(C)(C)C	NA	(S)-N-(6-(2-hydroxypropan-2-yl)-1-(2,2,2-trifluoroethyl)-1H-benzo[d]imidazol-2-yl)-2,3,3-trimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_408	CC(C)(CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=CC=C2)C(F)(F)F	NA	N-(1-cyclobutyl-7-fluoro-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_409	CC1(CCC1)N1C(NC(=O)CC(O)(C2=CC=CC=C2)C(F)(F)F)=NC2=C1C=C(OC(F)F)C=C2F	NA	N-(6-(difluoromethoxy)-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_410	CC(CC(=O)NC1=NC2=C(C=C(C=C2F)C(C)(C)O)N1C1CCC1)C1=CC=CC=C1	NA	(S)-N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_411	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2F)C#N)N1C1CCC1	NA	N-(6-cyano-1-cyclobutyl-4-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_412	C[C@H](CC(=O)NC1=NC2=C(C=C(C=C2F)C(C)(C)O)N1C1CCC1)C1=CC=CC=C1	NA	(R)-N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_413	CC(C)(O)C1=CC2=C(N=C(NC(=O)CSC(F)(F)F)N2C2CCC2)C(F)=C1	NA	N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-2-((trifluoromethyl)thio)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_414	COC1=C(Cl)C(Cl)=C(Cl)C2=C1N(C1CCC1)C(NC(=O)CC(C)(C)C)=N2	NA	3,3-dimethyl-N-(4,5,6-trichloro-1-cyclobutyl-7-methoxy-1H-benzo[d]imidazol-2-yl)butanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_415	COC1=C(Cl)C=C(Cl)C2=C1N(C1CCC1)C(NC(=O)CC(C)(C)O)=N2	NA	N-(4,6-dichloro-1-cyclobutyl-7-methoxy-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_416	CC(C)(C)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=C(C=C2F)C#N	NA	N-(1-(tert-butyl)-6-cyano-4-fluoro-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_417	CC(C)(C)CC(=O)NC1=NC2=C(C=C(F)C=C2)N1C1CCC1	NA	N-(1-cyclobutyl-6-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_418	CC(C)(C)N1C(NC(=O)CC(C)(O)C2=CC=CC=C2)=NC2=C1C=C(OC(F)F)C=C2	NA	N-(1-(tert-butyl)-6-(difluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_419	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2OC(F)F)C#N)N1C1(C)CCC1)C(F)(F)F	NA	N-(6-cyano-4-(difluoromethoxy)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_420	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2F)C#N)N1C(C)(C)C	NA	N-(1-(tert-butyl)-6-cyano-4-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_421	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2F)C2(O)CCC2)N1C1CCC1	NA	N-(1-cyclobutyl-4-fluoro-6-(1-hydroxycyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_423	CC1(CCC1)N1C(NC(=O)CC(O)(CF)CF)=NC2=C1C(F)=C(OC(F)F)C=C2	NA	N-(6-(difluoromethoxy)-7-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4-fluoro-3-(fluoromethyl)-3-hydroxybutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_424	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=C(C(F)=C2)C1(O)CCC1	NA	N-(1-cyclobutyl-5,7-difluoro-6-(1-hydroxycyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_425	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C12CC(C1)C2	NA	N-(1-(bicyclo[1.1.1]pentan-1-yl)-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_426	CC(C)(CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(=CC=C2)C#N)C1CC1	NA	N-(7-cyano-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_427	CC(C)(C)N1C(NC(=O)CC(C)(C)C2CC2)=NC2=C1C=C(OC(F)F)C=C2	NA	N-(1-(tert-butyl)-6-(difluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_429	COC1=C(F)C2=C(C=C1)N=C(NC(=O)CC(C)(C)C)N2C1CCC1	NA	N-(1-cyclobutyl-7-fluoro-6-methoxy-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_430	CC(O)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1C1(C)CCC1)C1=CC=C(F)C=C1F	NA	N-(6-cyano-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-(2,4-difluorophenyl)-3-hydroxybutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_431	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2F)C#N)N1C12CC(C1)C2)C(F)(F)F	NA	N-(1-(bicyclo[1.1.1]pentan-1-yl)-6-cyano-4-fluoro-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_432	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2)C2(F)COC2)N1C1CCC1	NA	N-(1-cyclobutyl-6-(3-fluorooxetan-3-yl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_433	COC1=CC2=C(N=C(NC(=O)CC(C)(C)C(F)(F)F)N2C2(C)CCC2)C(F)=C1	NA	4,4,4-trifluoro-N-(4-fluoro-6-methoxy-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_434	CC(C)(CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2)N1C1(C)CCC1)C1CC1	NA	3-cyclopropyl-N-(6-(difluoromethoxy)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_435	CC(C)(O)C1=CC2=C(C=C1)N=C(NC(=O)CC1=CC=CC(F)=C1)N2C1(C)CCC1	NA	2-(3-fluorophenyl)-N-(6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_436	CC(C)(C)CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(=CC(F)=C2)C#N	NA	N-(7-cyano-5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_437	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C#N)C(F)=C2)N1C1(C)CCC1	NA	N-(6-cyano-5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_438	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=C(C=C2F)C(C)(C)O	NA	N-(1-cyclobutyl-4,7-difluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_439	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(C#N)=C(Cl)C=C2	NA	N-(6-chloro-7-cyano-1-cyclobutyl-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_440	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1CC(F)(F)F	NA	N-(6-(2-hydroxypropan-2-yl)-1-(2,2,2-trifluoroethyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_441	CC(O)(CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(=CC(F)=C2)C#N)C1=CC=CC=C1	NA	N-(7-cyano-5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_443	C[C@H](C(=O)NC1=NC2=C(C=C(C=C2F)C(C)(C)O)N1C1CCC1)C(C)(C)C	NA	(S)-N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-2,3,3-trimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_444	CC(C)(C)N1C(NC(=O)CC(C)(C)C(F)(F)F)=NC2=C1C(F)=C(C=C2)C#N	NA	N-(1-(tert-butyl)-6-cyano-7-fluoro-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_445	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2F)C(C)(O)C2CC2)N1C1CCC1	NA	N-(1-cyclobutyl-6-(1-cyclopropyl-1-hydroxyethyl)-4-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_447	COC(=O)CC1=C2N(C3CCC3)C(NC(=O)CC(C)(C)C)=NC2=CC=C1F	NA	methyl 2-(1-cyclobutyl-2-(3,3-dimethylbutanamido)-6-fluoro-1H-benzo[d]imidazol-7-yl)acetate	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_448	[2H]C([2H])([2H])C(C)(CC(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C1CCC1)C([2H])([2H])[2H]	NA	N-(1-cyclobutyl-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3,3-bis(methyl-d3)butanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_449	CC(C)(C)CC(=O)NC1=NC2=C(C=CC(F)=C2)N1C1CCC1	NA	N-(1-cyclobutyl-5-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_450	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C(=C2)C(C)(C)O)C(F)(F)F)N1C1CCC1	NA	N-(1-cyclobutyl-5-(2-hydroxypropan-2-yl)-6-(trifluoromethyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_451	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=C(C=C2)C1(O)CCC1	NA	N-(1-cyclobutyl-7-fluoro-6-(1-hydroxycyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_452	CC(O)(CC(=O)NC1=NC2=CC=C(C=C2N1C1CCC1)C#N)C1=C(F)C=CC=C1	NA	N-(6-cyano-1-cyclobutyl-1H-benzo[d]imidazol-2-yl)-3-(2-fluorophenyl)-3-hydroxybutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_453	CC(C)(CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=CC(F)=C2)C(F)(F)F	NA	N-(1-cyclobutyl-5,7-difluoro-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_454	CN(C)C1=C(F)C2=C(C=C1)N=C(NC(=O)CC(C)(C)C)N2C1CCC1	NA	N-(1-cyclobutyl-6-(dimethylamino)-7-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_455	C[C@H](C(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C12CC(C1)C2)C(C)(C)C	NA	(S)-N-(1-(bicyclo[1.1.1]pentan-1-yl)-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-2,3,3-trimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_456	CC(C)(O)C1=CC2=C(N=C(NC(=O)CC(C)(C)C(F)F)N2C2CCC2)C(F)=C1	NA	N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-4,4-difluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_457	CC(C)(C)CC(=O)NC1=NC2=C(N1C(C)(C)C)C(F)=C(C=C2F)C#N	NA	N-(1-(tert-butyl)-6-cyano-4,7-difluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_458	COC1=CC=CC2=C1N(C1CCC1)C(NC(=O)CC(C)(C)C1CC1)=N2	NA	N-(1-cyclobutyl-7-methoxy-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_459	CC(C)(C)CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2F)N1C1(C)CCC1	NA	N-(6-(difluoromethoxy)-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_461	CC(C)(CC(=O)NC1=NC2=C(C=C(OC(F)F)C=C2F)N1C1(C)CCC1)C(F)(F)F	NA	N-(6-(difluoromethoxy)-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_462	CC(C)(O)CC(=O)NC1=NC2=C(N1C1CCC1)C(Br)=C(F)C=C2	NA	N-(7-bromo-1-cyclobutyl-6-fluoro-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_463	CC(O)(CC(=O)NC1=NC2=CC=C(OC(F)F)C=C2N1C1(C)CCC1)C1=CC=CC=C1	NA	N-(6-(difluoromethoxy)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_464	CC(C)(CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=C(C=C2F)C#N)C1CC1	NA	N-(6-cyano-1-cyclobutyl-4,7-difluoro-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_469	COC1=CC2=C(N=C(NC(=O)CC(C)(C)C)N2C2CCC2)C(F)=C1	NA	N-(1-cyclobutyl-4-fluoro-6-methoxy-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_470	CC(C)(O)C1=C(F)C2=C(C=C1F)N=C(NC(=O)CC(C)(C)C(F)(F)F)N2C1CCC1	NA	N-(1-cyclobutyl-5,7-difluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_471	CC(O)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1CC1(C)CC1)C1=CC=CC=C1	NA	N-(6-cyano-1-((1-methylcyclopropyl)methyl)-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_472	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C12CC(C1)C2)C1CC1	NA	N-(1-(bicyclo[1.1.1]pentan-1-yl)-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_473	CC(C)(C)CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(=CC=C2)C#N	NA	N-(7-cyano-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_474	CC(C)(O)C1=CC(F)=C2N=C(NC(=O)CC3(C)CC3)N(C2=C1)C1(C)CCC1	NA	N-(4-fluoro-6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-methylcyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_475	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(F)=C(C=C2)N1CC(F)(F)C1	NA	N-(1-cyclobutyl-6-(3,3-difluoroazetidin-1-yl)-7-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_476	COC1=CC=CC2=C1N(C1CCC1)C(NC(=O)CC(C)(C)C)=N2	NA	N-(1-cyclobutyl-7-methoxy-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_477	CC(C)(C)CC(=O)NC1=NC2=C(C=C(Br)C=C2N1C1CCC1)C(F)(F)F	NA	N-(6-bromo-1-cyclobutyl-4-(trifluoromethyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_479	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2F)C(O)(CF)CF)N1C1CCC1	NA	N-(1-cyclobutyl-6-(1,3-difluoro-2-hydroxypropan-2-yl)-4-fluoro-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_480	CC(C)(O)C1=CC2=C(N=C(NC(=O)CC(C)(CF)CF)N2C2(C)CCC2)C(F)=C1	NA	4-fluoro-N-(4-fluoro-6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-(fluoromethyl)-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_481	CC(C)(C)CC(=O)NC1=NC2=CC=C(C(F)=C2N1C1(C)CCC1)C(C)(C)O	NA	N-(7-fluoro-6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_482	CC(C)(C)N1C(NC(=O)CC(C)(C)C2CC2)=NC2=C1C=C(C=C2F)C#N	NA	N-(1-(tert-butyl)-6-cyano-4-fluoro-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_483	CC(O)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1CC(F)(F)F)C1=CC=CC=C1F	NA	N-(6-cyano-1-(2,2,2-trifluoroethyl)-1H-benzo[d]imidazol-2-yl)-3-(2-fluorophenyl)-3-hydroxybutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_484	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1C(C)(C)C(F)(F)F)C(F)(F)F	NA	N-(6-cyano-1-(1,1,1-trifluoro-2-methylpropan-2-yl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_485	CN(C)C1=C(F)C2=C(C=C1)N=C(NC(=O)CC(C)(O)C1=CC=CC=C1)N2C1CCC1	NA	N-(1-cyclobutyl-6-(dimethylamino)-7-fluoro-1H-benzo[d]imidazol-2-yl)-3-hydroxy-3-phenylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_486	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2F)C#N)N1C1(C)CCC1)C(F)(F)F	NA	N-(6-cyano-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_487	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(OC(F)(F)F)=C(C=C2)C1(O)CCC1	NA	N-(1-cyclobutyl-6-(1-hydroxycyclobutyl)-7-(trifluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_488	CC(C)(N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=C(C=C2)C#N)C(F)(F)F	NA	N-(6-cyano-1-(1,1,1-trifluoro-2-methylpropan-2-yl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_489	CC(C(=O)NC1=NC2=CC=C(C=C2N1C1(C)CCC1)C(C)(C)O)C1(CC1)C(F)(F)F	NA	N-(6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl) propanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_490	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(=C(C=C2)C1(O)CCC1)C(F)(F)F	NA	N-(1-cyclobutyl-6-(1-hydroxycyclobutyl)-7-(trifluoromethyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_492	CC(C(=O)NC1=NC2=C(C=C(C=C2)C(C)(C)O)N1C1(C)CCC1)C(C)(C)C(F)(F)F	NA	4,4,4-trifluoro-N-(6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2,3,3-trimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_493	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(OC(F)(F)F)=C(C=C2)C#N	NA	N-(6-cyano-1-(1-methylcyclobutyl)-7-(trifluoromethoxy)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_494	CC(C(=O)NC1=NC2=C(C=C(C=C2F)C#N)N1C1(C)CCC1)C1(CC1)C(F)(F)F	NA	N-(6-cyano-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)propanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_495	CC(C)(C)CC(=O)NC1=NC2=C(C=C(C=C2F)C#N)N1C1(C)CCC1	NA	N-(6-cyano-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_496	CC(C)(C)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(F)=C(C=C2F)C#N	NA	N-(1-(tert-butyl)-6-cyano-4,7-difluoro-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_497	CC(C(=O)NC1=NC2=C(C=C(C=C2F)C(C)(C)O)N1C1CCC1)C1(CC1)C(F)(F)F	NA	N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)propanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_498	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(OC(F)(F)F)=C(C=C2)C#N	NA	N-(6-cyano-1-cyclobutyl-7-(trifluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_499	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=C(F)C(F)=C2	NA	N-(5,6-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_500	CC(C)(O)C1=CC2=C(N=C(NC(=O)CC3CC(F)(F)C3(F)F)N2C2(C)CCC2)C(F)=C1	NA	N-(4-fluoro-6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_501	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(OC(F)(F)F)=C(C=C2)C(C)(C)O	NA	N-(1-cyclobutyl-6-(2-hydroxypropan-2-yl)-7-(trifluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_502	CC(C)(O)C1=CC2=C(N=C(NC(=O)C3(CC(F)F)CC3)N2C2CCC2)C(F)=C1	NA	N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-1-(2,2-difluoroethyl)cyclopropane-1-carboxamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_504	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(F)=C(C=C2F)C#N	NA	N-(6-cyano-4,7-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_505	CC(C)(O)C1=CC2=C(C=C1)N=C(NC(=O)CC1=CC=C(F)C=C1F)N2C1(C)CCC1	NA	2-(2,4-difluorophenyl)-N-(6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_506	COC1=CC(=CC2=C1N=C(NC(=O)CC1CC(F)(F)C1(F)F)N2C(C)(C)C)C#N	NA	N-(1-(tert-butyl)-6-cyano-4-methoxy-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_507	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(=C(C=C2)C#N)C(F)(F)F	NA	N-(6-cyano-1-cyclobutyl-7-(trifluoromethyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_509	CC(C)(C)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(F)=C(F)C=C2	NA	N-(1-(tert-butyl)-6,7-difluoro-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_510	COC1=CC(=CC2=C1N=C(NC(=O)C13CC(C1)CC3)N2C(C)(C)C)C#N	NA	N-(1-(tert-butyl)-6-cyano-4-methoxy-1H-benzo[d]imidazol-2-yl)bicyclo[2.1.1]hexane-1-carboxamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_511	CC(C)(O)C1=CC=C2N=C(NC(=O)CC34CC(C3)C4)N(C2=C1)C1(C)CCC1	NA	2-(bicyclo[1.1,1]pentan-1-yl)-N-(6-(2-hydroxypropan-2-yl)-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_512	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=C(C=C2F)C#N	NA	N-(6-cyano-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_513	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(F)=C(F)C=C2	NA	N-(6,7-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_515	CC(C(=O)NC1=NC2=C(C=C(C=C2F)C(C)(C)O)N1C1CCC1)C(C)(C)C(F)(F)F	NA	N-(1-cyclobutyl-4-fluoro-6-(2-hydroxypropan-2-yl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-2,3,3-trimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_516	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(OC(F)(F)F)=CC=C2	NA	N-(1-cyclobutyl-7-(trifluoromethoxy)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_517	CC(C)(C)CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(F)=C(C=C2F)C#N	NA	N-(6-cyano-4,7-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_518	CC(C)(CC(=O)NC1=NC2=C(C=C(C=C2)C#N)N1C1CCC1)C1=CC=CC=N1	NA	N-(6-cyano-1-cyclobutyl-1H-benzo[d]imidazol-2-yl)-3-methyl-3-(pyridin-2-yl)butanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_520	COC1=CC(=CC2=C1N=C(NC(=O)CC1(CC1)C(F)(F)F)N2C(C)(C)C)C#N	NA	N-(1-(tert-butyl)-6-cyano-4-methoxy-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_521	[2H]C([2H])([2H])C(C)(CC(=O)NC1=NC2=C(C=C(C=C2F)C#N)N1C1(C)CCC1)C([2H])([2H])[2H]	NA	N-(6-cyano-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-bis(methyl-d3)butanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_522	CC1(CCC1)N1C(NC(=O)CC2(CC2)C(F)(F)F)=NC2=C1C(F)=CC(F)=C2	NA	N-(5,7-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_523	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(F)=CC(F)=C2	NA	N-(5,7-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_524	CC(C)(CC(=O)NC1=NC2=C(C=CC(F)=C2)N1C1(C)CCC1)C(F)F	NA	4,4-difluoro-N-(5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_525	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=CC(F)=C2	NA	N-(5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_527	CC1(CCC1)N1C(NC(=O)CC2(CC2)C(F)(F)F)=NC2=C1C=CC(F)=C2	NA	N-(5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_528	CC(C)(C)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=CC(F)=C2	NA	N-(1-(tert-butyl)-5-fluoro-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_530	CC(C)(C)N1C(NC(=O)CC(C)(C)C(F)(F)F)=NC2=C1C(F)=CC(F)=C2	NA	N-(1-(tert-butyl)-5,7-difluoro-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_531	CC(C)(C)N1C(NC(=O)CC2(CC2)C(F)(F)F)=NC2=C1C(F)=CC(F)=C2	NA	N-(1-(tert-butyl)-5,7-difluoro-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_532	CC(C)(C)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(F)=CC(F)=C2	NA	N-(1-(tert-butyl)-5,7-difluoro-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_533	CC(C)(CC(=O)NC1=NC2=C(C=C(F)C(F)=C2)N1C1(C)CCC1)C(F)F	NA	N-(5,6-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4-difluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_534	CC1(CCC1)N1C(NC(=O)CC2(CC2)C(F)(F)F)=NC2=C1C(F)=C(F)C(F)=C2	NA	N-(5,6,7-trifluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_535	CC(C)(C)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=C(Cl)C(F)=C2	NA	N-(1-(tert-butyl)-6-chloro-5-fluoro-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_536	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(C#N)=C(F)C=C2	NA	N-(7-cyano-6-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_538	CC1(CCC1)N1C(NC(=O)CC2(CC2)C(F)(F)F)=NC2=C1C=C(F)C(F)=C2	NA	N-(5,6-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_539	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=C(Cl)C(F)=C2	NA	N-(6-chloro-5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_540	CC(C(=O)NC1=NC2=C(C=C(F)C(F)=C2)N1C1(C)CCC1)C1(CC1)C(F)(F)F	NA	N-(5,6-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)propanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_541	CC(C)(CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(C#N)=C(F)C=C2)C1CC1	NA	N-(7-cyano-6-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_542	CC(C(=O)NC1=NC2=C(N1C1(C)CCC1)C(F)=C(C=C2F)C#N)C1(CC1)C(F)(F)F	NA	N-(6-cyano-4,7-difluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl) cyclopropyl)propanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_545	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(=CC(F)=C2)C#N	NA	N-(7-cyano-5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_547	CC(C)(CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(=CC(F)=C2)C#N)C1CC1	NA	N-(7-cyano-5-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3-cyclopropyl-3-methylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_548	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(=CC=C2F)C#N	NA	N-(7-cyano-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_549	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(Br)=C(F)C=C2	NA	N-(7-bromo-6-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_550	CC(C)(C)CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(Br)=C(F)C=C2	NA	N-(7-bromo-6-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_551	FC1=CC=C(C=C1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=C(C=C2)C#N	NA	N-(6-cyano-1-(4-fluorophenyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_552	CC(C)(C)CC(=O)NC1=NC2=C(N1C1CCC1)C(C=C)=C(F)C=C2	NA	N-(1-cyclobutyl-6-fluoro-7-vinyl-1H-benzo[d]imidazol-2-yl)-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_553	COC1=CC(=CC2=C1N=C(NC(=O)CC1CC(F)(F)C1(F)F)N2C1(C)CCC1)C#N	NA	N-(6-cyano-4-methoxy-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_554	COC1=CC(=CC2=C1N=C(NC(=O)CC(C)(C)C(F)(F)F)N2C1(C)CCC1)C#N	NA	N-(6-cyano-4-methoxy-1-(1-methylcyclobutyl)-1H-benzo[djimidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_555	CC(C)(CC(=O)NC1=NC2=C(N1C1(C)CCC1)C(F)=C(Cl)C=C2)C(F)(F)F	NA	N-(6-chloro-7-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-3,3-dimethylbutanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_556	CC(C(=O)NC1=NC2=C(N1C1(C)CCC1)C(F)=C(Cl)C=C2)C1(CC1)C(F)(F)F	NA	N-(6-chloro-7-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)propanamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_557	CC(C)(C)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=C(F)C(F)=C2	NA	N-(1-(tert-butyl)-5,6-difluoro-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_559	CC1(CCC1)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C(F)=C(F)C(F)=C2	NA	2-(2,2,3,3-tetrafluorocyclobutyl)-N-(5,6,7-trifluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_560	CC(C)(C)N1C(NC(=O)CC2CC(F)(F)C2(F)F)=NC2=C1C=C(F)C=C2F	NA	N-(1-(tert-butyl)-4,6-difluoro-1H-benzo[d]imidazol-2-yl)-2-(2,2,3,3-tetrafluorocyclobutyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_561	CC1(CCC1)N1C(NC(=O)CC2(CC2)C(F)(F)F)=NC2=C1C=C(C=C2F)C#N	NA	N-(6-cyano-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-2-(1-(trifluoromethyl)cyclopropyl)acetamide	NA
+NA	Bozik_Mar2019	Bozik_Mar2019_562	CC(C(=O)NC1=NC2=C(C=C(C=C2F)C#N)N1C1(C)CCC1)C(C)(C)C(F)(F)F	NA	N-(6-cyano-4-fluoro-1-(1-methylcyclobutyl)-1H-benzo[d]imidazol-2-yl)-4,4,4-trifluoro-2,3,3-trimethylbutanamide	NA
+NA	NA	CP1	O=S(=O)(O)Oc3c(C2Nc1ccc(Br)cc1C2OS(=O)(=O)O)sc5c3ccc4cccc(Cl)c45	NA	NA	PIP2
+NA	szbi_Dec2020	szbi_Dec2020_A1	Cc3cc1c(CCCCN1Cc2ccc(F)cc2)c(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	szbi_Dec2020	szbi_Dec2020_A2	Cc3cc1c(CCCCN1Cc2ccc(F)cc2)c(C)c3NC(=O)CCC4CCCC4	NA	NA	NA
+NA	szbi_Dec2020	szbi_Dec2020_A3	CCCC(=O)Nc3c(C)cc1c(CCCCN1Cc2ccc(F)cc2)c3C	NA	NA	NA
+NA	szbi_Dec2020	szbi_Dec2020_A4	C#CC(C)(C)CC(=O)Nc3c(C)cc1c(CCCCN1Cc2ccc(F)cc2)c3C	NA	NA	NA
+NA	szbi_Dec2020	szbi_Dec2020_A5	Cc3cc1c(CCCCN1Cc2ccc(F)cc2)c(C)c3NC(=O)CC4(C)CC4	NA	NA	NA
+NA	szbi_Dec2020	szbi_Dec2020_A6	Cc3cc1c(CCCCN1Cc2ccc(Cl)s2)c(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	szbi_Dec2020	szbi_Dec2020_A7	Cc3cc1c(CCCCN1Cc2ccc(F)s2)c(C)c3NC(=O)CC(C)(C)C	NA	NA	NA
+NA	szbi_Dec2020	szbi_Dec2020_A8	Cc3cc1c(CCCCN1Cc2ccc(Cl)s2)c(C)c3NC(=O)CCC4CCCC4	NA	NA	NA
+NA	Peretz_Oct2020	Peretz_Oct2020_NH29	O=C(Cc1cc(N(=O)=O)cc(N(=O)=O)c1Cc2c(Cl)cc(N(=O)=O)cc2Cl)NCCO	NA	NA	NA
+NA	Peretz_Oct2020	Peretz_Oct2020_NH34	O=C(Cc2ccc(Nc1c(Cl)cc(C(F)(F)F)cc1Cl)cc2)NCCO	NA	NA	NA
+NA	Peretz_Oct2020	Peretz_Oct2020_NH43	O=C(Cc2cc(Nc1c(Cl)cc(Cl)cc1Cl)ccc2F)NCCO	NA	NA	NA
+NA	Peretz_Oct2020	Peretz_Oct2020_NH66	CC(C)(O)CNC(=O)Cc2cc(Nc1c(Cl)cc(Cl)cc1Cl)ccc2F	NA	NA	NA
+NA	Peretz_Oct2020	Peretz_Oct2020_NH82	CC(C)(CO)CNC(=O)Cc2cc(Nc1c(Cl)cc(Cl)cc1Cl)ccc2F	NA	NA	NA
+NA	Peretz_Oct2020	Peretz_Oct2020_NH83	CC(C)(O)CCNC(=O)Cc2cc(Nc1c(Cl)cc(Cl)cc1Cl)ccc2F	NA	NA	NA
+NA	Peretz_Oct2020	Peretz_Oct2020_NH91	CC(C)c1cc(Cl)cc(Cl)c1Nc2ccc(F)c(CC(=O)NCC(C)(C)O)c2	NA	NA	NA
+NA	Peretz_Oct2020	Peretz_Oct2020_NH101	CC(C)(O)CCNC(=O)Cc3cc(Nc1c(Cl)cc(Cl)cc1C2CC2)ccc3F	NA	NA	NA
+NA	Peretz_Oct2020	Peretz_Oct2020_NH110	O=C(Cc2cc(Nc1c(Cl)cc(Cl)cc1Cl)ccc2F)NC3CCC(O)C3	NA	NA	NA
+NA	Szekeres_Aug2020	Szekeres_Aug2020_1	CC(C)(C)[C@H](O)CNC(=O)NCc1ccnc(OCC(F)(F)F)c1	NA	1 -[(2S)-2-hydroxy-3,3-dimethyl-butyl]-3-[[2-(2,2,2-trifluoroethoxy)-4- pyridyl]methyl]urea	NA
+NA	Szekeres_Aug2020	Szekeres_Aug2020_2	O=C(NCc1ccnc(OCC(F)(F)F)c1)NCC(O)C2(C(F)(F)F)CC2	NA	1-[2-hydroxy-2-[1-(trifluoromethyl)cyclopropyl]ethyl]-3-[[2-(2,2,2- trifluoroethoxy)-4-pyridyl]methyl]urea	NA
+NA	Szekeres_Aug2020	Szekeres_Aug2020_3	O=C(NCCC1(C(F)(F)F)CC1)NCc2ccnc(OCC(F)(F)F)c2	NA	1-[[2-(2,2,2-trifluoroethoxy)-4-pyridyl]methyl]-3-[2-[1-(trifluoromethyl)cyclopropyl]ethyl]urea	NA

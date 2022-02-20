@@ -1,0 +1,1117 @@
+reference	substance_name	receptor	cell_line	measurement	assay_params	value	units	significant	info	retigabine_site	ICA27243_site
+(Kumar, 2016, 10.1124/mol.115.103200)	retigabine	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	3.3	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	SF-0034	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	0.06	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_40	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	0.91	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_50	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	0.74	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_29	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	0.76	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_45	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	1.34	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_38	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	2.55	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_46	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	3.53	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_87	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	4.03	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_04	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	NULL	NA	NA	Not Shifted	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_62	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	1.48	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_45	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	4.49	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_36	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	NULL	NA	NA	Not Shifted	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL673_02	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	0.88	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_86	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	0.34	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_73	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	0.3	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_81	KCNQ2/3	CHO	Whole-Cell Patch Clamp	EC50	0.19	uM	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	retigabine	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	33.9	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	SF-0034	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	50.1	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_40	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	50.9	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_50	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	39.6	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_29	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	27.8	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_45	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	34.1	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_38	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	13.7	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_46	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	46.7	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_87	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	32.8	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_04	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	NULL	mV	NA	Not Shifted	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_62	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	34.7	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_45	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	26.9	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_36	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	NULL	mV	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL673_02	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	42.5	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_86	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	49.9	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_73	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	47	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_81	KCNQ2/3	CHO	Whole-Cell Patch Clamp	ΔV1/2	51.1	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	retigabine	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	SF-0034	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_40	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	12.7	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_50	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	2.7	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_29	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	19.4	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_45	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_38	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_46	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_87	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_04	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_62	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_45	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_36	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL673_02	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	9.7	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_86	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	2.6	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_73	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	4.3	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_81	KCNQ4	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	5.1	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	retigabine	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	SF-0034	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_40	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	29.7	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_50	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	5.6	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_29	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	9.5	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_45	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_38	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_46	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_87	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_04	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR561_62	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_45	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	NR579_36	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	NULL	NA	NA	Not Tested	0	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL673_02	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	7.4	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_86	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	3.6	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_73	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	5.4	mV	NA	NA	1	NULL
+(Kumar, 2016, 10.1124/mol.115.103200)	RL648_81	KCNK5	CHO	Whole-Cell Patch Clamp	ΔV1/2 @ 10 uM	6.7	mV	NA	NA	1	NULL
+(Shi, 2020, 10.1007/s00232-020-00113-6)	RL648_81	KCNQ2	N/A	in-silico MD (Autodock 4.2)	ΔG binding	-5.57	kcal/mol	NA	NA	NA	NULL
+(Shi, 2020, 10.1007/s00232-020-00113-6)	retigabine	KCNQ2	N/A	in-silico MD (Autodock 4.2)	ΔG binding	NULL	NA	NA	Standard	NA	NULL
+(Shi, 2020, 10.1007/s00232-020-00113-6)	RL648_81(D)	KCNQ2	N/A	in-silico MD (Autodock 4.2)	ΔG binding	-5.78	kcal/mol	NA	NA	NA	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	NS15370	KCNQ2	HEK293	Fluorescence based Tl+ influx assay	EC50	0.1	uM	NA	NS15370 depended on the tryptophan in the S5 helix	1	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	retigabine	KCNQ2	HEK293	Fluorescence based Tl+ influx assay	EC50	2.8	uM	NA	NA	1	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	NS15370	KCNQ4	HEK293	Fluorescence based Tl+ influx assay	EC50	0.1	uM	NA	NA	1	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	retigabine	KCNQ4	HEK293	Fluorescence based Tl+ influx assay	EC50	8.1	uM	NA	NA	1	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	NS15370	KCNQ5	HEK293	Fluorescence based Tl+ influx assay	EC50	0.15	uM	NA	NA	1	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	retigabine	KCNQ5	HEK293	Fluorescence based Tl+ influx assay	EC50	12	uM	NA	NA	1	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	NS15370	KCNQ2/3	HEK293	Fluorescence based Tl+ influx assay	EC50	0.13	uM	NA	NA	1	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	retigabine	KCNQ2/3	HEK293	Fluorescence based Tl+ influx assay	EC50	1.5	uM	NA	NA	1	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	NS15370	KCNQ2/3 (concatenateed)	HEK293	Fluorescence based Tl+ influx assay	EC50	0.04	uM	NA	NA	1	NULL
+(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	retigabine	KCNQ2/3 (concatenateed)	HEK293	Fluorescence based Tl+ influx assay	EC50	0.9	uM	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ1	CHO	standard whole-cell recording	ΔV1/2	NULL	NA	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ2	CHO	standard whole-cell recording	ΔV1/2	-47.1	mV	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ3	CHO	standard whole-cell recording	ΔV1/2	-46.1	mV	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ2/3	CHO	standard whole-cell recording	ΔV1/2	-62.4	mV	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ4	CHO	standard whole-cell recording	ΔV1/2	-25.1	mV	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ1	CHO	standard whole-cell recording	I/I0 @ 10uM P-RTG	1.01	NA	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ2	CHO	standard whole-cell recording	I/I0 @ 10uM P-RTG	1.75	NA	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ3	CHO	standard whole-cell recording	I/I0 @ 10uM P-RTG	2.28	NA	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ2/3	CHO	standard whole-cell recording	I/I0 @ 10uM P-RTG	2.01	NA	NA	NA	1	NULL
+(Zhou, 2015, 10.1124/mol.114.095190)	P-RTG	KCNQ4	CHO	standard whole-cell recording	I/I0 @ 10uM P-RTG	2.94	NA	NA	NA	1	NULL
+(Kalappa, 2015, 10.1523/JNEUROSCI.5176-14.2015)	retigabine	KCNQ2/3	HEK293	Whole-Cell Patch Clamp	EC50	6.5	uM	NA	NA	1	NULL
+(Kalappa, 2015, 10.1523/JNEUROSCI.5176-14.2015)	SF0034	KCNQ2/3	HEK293	Whole-Cell Patch Clamp	EC50	1.3	uM	NA	NA	1	NULL
+(Kalappa, 2015, 10.1523/JNEUROSCI.5176-14.2015)	retigabine	KCNQ2/3	HEK293	Whole-Cell Patch Clamp	ΔV1/2	40	mV	NA	NA	1	NULL
+(Kalappa, 2015, 10.1523/JNEUROSCI.5176-14.2015)	SF0034	KCNQ2/3	HEK293	Whole-Cell Patch Clamp	ΔV1/2	40	mV	NA	NA	1	NULL
+(Kalappa, 2015, 10.1523/JNEUROSCI.5176-14.2015)	SF0034	KCNQ4	HEK293	Whole-Cell Patch Clamp	V1/2 @ 100nM	20	mV	NA	non significant shift from control so no ΔV1/2	0	NULL
+(Kalappa, 2015, 10.1523/JNEUROSCI.5176-14.2015)	SF0034	KCNQ4	HEK293	Whole-Cell Patch Clamp	V1/2 @ 10nM	25	mV	NA	non significant shift from control so no ΔV1/3	0	NULL
+(Kalappa, 2015, 10.1523/JNEUROSCI.5176-14.2015)	SF0034	KCNQ5	HEK293	Whole-Cell Patch Clamp	V1/2 @ 100nM	60	mV	NA	non significant shift from control so no ΔV1/4	0	NULL
+(Kalappa, 2015, 10.1523/JNEUROSCI.5176-14.2015)	SF0034	KCNQ5	HEK293	Whole-Cell Patch Clamp	V1/2 @ 10nM	70	mV	NA	non significant shift from control so no ΔV1/5	0	NULL
+(Wu, 2003, 10.1021/jm034073f)	Acrylamide (S)-1	KCNQ2	Xenopus laevis	Whole cell Patch Clamp	EC50	0.69	uM	NA	NA	1	NULL
+(Bentzen, 2006, 10.1016/j.neuropharm.2006.07.001)	Acrylamide (S)-1	KCNQ4	Xenopus laevis	concentrationeresponse  experiment	EC50	10.4	uM	NA	NA	1	NULL
+(Bentzen, 2006, 10.1016/j.neuropharm.2006.07.001)	Acrylamide (S)-1	KCNQ1	Xenopus laevis	Whole cell Patch Clamp	IC50	18	uM	NA	NA	1	NULL
+(Bentzen, 2006, 10.1016/j.neuropharm.2006.07.001)	Acrylamide (S)-1	KCNQ1/KCNE1	Xenopus laevis	Whole cell Patch Clamp	IC50	27	uM	NA	NA	1	NULL
+(Bentzen, 2006, 10.1016/j.neuropharm.2006.07.001)	Acrylamide (S)-1	KCNQ2	Xenopus laevis	Whole cell Patch Clamp	ΔV1/2	32	mV	NA	NA	1	NULL
+(Bentzen, 2006, 10.1016/j.neuropharm.2006.07.001)	Acrylamide (S)-1	KCNQ4	Xenopus laevis	Whole cell Patch Clamp	ΔV1/2	29	mV	NA	NA	1	NULL
+(Bentzen, 2006, 10.1016/j.neuropharm.2006.07.001)	Acrylamide (S)-1	KCNQ2/3	Xenopus laevis	Whole cell Patch Clamp	ΔV1/2	24	mV	NA	NA	1	NULL
+(Bentzen, 2006, 10.1016/j.neuropharm.2006.07.001)	Acrylamide (S)-1	KCNQ5	Xenopus laevis	Whole cell Patch Clamp	ΔV1/2	16	mV	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Acrylamide (S)-1	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	163	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_2	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	121	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_3	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	127	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_4	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	88	% compound/compound free control	NA	NA	0	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_5	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	102	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_6	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	124	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_7	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	99	% compound/compound free control	NA	NA	0	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_8	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	132	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_9	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	140	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_10	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	98	% compound/compound free control	NA	NA	0	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_11	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	96	% compound/compound free control	NA	NA	0	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_12	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	129	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_13	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	142	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_14	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	138	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_15	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	110	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_16	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	110	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_17	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	104	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_18	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	135	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_19	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	133	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_20	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	107	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_21	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	98	% compound/compound free control	NA	NA	0	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_22	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	110	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_23	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	105	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_24	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	72	% compound/compound free control	NA	NA	0	NULL
+(Wu, 2004, 10.1021/jm0305826)	Wu_Nov2004_25	mKCNQ2	Xenopus laevis oocytes	voltage clamp techniques	%current (10uM of compound @-40mV compared to control w/o compound)	101	% compound/compound free control	NA	NA	1	NULL
+(Wu, 2004, 10.1016/j.bmcl.2004.06.035)	retigabine	KCNQ1	HEK 293	Whole-Cell Patch Clamp	EC50	1.3	uM	NA	NA	1	NULL
+(Wu, 2004, 10.1016/j.bmcl.2004.06.035)	Acrylamide (S)-1	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	3.2	uM	NA	NA	1	NULL
+(Wu, 2004, 10.1016/j.bmcl.2004.06.035)	Acrylamide (S)-2	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	0.06	uM	NA	NA	1	NULL
+(Wu, 2004, 10.1016/j.bmcl.2004.06.035)	Acrylamide (S)-3	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	0.02	uM	NA	NA	1	NULL
+(Wu, 2004, 10.1016/j.bmcl.2004.06.035)	Acrylamide (+/-)-3	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	0.072	uM	NA	NA	1	NULL
+(Wu, 2004, 10.1016/j.bmcl.2004.06.035)	Acrylamide (S)-4	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	0.33	uM	NA	NA	1	NULL
+(Wu, 2004, 10.1016/j.bmcl.2004.06.035)	Acrylamide (S)-5	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	0.43	uM	NA	NA	1	NULL
+(Wu, 2004, 10.1016/j.bmcl.2004.06.035)	Acrylamide (R)-5	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	-	NA	NA	NA	0	NULL
+(Wu, 2013, 10.1016/j.bmcl.2013.08.092)	retigabine	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	1300	nM	NA	NA	1	NULL
+(Wu, 2013, 10.1016/j.bmcl.2013.08.092)	Acrylamide (S)-2	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	3200	nM	NA	NA	1	NULL
+(Wu, 2013, 10.1016/j.bmcl.2013.08.092)	Acrylamide (S)-3	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	60	nM	NA	NA	1	NULL
+(Wu, 2013, 10.1016/j.bmcl.2013.08.092)	Acrylamide (S)-4	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	20	nM	NA	NA	1	NULL
+(Wu, 2013, 10.1016/j.bmcl.2013.08.092)	Acrylamide (S)-5	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	10	nM	NA	NA	1	NULL
+(Wu, 2013, 10.1016/j.bmcl.2013.08.092)	Acrylamide (S)-6	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	2.4	nM	NA	NA	1	NULL
+(Wu, 2013, 10.1016/j.bmcl.2013.08.092)	Acrylamide (R)-6	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	NULL	NA	NA	Inactive	0	NULL
+(Wu, 2013, 10.1016/j.bmcl.2013.08.092)	Acrylamide (S)-7	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	0.9	nM	NA	NA	1	NULL
+(Wu, 2013, 10.1016/j.bmcl.2013.08.092)	Acrylamide (R)-7	KCNQ2	HEK 293	Whole-Cell Patch Clamp	EC50	NULL	NA	NA	Inactive	0	NULL
+(Blom, 2009, 10.1371/journal.pone.0008251)	Acrylamide (S)-2	KCNQ1	Xenopus Laevis oocytes	two-electrode voltage-clamp	ΔV1/2	NULL	mV	NA	Not significant	0	NULL
+(Blom, 2009, 10.1371/journal.pone.0008251)	Acrylamide (S)-2	KCNQ2	Xenopus Laevis oocytes	two-electrode voltage-clamp	ΔV1/2	-19	mV	NA	NA	1	NULL
+(Blom, 2009, 10.1371/journal.pone.0008251)	Acrylamide (S)-2	KCNQ2/3	Xenopus Laevis oocytes	two-electrode voltage-clamp	ΔV1/2	-17.96	mV	NA	NA	1	NULL
+(Blom, 2009, 10.1371/journal.pone.0008251)	Acrylamide (S)-2	KCNQ4	Xenopus Laevis oocytes	two-electrode voltage-clamp	ΔV1/2	-30.4	mV	NA	NA	1	NULL
+(Blom, 2009, 10.1371/journal.pone.0008251)	Acrylamide (S)-2	KCNQ5	Xenopus Laevis oocytes	two-electrode voltage-clamp	ΔV1/2	-18.1	mV	NA	NA	1	NULL
+(Blom, 2009, 10.1371/journal.pone.0008251)	Acrylamide (S)-2	KCNQ2	Xenopus Laevis oocytes	two-electrode voltage-clamp	EC50	0.17	uM	NA	NA	1	NULL
+(Blom, 2009, 10.1371/journal.pone.0008251)	Acrylamide (S)-2	KCNQ4	Xenopus Laevis oocytes	two-electrode voltage-clamp	EC50	0.22	uM	NA	NA	1	NULL
+(Blom, 2014, 10.1371/journal.pone.0100209)	SMB-1	KCNQ2	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2	4.5	mV	NA	method same as Blom, 2009	1	NULL
+(Blom, 2014, 10.1371/journal.pone.0100209)	SMB-1	KCNQ2	Xenopus laevis oocytes	two-electrode voltage-clamp	IC50	7.4	uM	NA	NA	1	NULL
+(Blom, 2014, 10.1371/journal.pone.0100209)	SMB-1	KCNQ4	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2	NULL	NA	NA	Non Significant	0	NULL
+(Blom, 2014, 10.1371/journal.pone.0100209)	SMB-1	KCNQ4	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	5.7	uM	NA	NA	1	NULL
+(Wu, 2003, 10.1021/jm034111v)	BMS-568274	NA	NA	NA	NA	NULL	NA	NA	NA	NA	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-8g	KCNQ4	CHO	whole-cell patch clamp	EC50	2.03	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-10g	KCNQ4	CHO	whole-cell patch clamp	EC50	0.78	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-13	KCNQ4	CHO	whole-cell patch clamp	EC50	1.42	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-8g	KCNQ5	CHO	whole-cell patch clamp	EC50	2.43	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-10g	KCNQ5	CHO	whole-cell patch clamp	EC50	1.68	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-14	KCNQ5	CHO	whole-cell patch clamp	EC50	1.37	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-8g	KCNQ2	CHO	whole-cell patch clamp	EC50	NULL	NA	NA	>30 uM	0	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-10g	KCNQ2	CHO	whole-cell patch clamp	EC50	NULL	NA	NA	>30 uM	0	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-15	KCNQ2	CHO	whole-cell patch clamp	EC50	NULL	NA	NA	>30 uM	0	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	retigabine	KCNQ4	CHO	whole-cell patch clamp	EC50	5.9	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	retigabine	KCNQ5	CHO	whole-cell patch clamp	EC50	3.45	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	retigabine	KCNQ2	CHO	whole-cell patch clamp	EC50	2.17	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-8g	KCNQ4	CHO	whole-cell patch clamp	I/I0 @ 10uM	3.05	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-10g	KCNQ4	CHO	whole-cell patch clamp	I/I0 @ 10uM	6.37	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-13	KCNQ4	CHO	whole-cell patch clamp	I/I0 @ 10uM	7.71	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-8g	KCNQ5	CHO	whole-cell patch clamp	I/I0 @ 10uM	5.32	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-10g	KCNQ5	CHO	whole-cell patch clamp	I/I0 @ 10uM	4.58	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-14	KCNQ5	CHO	whole-cell patch clamp	I/I0 @ 10uM	4.59	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-8g	KCNQ2	CHO	whole-cell patch clamp	I/I0 @ 10uM	1	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-10g	KCNQ2	CHO	whole-cell patch clamp	I/I0 @ 10uM	1.16	uM	NA	NA	1	NULL
+(Wang, 2018, 10.1021/acsmedchemlett.8b00315)	WANG2019-15	KCNQ2	CHO	whole-cell patch clamp	I/I0 @ 10uM	1.07	uM	NA	NA	1	NULL
+(Hu, 2013, 10.1038/aps.2013.79)	HN38	KCNQ2	CHO	Standard whole-cell recording	IC50	0.1	uMol/L	NA	NA	1	NULL
+(Hu, 2013, 10.1038/aps.2013.79)	HN38	KCNQ2	CHO	Standard whole-cell recording	I/I0 @ 10 uMol/L	0.008	NA	NA	NA	1	NULL
+(Aiken, 1995, 10.1111/j.1476-5381.1995.tb15019.x)	linopirdine	Im current (not specific)	rat hippocampal CA neurones	single electrode voltage clamp	IC50	8.5	uM	NA	Im can be KCNQ2/3 or 3/5	1	NULL
+(Zaczek, 1998, http://jpet.aspetjournals.org/content/285/2/724)	XE991	Im	rat hippocampal CA neurones	radiation release assay	EC50	0.49	uM	NA	NA	1	NULL
+(Zaczek, 1998, http://jpet.aspetjournals.org/content/285/2/724)	DMP-543	Im	rat hippocampal CA neurones	radiation release assay	EC50	0.7	uM	NA	NA	1	NULL
+(Luo, 2018, 10.1073/pnas.1714760115)	spooky toxin (SsTX)	KCNQ4	HEK293	whole-cell patch clamp	IC50	2.5	uM	NA	NA	1	NULL
+(Soh, 2010, 10.1124/mol.110.066100)	UCL2077	KCNQ1	rat hippocampal CA neurones	Whole-cell current-clamp	% change in current at 3uM	-97	%	NA	NA	1	NULL
+(Soh, 2010, 10.1124/mol.110.066100)	UCL2077	KCNQ5	rat hippocampal CA neurones	Whole-cell current-clamp	% change in current at 0mV	30	%	NA	NA	1	NULL
+(Soh, 2010, 10.1124/mol.110.066100)	UCL2077	KCNQ4	rat hippocampal CA neurones	Whole-cell current-clamp	% change in current at 0mV	-36	%	NA	NA	1	NULL
+(Soh, 2010, 10.1124/mol.110.066100)	UCL2077	KCNQ2	rat hippocampal CA neurones	Whole-cell current-clamp	% change in current at 0mV	-76	%	NA	NA	1	NULL
+(Soh, 2010, 10.1124/mol.110.066100)	UCL2077	KCNQ3	rat hippocampal CA neurones	Whole-cell current-clamp	% change in current at 0mV	-13	%	NA	NA	1	NULL
+(Soh, 2010, 10.1124/mol.110.066100)	UCL2077	KCNQ2	rat hippocampal CA neurones	Whole-cell current-clamp	IC50	1.1	uM	NA	NA	1	NULL
+(Soh, 2010, 10.1124/mol.110.066100)	UCL2077	KCNQ3	rat hippocampal CA neurones	Whole-cell current-clamp	IC50	16.28	uM	NA	NA	1	NULL
+(Soh, 2010, 10.1124/mol.110.066100)	UCL2077	KCNQ2/3	rat hippocampal CA neurones	Whole-cell current-clamp	IC50	7.3	uM	NA	NA	1	NULL
+(Cheung, 2012, 10.1021/jm300700v)	Cheung(S)-5/ML252	KCNQ1	CHO	automated patch clamp assay	IC50	2.92	uM	NA	IC50/EC50s were generated from 8-point concentration response curves with 3-fold dilutions starting from the maximal concentration (30 μM) with quadruplicate determinations in the automated patch clamp assay . In cases in which a saturating response was not obtained at the highest tested concentration (% at 30 μM) is listed. IC50/EC50 values are expressed as IC50/EC50 ± SD, using estimated standard deviations provided by the fitting software (Origin 6.0).	1	NULL
+(Cheung, 2012, 10.1021/jm300700v)	Cheung(S)-5/ML253	KCNQ2	CHO	automated patch clamp assay	IC50	0.07	uM	NA	KCNQ2 channels were freshly dislodged from flasks and dispensed into a 384-well population patch clamp (PPC) plate. The cell plating density 19 was 7,000 cells/well suspended in the extracellular solution, composed of (in mM): 137 NaCl, 4 KCl, 1 MgCl2, 1.8 CaCl2, 10 HEPES, and 10 glucose, pH 7.4 adjusted with NaOH	1	NULL
+(Cheung, 2012, 10.1021/jm300700v)	Cheung(S)-5/ML254	KCNQ1/E1	CHO	automated patch clamp assay	IC50	8.12	uM	NA	NA	1	NULL
+(Cheung, 2012, 10.1021/jm300700v)	Cheung(S)-5/ML255	KCNQ2/3	CHO	automated patch clamp assay	IC50	0.12	uM	NA	NA	1	NULL
+(Cheung, 2012, 10.1021/jm300700v)	Cheung(S)-5/ML256	KCNQ4	CHO	automated patch clamp assay	IC50	0.2	uM	NA	NA	1	NULL
+(Roeloffs, 2008, 10.1124/jpet.108.137794)	ICA-27243	Rat MES	NA	Sezure repsonse	NA	1.5	uM	NA	NA	NA	1
+(Roeloffs, 2008, 10.1124/jpet.108.137794)	ICA-27243	Mouse MES	NA	NA	NA	8.6	NA	NA	NA	NA	1
+(Roeloffs, 2008, 10.1124/jpet.108.137794)	ICA-27243	Mouse 6Hz	NA	NA	NA	1635120000	NA	NA	NA	NA	1
+(Roeloffs, 2008, 10.1124/jpet.108.137794)	ICA-27243	Raty PTZ	NA	NA	NA	2.2	NA	NA	NA	NA	1
+(Roeloffs, 2008, 10.1124/jpet.108.137794)	ICA-27243	Rat Amgdala	NA	NA	NA	1615248000	NA	NA	NA	NA	1
+(Roeloffs, 2008, 10.1124/jpet.108.137794)	ICA-27243	Rat Locomotor	NA	NA	NA	40	NA	NA	NA	NA	1
+(Xiong, 2007, 10.1038/nchembio874)	zinc pyrithione (ZnPy)	KCNQ2	DRG (rat)	Standard whole-cell recording was used.	EC50	1.5	uM	NA	The pipettes had resistances of 7–15 MΩ when filled with the intracellular solution of the following composition (in mM): 145 KCl, 1 MgCl2, 5 EGTA, 10 HEPES and 5 MgATP (pH 7.3). Extracellular solution contained (in mM): 150 NaCl, 5 KCl, 2 CaCl2, 1 MgCl2, 10 HEPES and 10 glucose (pH 7.4). Current and voltage were recorded using an Axopatch-200B amplifier, sampled at 4 kHz and filtered at 200 Hz, and digitized using a DigiData 1322A with pClamp 9.2 software (Axon Instruments).	NA	NULL
+(Xiong, 2007, 10.1038/nchembio874)	zinc pyrithione (ZnPy)	KCNQ2/3	DRG (rat)	Standard whole-cell recording was used.	EC50	2.4	uM	NA	novel binding site	NA	NULL
+(Xiong, 2007, 10.1038/nchembio874)	zinc pyrithione (ZnPy)	KCNQ2-L249A	DRG (rat)	Standard whole-cell recording was used.	EC50	8.6	uM	NA	NA	NA	NULL
+(Xiong, 2007, 10.1038/nchembio874)	zinc pyrithione (ZnPy)	KCNQ2-L249W	DRG (rat)	Standard whole-cell recording was used.	EC50	9.2	uM	NA	NA	NA	NULL
+(Xiong, 2007, 10.1038/nchembio874)	zinc pyrithione (ZnPy)	KCNQ2-A306T	DRG (rat)	Standard whole-cell recording was used.	EC50	2.1	uM	NA	NA	NA	NULL
+(Xiong, 2008, 10.1073/pnas.0712256105)	NA	NA	NA	NA	NA	NULL	NA	NA	NA	NA	NULL
+(Hadley, 2009, 10.1038/sj.bjp.0703086)	tetraethylammonium	KCNQ1	CHO	patch clamp recording	IC50	5	mM	NA	NA	NA	NULL
+(Hadley, 2009, 10.1038/sj.bjp.0703086)	tetraethylammonium	KCNQ2	CHO	patch clamp recording	IC50	0.03	mM	NA	NA	NA	NULL
+(Hadley, 2009, 10.1038/sj.bjp.0703086)	tetraethylammonium	KCNQ3	CHO	patch clamp recording	IC50	NULL	NA	NA	>30 mM	NA	NULL
+(Hadley, 2009, 10.1038/sj.bjp.0703086)	tetraethylammonium	KCNQ4	CHO	patch clamp recording	IC50	3	mM	NA	NA	NA	NULL
+(Hadley, 2009, 10.1038/sj.bjp.0703086)	tetraethylammonium	KCNQ2/3	CHO	patch clamp recording	IC50	3.8	mM	NA	NA	NA	NULL
+(Hadley, 2009, 10.1038/sj.bjp.0703086)	tetraethylammonium	KCNQ2/3-T323Y	CHO	patch clamp recording	IC50	0.5	mM	NA	NA	NA	NULL
+(Wang, 1998, 10.1126/science.282.5395.1890)	XE991	KCNQ2	Xenopus oocytes	traditional M-current voltage-clamp protocol	IC50	0.71	uM	NA	NA	NA	NULL
+(Wang, 1998, 10.1126/science.282.5395.1890)	XE992	KCNQ1	Xenopus oocytes	traditional M-current voltage-clamp protocol	IC50	0.75	uM	NA	NA	NA	NULL
+(Wang, 1998, 10.1126/science.282.5395.1890)	XE993	KCNQ2/3	Xenopus oocytes	traditional M-current voltage-clamp protocol	IC50	0.6	uM	NA	NA	NA	NULL
+(Wang, 1998, 10.1126/science.282.5395.1890)	tetraethylammonium	M channel	Rat sympathetic neuron	traditional M-current voltage-clamp protocol	IC50	5.8	mM	NA	NA	NA	NULL
+(Wang, 1998, 10.1126/science.282.5395.1890)	tetraethylammonium	KCNQ2	Xenopus oocytes	traditional M-current voltage-clamp protocol	Kd	0.16	mM	NA	NA	NA	NULL
+(Wang, 1998, 10.1126/science.282.5395.1890)	tetraethylammonium	KCNQ2/3	Xenopus oocytes	traditional M-current voltage-clamp protocol	Kd	0.35	mM	NA	NA	NA	NULL
+(Wang, 1998, 10.1126/science.282.5395.1890)	Linopirdine	KCNQ2	Xenopus oocytes	traditional M-current voltage-clamp protocol	IC50	4.8	uM	NA	NA	NA	NULL
+(Wang, 1998, 10.1126/science.282.5395.1890)	Linopirdine	KCNQ1	Xenopus oocytes	traditional M-current voltage-clamp protocol	IC50	8.9	uM	NA	NA	NA	NULL
+(Wang, 1998, 10.1126/science.282.5395.1890)	Linopirdine	KCNQ2/3	Xenopus oocytes	traditional M-current voltage-clamp protocol	IC50	4	uM	NA	NA	NA	NULL
+(Wickenden, 2008, 10.1124/mol.107.043216)	ICA-27243	KCNQ2/3	CHO	86Rb+ efflux assay.	EC50	0.2	uM	NA	opener, but inhibitory at high conentrations	NA	1
+(Wickenden, 2008, 10.1124/mol.107.043216)	ICA-27244	KCNQ4	CHO	86Rb+ efflux assay.	EC50	7.1	uM	NA	NA	NA	1
+(Wickenden, 2008, 10.1124/mol.107.043216)	ICA-27245	KCNQ1/KCNE1	CHO	86Rb+ efflux assay.	IC50	40	uM	NA	NA	NA	1
+(Wickenden, 2008, 10.1124/mol.107.043216)	ICA-27243	KCNQ2/3	CHO	Whole Cell Patch Clamp	EC50	0.4	uM	NA	NA	NA	1
+(Wickenden, 2008, 10.1124/mol.107.043216)	ICA-27243	KCNQ2/5	CHO	Whole Cell Patch Clamp	EC50	30>	uM	NA	NA	NA	1
+(Wickenden, 2008, 10.1124/mol.107.043216)	ICA-27243	KCNQ4	CHO	Whole Cell Patch Clamp	EC50	1.2	uM	NA	NA	NA	1
+(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	ICA-27243	KCNQ2/3-W236L/W265L	NA	NA	EC50	0.28	uM	NA	https://www.surechembl.org/document/US-10851067-B2	NA	1
+(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	ICA-27243	KCNQ2/3	NA	NA	EC50	0.44	uM	NA	https://www.surechembl.org/document/US-10851067-B2	NA	1
+(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	ICA-27243	KCNQ2	NA	NA	EC50	0.44	uM	NA	https://www.surechembl.org/document/US-10851067-B2	NA	1
+(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	ICA-27243	KCNQ5	NA	NA	EC50	0.45	uM	NA	https://www.surechembl.org/document/US-10851067-B2	NA	1
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_330	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	NA	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_331	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_332	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_333	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_334	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_335	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_336	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_337	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_338	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_339	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_340	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_341	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_342	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_343	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_344	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_345	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_346	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_347	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_348	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_349	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_350	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_351	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_352	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_353	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_354	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_355	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_356	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_357	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_358	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_359	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_360	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_361	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_362	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_363	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_364	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_365	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_366	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_367	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_368	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_369	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_370	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_371	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_372	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_373	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_374	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_375	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_376	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_377	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_378	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_379	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_380	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_381	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_382	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_383	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_384	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_385	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_386	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_387	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_388	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_389	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_390	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_391	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_392	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_393	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_394	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_395	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_396	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_397	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_398	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_399	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_400	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_401	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_402	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_403	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_404	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_405	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_406	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_407	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_408	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_409	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_410	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_411	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_412	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_413	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_414	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_415	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_416	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_417	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_418	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_419	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_420	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_421	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_422	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_423	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_424	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_425	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_426	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_427	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_428	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_429	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_430	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_431	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_432	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_433	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_434	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_435	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_436	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_437	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_438	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_439	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_440	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_441	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_442	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_443	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_444	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_445	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_446	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_447	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_448	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_449	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_450	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_451	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_452	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_453	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_454	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_455	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_456	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_457	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_458	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_459	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_460	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_461	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_462	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_463	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_464	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_465	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_466	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_467	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_468	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_469	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_470	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_471	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_472	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_473	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_474	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_475	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_476	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_477	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_478	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_479	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_480	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_481	KCNQ2/3	HEK	QPatch	3uM dose	O	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_482	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_483	KCNQ2/3	HEK	QPatch	3uM dose	++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_484	KCNQ2/3	HEK	QPatch	3uM dose	+	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_485	KCNQ2/3	HEK	QPatch	3uM dose	+++	fold increase over baseline (+: 1.2-2.9; ++: 2-3.9; +++: >4, O: open channel at holding potential)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_486	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_487	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_488	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_489	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_490	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_491	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_492	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_493	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_494	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_495	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_496	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_497	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_498	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_499	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_500	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_501	KCNQ2/3	HEK	thallium flux assay	IC50	**	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_502	KCNQ2/3	HEK	thallium flux assay	IC50	*	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_503	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_504	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_505	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_506	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_507	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_508	KCNQ2/3	HEK	thallium flux assay	IC50	**	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_509	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_510	KCNQ2/3	HEK	thallium flux assay	IC50	**	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_511	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_512	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_513	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_514	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_515	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_516	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_517	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_518	KCNQ2/3	HEK	thallium flux assay	IC50	**	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_519	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_520	KCNQ2/3	HEK	thallium flux assay	IC50	*	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_521	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_522	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_523	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_524	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_525	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_526	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_527	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_528	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_529	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_530	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_531	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_532	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_533	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_534	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_535	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_536	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_537	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_538	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_539	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_540	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_541	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_542	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_543	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_544	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_545	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_546	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_547	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_548	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_549	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_550	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_551	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_552	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_553	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_554	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_555	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_556	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_557	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_558	KCNQ2/3	HEK	thallium flux assay	IC50	**	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_559	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_560	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_561	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Bozik, 2019, US-201916358642-A)	Bozik_Mar2019_562	KCNQ2/3	HEK	thallium flux assay	IC50	***	3-10 μM (*), 1-3 μM (**), and <1 μM (***)	NA	https://www.surechembl.org/document/US-10851067-B2	NA	NULL
+(Amato, 2011, 10.1021/ml200053x)	ICA-069673 (ICA73)	KCNQ2/3	CHO	6Rb+Efflux	EC50	0.69	uM	NA	NA	NA	NULL
+(Amato, 2011, 10.1021/ml200053x)	ICA-069673 (ICA73)	KCNQ3/5	CHO	6Rb+Efflux	EC50	14.3	uM	NA	NA	NA	NULL
+(Amato, 2011, 10.1021/ml200053x)	ICA-069673 (ICA73)	KCNQ1	CHO	6Rb+Efflux	IC50	>100	uM	NA	NA	NA	NULL
+Brueggemann, 2014, 10.1124/mol.114.093799	ICA-069673 (ICA73)	KCNQ4	A7r5	whole-cell perforated patch configuration	ΔV1/2@100uM	-53.3	mV	NA	NA	NA	NULL
+Brueggemann, 2014, 10.1124/mol.114.093800	ICA-069673 (ICA73)	KCNQ4-W242L	A7r6	whole-cell perforated patch configuration	ΔV1/2@100uM	-49	mV	NA	NA	NA	NULL
+Brueggemann, 2014, 10.1124/mol.114.093800	ICA-069673 (ICA73)	KCNQ4- F143A	A7r6	whole-cell perforated patch configuration	ΔV1/2@100uM	-11.7	mV	NA	NA	NA	NULL
+Brueggemann, 2014, 10.1124/mol.114.093800	ICA-069673 (ICA73)	KCNQ5	A7r6	whole-cell perforated patch configuration	ΔV1/2@100uM	-16	mV	NA	NA	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Aplitude	IC50	4.5	uM	NA	(Spontaneous phastic Contractions)	NA	IC50s changes depending on type of Contractions looked at
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Aplitude	IC50	5.5	uM	NA	Carbachol induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Aplitude	IC50	5.3	uM	NA	kcl-induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Aplitude	IC50	9.8	uM	NA	10-Hz EFS-induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Muscle Force	IC50	3.2	uM	NA	(Spontaneous phastic Contractions)	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Muscle Force	IC50	18.9	uM	NA	Carbachol induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Muscle Force	IC50	5.3	uM	NA	kcl-induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Muscle Force	IC50	7.6	uM	NA	10-Hz EFS-induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Duration	IC50	9.8	uM	NA	(Spontaneous phastic Contractions)	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Duration	IC50	13.3	uM	NA	Carbachol induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Duration	IC50	11.1	uM	NA	kcl-induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Duration	IC50	n/a	uM	NA	10-Hz EFS-induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Frequency	IC50	11.9	uM	NA	(Spontaneous phastic Contractions)	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Frequency	IC50	n/A	uM	NA	Carbachol induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Frequency	IC50	12.2	uM	NA	kcl-induced contractions	NA	NULL
+Provence, 2015, 10.1124/jpet.115.225268	ICA-069673 (ICA73)	KCNQ2 and KCNQ3	DSM Cells	Contraction Frequency	IC50	n/a	uM	NA	10-Hz EFS-induced contractions	NA	NULL
+(Boehlen, 2012, 10.1111/bph.12065)	ICA-110381	KCNQ2	CHO	Whole-cell voltage-clamp recordings from ﬂuorescent CHO	ΔV1/2@1uM	-33	mV	NA	NA	NA	NULL
+(Boehlen, 2012, 10.1111/bph.12065)	ICA-110381	KCNQ2/3	CHO	Whole-cell voltage-clamp recordings from ﬂuorescent CHO	ΔV1/2@1uM	-67.3	mV	NA	NA	NA	NULL
+(Boehlen, 2012, 10.1111/bph.12065)	ICA-110381	KCNQ3/5	CHO	Whole-cell voltage-clamp recordings from ﬂuorescent CHO	ΔV1/2@1uM	-10.2	mV	NA	NA	NA	NULL
+(Boehlen, 2012, 10.1111/bph.12065)	ICA-110381	KCNQ4	CHO	Whole-cell voltage-clamp recordings from ﬂuorescent CHO	ΔV1/2@1uM	-105.1	mV	NA	NA	NA	NULL
+(Boehlen, 2012, 10.1111/bph.12065)	retigabine	KCNQ2	CHO	Whole-cell voltage-clamp recordings from ﬂuorescent CHO	ΔV1/2@1uM	-19.5	mV	NA	NA	NA	NULL
+(Boehlen, 2012, 10.1111/bph.12065)	retigabine	KCNQ2/3	CHO	Whole-cell voltage-clamp recordings from ﬂuorescent CHO	ΔV1/2@1uM	-29.3	mV	NA	NA	NA	NULL
+(Boehlen, 2012, 10.1111/bph.12065)	retigabine	KCNQ3/5	CHO	Whole-cell voltage-clamp recordings from ﬂuorescent CHO	ΔV1/2@1uM	-9	mV	NA	NA	NA	NULL
+(Boehlen, 2012, 10.1111/bph.12065)	retigabine	KCNQ4	CHO	Whole-cell voltage-clamp recordings from ﬂuorescent CHO	ΔV1/2@1uM	-	mV	NA	NA	NA	NULL
+(Gao, 2010, 10.1074/jbc.M110.116392)	ztz240	KCNQ1	CHO	Whoel Cell Patch Clamp	ΔV1/2@10uM	-3.1	mV	NA	NA	NA	NULL
+(Gao, 2010, 10.1074/jbc.M110.116392)	ztz240	KCNQ2	CHO	Whoel Cell Patch Clamp	ΔV1/2@10uM	-47.3	mV	NA	NA	NA	NULL
+(Gao, 2010, 10.1074/jbc.M110.116392)	ztz240	KCNQ3	CHO	Whoel Cell Patch Clamp	ΔV1/2@10uM	-3.3	mV	NA	NA	NA	NULL
+(Gao, 2010, 10.1074/jbc.M110.116392)	ztz240	KCNQ4	CHO	Whoel Cell Patch Clamp	ΔV1/2@10uM	-17	mV	NA	NA	NA	NULL
+(Gao, 2010, 10.1074/jbc.M110.116392)	ztz240	KCNQ5	CHO	Whoel Cell Patch Clamp	ΔV1/2@10uM	-11.1	mV	NA	NA	NA	NULL
+(Gao, 2010, 10.1074/jbc.M110.116392)	ztz240	KCNQ2-W236L	CHO	Whoel Cell Patch Clamp	ΔV1/2@10uM	-16.7	mV	NA	NA	NA	NULL
+(Gao, 2010, 10.1074/jbc.M110.116392)	ztz240	KCNQ2-L249A	CHO	Whoel Cell Patch Clamp	ΔV1/2@10uM	-34.3	mV	NA	NA	NA	NULL
+(Gao, 2010, 10.1074/jbc.M110.116392)	ztz240	KCNQ2-L275A	CHO	Whoel Cell Patch Clamp	ΔV1/2@10uM	-24.7	mV	NA	NA	NA	NULL
+(Gao, 2010, 10.1074/jbc.M110.116392)	ztz240	KCNQ2-L249A/L275A	CHO	Whoel Cell Patch Clamp	ΔV1/2@10uM	-17	mV	NA	NA	NA	NULL
+(Li, 2013, 10.1038/cr.2013.82)	ztz240	KCNQ2-F137A	CHO	Whole-cell voltage clamp recording	EC50	2.8	uM	NA	paper contains a binding model for ztz240	NA	NULL
+(Li, 2013, 10.1038/cr.2013.82)	YG002	KCNQ2	CHO	Whole-cell voltage clamp recording	EC50	4.64	uM	NA	NA	NA	NULL
+(Li, 2013, 10.1038/cr.2013.82)	YG007	KCNQ2	CHO	Whole-cell voltage clamp recording	EC50	1.6	uM	NA	NA	NA	NULL
+(Li, 2013, 10.1038/cr.2013.82)	YG025	KCNQ2	CHO	Whole-cell voltage clamp recording	EC50	5.92	uM	NA	NA	NA	NULL
+(Li, 2020, 10.1038/s41422-020-00410-8)	retigabine	KCNQ2	CHO	Whole-cell voltage clamp recording	EC50	3.98	uM	NA	NA	NA	NULL
+(Li, 2020, 10.1038/s41422-020-00410-8)	ztz240	KCNQ2	CHO	Whole-cell voltage clamp recording	EC50	5.62	uM	NA	NA	NA	NULL
+(Bachmann, 2001, 10.1007/s002100100474)	S9947	KV1.5	Xenopus oocytes	two-electrode voltage-clamp	IC50	0.65	uM	NA	NA	NA	NULL
+(Bachmann, 2001, 10.1007/s002100100474)	S9947	KV1.5	CHO	two-electrode voltage-clamp	IC50	0.42	uM	NA	NA	NA	NULL
+(Lagrutta, 2006, 10.1124/jpet.106.101162)	DPO-1	KV1.5	CHO	whole-cell patch clamp technique	IC50 @ 0.1Hz	0.16	uM	NA	NA	NA	NULL
+(Lagrutta, 2006, 10.1124/jpet.106.101162)	DPO-1	KV1.5	CHO	whole-cell patch clamp technique	Kd	0.6	uM	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	fasudil	KCNQ4	HEK293	whole-cell patch clamp technique	EC50	12.9	uM	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	fasudil	KCNQ4/5	HEK293	whole-cell patch clamp technique	EC50	15.7	uM	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	fasudil	KCNQ2/3	HEK293	whole-cell patch clamp technique	EC50	No Effect	uM	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	fasudil	KCNQ2/3	HEK293	whole-cell patch clamp technique	%current	-14	%	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	fasudil	KCNQ4	HEK293	whole-cell patch clamp technique	ΔV1/2@30uM	-5.9	mV	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	retigabine	KCNQ4	HEK293	whole-cell patch clamp technique	ΔV1/2@10uM	-14.7	mV	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	fasudil	KCNQ4/5	HEK293	whole-cell patch clamp technique	ΔV1/2@30uM	-6.6	mV	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	retigabine	KCNQ4/5	HEK293	whole-cell patch clamp technique	ΔV1/2@10uM	-16.6	mV	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	fasudil	KCNQ2	HEK293	whole-cell patch clamp technique	ΔV1/2@30uM	No effect	mV	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	retigabine	KCNQ2	HEK293	whole-cell patch clamp technique	ΔV1/2@10uM	-52.8	mV	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	fasudil	KCNQ2/3	HEK293	whole-cell patch clamp technique	ΔV1/2@30uM	No effect	mV	NA	NA	NA	NULL
+(Zhang, 2006, 10.1111/bph.13639)	retigabine	KCNQ2/3	HEK293	whole-cell patch clamp technique	ΔV1/2@10uM	-32.8	mV	NA	NA	NA	NULL
+(Punke, 2007, 10.1213/01.ane.0000260310.63117.a2)	amitriptyline	KCNQ2/3	CHO	patch-clamp technique	IC50	10	uM	NA	NA	NA	NULL
+(Peretz, 2005, 10.1124/mol.104.007112)	Diclofenac	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	2.6	uM	NA	NA	NA	NULL
+(Peretz, 2005, 10.1124/mol.104.007112)	Meclofenamic acid	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	25	uM	NA	NA	NA	NULL
+(Peretz, 2005, 10.1124/mol.104.007112)	Meclofenamic acid	KCNQ2/3	Xenopus oocytes	whole-cell patch clamp technique	EC50	11.7	uM	NA	NA	NA	NULL
+(Peretz, 2005, 10.1124/mol.104.007112)	Diclofenac	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2@200uM	-10.4	uV	NA	NA	NA	NULL
+(Peretz, 2005, 10.1124/mol.104.007112)	Meclofenamic acid	KCNQ2/3	Xenopus oocytes	whole-cell patch clamp technique	ΔV1/2@25uM	-15.9	mV	NA	NA	NA	NULL
+(Peretz, 2005, 10.1124/mol.104.007112)	Meclofenamic acid	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2@100uM	-22.7	mV	NA	NA	NA	NULL
+(Peretz, 2005, 10.1124/mol.104.007112)	Meclofenamic acid	KCNQ2	CHO	whole-cell patch clamp technique	ΔV1/2@50uM	-26.9	mV	NA	NA	NA	NULL
+(Peretz, 2005, 10.1124/mol.104.007112)	Meclofenamic acid	KCNQ3	CHO	whole-cell patch clamp technique	ΔV1/2@50uM	-15	mV	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Diclofenac	KCNQ2/3	CHO	whole-cell patch clamp technique	NA	2.6	uM	EC50	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_1	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_2	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	7	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_3	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_4	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_5	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_6	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	14	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_7	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	17	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_8	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	18	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_9	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_10	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_11	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_12	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_13	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_14	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_15	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	22	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Meclofenamic acid	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	25	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_16	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	3	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_17	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	9	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_18	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	6	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_19	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_20	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Diclofenac	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-14.5	uM	EC50	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_1	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_2	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-12.6	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_3	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_4	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-31.3	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_5	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-12.2	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_6	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-18.7	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_7	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-4.1	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_8	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_9	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_10	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_11	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_12	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_13	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_14	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_15	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-31.1	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Meclofenamic acid	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-22.7	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_16	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-31	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_17	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-8.4	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_18	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-5.5	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_19	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	-3.7	uM	NA	NA	NA	NULL
+(Peretz, 2007, 10.1371/journal.pone.0001332)	Peretz_Dec2007_20	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔV1/2	n/a	uM	NA	NA	NA	NULL
+(Schrøder, 2001, 10.1016/S0028-3908(01)00029-6)	Oxindole (BMS-204352)	KCNQ4	HEK293	whole-cell patch clamp technique	EC50	2.4	uM	NA	NA	NA	NULL
+(Schrøder, 2001, 10.1016/S0028-3908(01)00029-6)	retigabine	KCNQ4	HEK293	whole-cell patch clamp technique	EC50	1.4	uM	NA	NA	NA	NULL
+(Korsgaard, 2005, 10.1124/jpet.105.083923)	Oxindole (BMS-204352)	KCNQ4	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-19	mV	NA	NA	NA	NULL
+(Korsgaard, 2005, 10.1124/jpet.105.083923)	Oxindole (BMS-204352)-R	KCNQ4	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	4	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ1	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-5.7	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-13.8	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ3 (rat)	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-7.8	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ4	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-20.4	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2/3	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-11.5	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ3/5	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-7.8	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2(A235T)	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	32.3	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2(W236L)	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-4	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	retigabine	KCNQ1	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-2.1	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	retigabine	KCNQ2	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-40	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	retigabine	KCNQ3 (rat)	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-37.9	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	retigabine	KCNQ4	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-27.3	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	retigabine	KCNQ2/3	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-35.6	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	retigabine	KCNQ3/5	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-8.7	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	retigabine	KCNQ2(A235T)	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-7.6	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	retigabine	KCNQ2(W236L)	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-3	mV	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ1	HEK293	whole-cell patch clamp technique	ΔT(activation) @ 10um	63	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2	HEK293	whole-cell patch clamp technique	ΔT(activation) @ 10um	-16	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ3 (rat)	HEK293	whole-cell patch clamp technique	ΔT(activation) @ 10um	-19	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ4	HEK293	whole-cell patch clamp technique	ΔT(activation) @ 10um	-5	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2/3	HEK293	whole-cell patch clamp technique	ΔT(activation) @ 10um	-11	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ3/5	HEK293	whole-cell patch clamp technique	ΔT(activation) @ 10um	-16	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ1	HEK293	whole-cell patch clamp technique	ΔT(deactivation) @ 10um	103	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2	HEK293	whole-cell patch clamp technique	ΔT(deactivation) @ 10um	25	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ3 (rat)	HEK293	whole-cell patch clamp technique	ΔT(deactivation) @ 10um	35	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ4	HEK293	whole-cell patch clamp technique	ΔT(deactivation) @ 10um	30	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2/3	HEK293	whole-cell patch clamp technique	ΔT(deactivation) @ 10um	24	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ3/5	HEK293	whole-cell patch clamp technique	ΔT(deactivation) @ 10um	46	ms	NA	NA	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ1	HEK293	whole-cell patch clamp technique	IC50	4	uM	NA	recorded at -20mV	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2	HEK293	whole-cell patch clamp technique	EC50	3.09	uM	NA	recorded at -20mV	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ3	HEK293	whole-cell patch clamp technique	EC50	Non-significant	uM	NA	recorded at -20mV	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ4	HEK293	whole-cell patch clamp technique	EC50	3.37	uM	NA	recorded at -20mV	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ3/5	HEK293	whole-cell patch clamp technique	EC50	2.27	uM	NA	recorded at -20mV	NA	NULL
+(Du, 2011, 10.1111/j.1476-5381.2011.01483.x)	celecoxib	KCNQ2/3	HEK293	whole-cell patch clamp technique	EC50	4.95	uM	NA	recorded at -20mV	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ1	CHO	Ionworks automated electrophysicological Assay	EC50	>30	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ1/E1	CHO	Ionworks automated electrophysicological Assay	EC50	>30	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ2	CHO	Ionworks automated electrophysicological Assay	EC50	330	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ2/3	CHO	Ionworks automated electrophysicological Assay	EC50	370	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ4	CHO	Ionworks automated electrophysicological Assay	EC50	510	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ1	CHO	Tl+ Flux Assay	EC50	>30	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ1/E1	CHO	Tl+ Flux Assay	EC50	>30	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ2	CHO	Tl+ Flux Assay	EC50	360	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ3	CHO	Tl+ Flux Assay	EC50	>30	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ2/3	CHO	Tl+ Flux Assay	EC50	not/determined	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ4	CHO	Tl+ Flux Assay	EC50	2400	nM	NA	NA	NA	NULL
+(Yu, 2011, 10.1021/cn200065b)	ML-213	KCNQ5	CHO	Tl+ Flux Assay	EC50	>30	nM	NA	NA	NA	NULL
+(Teng, 2016, 10.1038/aps.2016.33)	QO58-lysine	KCNQ2/3	HEK293	whole-cell patch clamp technique	EC50	1.2	uM	NA	NA	NA	NULL
+(Teng, 2016, 10.1038/aps.2016.33)	QO58-lysine	KCNQ2/3	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-28.4	uM	NA	NA	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ1	HEK293	whole-cell patch clamp technique	EC50	7	uM	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ2	HEK293	whole-cell patch clamp technique	EC50	1.3	uM	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ3	HEK293	whole-cell patch clamp technique	EC50	n/a	uM	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ4	HEK293	whole-cell patch clamp technique	EC50	0.6	uM	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ2/3	CHO	whole-cell patch clamp technique	EC50	2.3	uM	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ3/5	HEK293	whole-cell patch clamp technique	EC50	5.2	uM	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ1	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	21.7	mV	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ2	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	56.8	mV	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ3	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	-2.7	mV	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ4	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	58.7	mV	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ3/5	HEK293	whole-cell patch clamp technique	ΔV1/2 @ 10uM	47.4	mV	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ1	HEK293	whole-cell patch clamp technique	ΔT activation (-40mV)	52.5	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ2	HEK293	whole-cell patch clamp technique	ΔT activation (-40mV)	41	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ3	HEK293	whole-cell patch clamp technique	ΔT activation (-40mV)	8.69999999999999	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ4	HEK293	whole-cell patch clamp technique	ΔT activation (-40mV)	66.1	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔT activation (-40mV)	103.5	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ3/5	HEK293	whole-cell patch clamp technique	ΔT activation (-40mV)	54	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ1	HEK293	whole-cell patch clamp technique	ΔT deactivation (-120mV)	53	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ2	HEK293	whole-cell patch clamp technique	ΔT deactivation (-120mV)	81.4	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ3	HEK293	whole-cell patch clamp technique	ΔT deactivation (-120mV)	5.4	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ4	HEK293	whole-cell patch clamp technique	ΔT deactivation (-120mV)	307.9	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ2/3	CHO	whole-cell patch clamp technique	ΔT deactivation (-120mV)	250.2	ms	NA	recorded at -40mV	NA	NULL
+(Zheng, 2016, 10.1111/j.1476-5381.2012.02232.x)	QO58	KCNQ3/5	HEK293	whole-cell patch clamp technique	ΔT deactivation (-120mV)	221.1	ms	NA	recorded at -40mV	NA	NULL
+(Chen, 2014, 10.1124/jpet.114.217703)	NS1643	KCNQ2	CHO	whole-cell patch clamp	EC50	2.44	uM	NA	NA	NA	NULL
+(Chen, 2014, 10.1124/jpet.114.217703)	NS1643	KCNQ1	CHO	whole-cell patch clamp	ΔV1/2 @ 30uM	-10	mV	NA	NA	NA	NULL
+(Chen, 2014, 10.1124/jpet.114.217703)	NS1643	KCNQ2	CHO	whole-cell patch clamp	ΔV1/2 @ 30uM	-30	mV	NA	NA	NA	NULL
+(Chen, 2014, 10.1124/jpet.114.217703)	NS1643	KCNQ3	CHO	whole-cell patch clamp	ΔV1/2 @ 30uM	n/a	mV	NA	NA	NA	NULL
+(Chen, 2014, 10.1124/jpet.114.217703)	NS1643	KCNQ4	CHO	whole-cell patch clamp	ΔV1/2 @ 30uM	-17	mV	NA	NA	NA	NULL
+(Chen, 2014, 10.1124/jpet.114.217703)	NS1643	KCNQ2/3	CHO	whole-cell patch clamp	ΔV1/2 @ 30uM	-10	mV	NA	NA	NA	NULL
+(Zheng, 2015, 10.1097/j.pain.0000000000000122)	benzbromarone	KCNQ2	CHO	whole-cell patch clamp	EC50	4.32	uM	NA	NA	NA	NULL
+(Zheng, 2015, 10.1097/j.pain.0000000000000122)	benzbromarone	KCNQ2	CHO	whole-cell patch clamp	ΔV1/2 @ 10uM	-46.1	mV	NA	NA	NA	NULL
+(Zheng, 2015, 10.1097/j.pain.0000000000000122)	benzbromarone	KCNQ2(R198A)	CHO	whole-cell patch clamp	EC50	28.2	uM	NA	NA	NA	NULL
+(Zheng, 2015, 10.1097/j.pain.0000000000000122)	benzbromarone	KCNQ1	CHO	whole-cell patch clamp	ΔV1/2 @ 10uM	-17	mV	NA	NA	NA	NULL
+(Zheng, 2015, 10.1097/j.pain.0000000000000122)	benzbromarone	KCNQ3(A278T)	CHO	whole-cell patch clamp	ΔV1/2 @ 10uM	-10	mV	NA	NA	NA	NULL
+(Zheng, 2015, 10.1097/j.pain.0000000000000122)	benzbromarone	KCNQ4	CHO	whole-cell patch clamp	ΔV1/2 @ 10uM	-38	mV	NA	NA	NA	NULL
+(Zheng, 2015, 10.1097/j.pain.0000000000000122)	benzbromarone	KCNQ5	CHO	whole-cell patch clamp	ΔV1/2 @ 10uM	-25	mV	NA	NA	NA	NULL
+(Zheng, 2015, 10.1097/j.pain.0000000000000122)	benzbromarone	KCNQ2/3	CHO	whole-cell patch clamp	ΔV1/2 @ 10uM	-37	mV	NA	NA	NA	NULL
+(Zheng, 2015, 10.1097/j.pain.0000000000000122)	benzbromarone	KCNQ1/E1	CHO	whole-cell patch clamp	ΔV1/2 @ 10uM	-1	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q1 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−1.8	mV	NA	alot of mutation info to get an idea of how the pore region affects sensetivity in this paper	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q2 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−17.1	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−39.4	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q4 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−4.6	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q5 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−5.1	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q1 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−3,5	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q2 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−36.7	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−43.7	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q4 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−24.8	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q5 wild-type	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−20.0	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3-A253V	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−35.1	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3-I254V	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−25.2	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3-C255F	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−36.7	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3-A256I	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−25.5	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3-S258R	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−40.9	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3-K259Q	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−34.0	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3-A264T	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−31.0	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3-W265L	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	0.3	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q2-W236L	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−1.1	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q4-W242L	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	1.3	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q5-W235L	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	0.9	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q1-L266W	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 10 μm RGB)	−4.1	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q3-W265L	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 100 μm RGB)	0.5	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q2-W236L	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 100 μm RGB)	−1.7	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q4-W242L	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 100 μm RGB)	1.2	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q5-W235L	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 100 μm RGB)	−1.7	mV	NA	NA	NA	NULL
+(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	retigabine	Q1-L266W	Xenopus laevis oocytes	two-electrode voltage-clamp	ΔV1/2 (mV; 100 μm RGB)	−7.9	mV	NA	NA	NA	NULL
+(Larsson, 2020, 10.1085/jgp.202012576)	ARA-S	KCNQ2/3	Xenopus oocytes	Two-electrode voltage clamp	EC50	7	uM	NA	Binds to R1 or R2 on the S4	NA	NULL
+(Larsson, 2020, 10.1085/jgp.202012576)	ARA-S	KCNQ2/3	Xenopus oocytes	Two-electrode voltage clamp	ΔV1/2 @ 10uM	-31.9	mV	NA	NA	NA	NULL
+(Larsson, 2020, 10.1085/jgp.202012576)	NAGABA	KCNQ2/3	Xenopus oocytes	Two-electrode voltage clamp	EC50	4	uM	NA	NA	NA	NULL
+(Larsson, 2020, 10.1085/jgp.202012576)	NAGABA	KCNQ2/3	Xenopus oocytes	Two-electrode voltage clamp	ΔV1/2 @ 10uM	-20.8	mV	NA	NA	NA	NULL
+(Larsson, 2020, 10.1085/jgp.202012576)	retigabine	KCNQ2/3	Xenopus oocytes	Two-electrode voltage clamp	ΔV1/2 @ 3uM	-21.7	mV	NA	NA	NA	NULL
+(Larsson, 2020, 10.1085/jgp.202012576)	retigabine	KCNQ2/3 (W265L)	Xenopus oocytes	Two-electrode voltage clamp	ΔV1/2 @ 3uM	na	mV	NA	NA	NA	NULL
+(Manville, 2018, 10.1038/s41467-018-04266-w)	GABA	KCNQ3	Xenopus laevis oocytes	Two-electrode voltage clamp	EC50	1	uM	NA	NA	NA	NULL
+(Manville, 2018, 10.1038/s41467-018-04266-w)	GABA	KCNQ5	Xenopus laevis oocytes	Two-electrode voltage clamp	EC50	0.06	uM	NA	NA	NA	NULL
+(Manville, 2018, 10.1038/s41467-018-04266-w)	GABA	KCNQ2/3	Xenopus laevis oocytes	Two-electrode voltage clamp	EC50	0.85	uM	NA	NA	NA	NULL
+(Manville, 2018, 10.1038/s41467-018-04266-w)	BGABOB	KCNQ2/3	Xenopus laevis oocytes	Two-electrode voltage clamp	EC50	0.12	uM	NA	NA	NA	NULL
+(Manville, 2018, 10.1038/s41467-018-04266-w)	BHB	KCNQ2/3	Xenopus laevis oocytes	Two-electrode voltage clamp	EC50	0.94	uM	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ1	CHO	standard whole-cell	ΔV1/2 @ 10uM	-23.37	mV	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ1/E1	CHO	standard whole-cell	ΔV1/2 @ 10uM	-66.05	mV	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ2	CHO	standard whole-cell	ΔV1/2 @ 10uM	-40.05	mV	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ3	CHO	standard whole-cell	ΔV1/2 @ 10uM	n/a	mV	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ2/3	CHO	standard whole-cell	ΔV1/2 @ 10uM	-27.66	mV	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ4	CHO	standard whole-cell	ΔV1/2 @ 10uM	-68.77	mV	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ1(R243C)	CHO	standard whole-cell	ΔV1/2 @ 10uM	-22.41	mV	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ1(R243C)/E1	CHO	standard whole-cell	ΔV1/2 @ 10uM	3.9	mV	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ1(R539W)	CHO	standard whole-cell	ΔV1/2 @ 10uM	-30.83	mV	NA	NA	NA	NULL
+(Zheng, 2012, 10.1371/journal.pone.0051820)	Hexachlorophene	KCNQ1(R539W)/E1	CHO	standard whole-cell	ΔV1/2 @ 10uM	-29.35	mV	NA	NA	NA	NULL
+(Mattmann, 2012, 10.1016/j.bmcl.2012.07.060)	ML-277	KCNQ1	CHO	automated patch clamp	EC50	260	uM	NA	NA	NA	NULL
+(Abitbol, 1999, 10.1093/emboj/18.15.4137)	(DIDS)	KCNQ1	Xenopus oocytes	two‐electrode voltage‐clamp	ΔV1/2 @ 100uM	-16.7	mV	NA	NA	NA	NULL
+(Salata, 1998, 10.1124/mol.54.1.220)	L-364,373 (R-L3)	KCNQ1	guinea pig ventricular myocytes	Wholecell voltage-clamp	ΔV1/2 @ 0.1uM	-16.2	mV	NA	NA	NA	NULL
+(Salata, 1998, 10.1124/mol.54.1.220)	L-364,373 (R-L3)	KCNQ2	guinea pig ventricular myocytes	Wholecell voltage-clamp	ΔV1/2 @ 1uM	-24.1	mV	NA	NA	NA	NULL
+(Jow, 2006, 10.1089/adt.2006.4.443)	XE-991	KCNQ1/E1	CHO	Rb+ efflux	IC50	1.2	uM	NA	NA	NA	NULL
+(Jow, 2006, 10.1089/adt.2006.4.443)	chromanol 293B	KCNQ1/E1	CHO	Rb+ efflux	IC50	1.1	uM	NA	NA	NA	NULL
+(Jow, 2006, 10.1089/adt.2006.4.443)	barium	KCNQ1/E1	CHO	Rb+ efflux	IC50	4.8	uM	NA	NA	NA	NULL
+(Jow, 2006, 10.1089/adt.2006.4.443)	TEA	KCNQ1/E1	CHO	Rb+ efflux	IC50	58	mM	NA	NA	NA	NULL
+(Jow, 2006, 10.1089/adt.2006.4.443)	L-364,373 (R-L3)	KCNQ1/E1	CHO	The whole-cell patch clamp	ΔV1/2	-20	mV	NA	NA	NA	NULL
+(Jow, 2006, 10.1089/adt.2006.4.443)	L-364,373 (R-L3)	KCNQ1/E1	CHO	Rb+ efflux	EC50	0.62	uM	NA	NA	NA	NULL
+(Jow, 2006, 10.1089/adt.2006.4.443)	chromanol 293B	KCNQ1/E1	CHO	The whole-cell patch clamp	IC50	4.5	uM	NA	NA	NA	NULL
+(Lerche, 2007, 10.1124/mol.106.031682)	chromanol 293B	KCNQ1/E1	Xenopus laevis oocytes	Two-electrode voltage clamp	IC50	26.9	uM	NA	Mutation Studies suggest Novel binding site (T312, I337, F340) for compound at the base of the selectivity filter. chromanol R-group pharmacophore	NA	NULL
+(Lerche, 2007, 10.1124/mol.106.031682)	chromanol 293B	KCNQ1	Xenopus laevis oocytes	Two-electrode voltage clamp	IC50	6.9	uM	NA	NA	NA	NULL
+(Lerche, 2007, 10.1124/mol.106.031682)	chromanol 293B	KCNQ2	Xenopus laevis oocytes	Two-electrode voltage clamp	% inhibition at 100 uM	5	%	NA	NA	NA	NULL
+(Lerche, 2007, 10.1124/mol.106.031682)	chromanol 293B	KCNQ3	Xenopus laevis oocytes	Two-electrode voltage clamp	% inhibition at 100 uM	5	%	NA	NA	NA	NULL
+(Lerche, 2007, 10.1124/mol.106.031682)	chromanol 293B	KCNQ4	Xenopus laevis oocytes	Two-electrode voltage clamp	% inhibition at 100 uM	10	%	NA	NA	NA	NULL
+(Lerche, 2007, 10.1124/mol.106.031682)	chromanol 293B	KCNQ5	Xenopus laevis oocytes	Two-electrode voltage clamp	% inhibition at 100 uM	40	%	NA	NA	NA	NULL
+(Lerche, 2007, 10.1124/mol.106.031682)	chromanol 293B	KCNQ2/3	Xenopus laevis oocytes	Two-electrode voltage clamp	% inhibition at 100 uM	5	%	NA	NA	NA	NULL
+(Lerche, 2007, 10.1124/mol.106.031682)	chromanol 293B	KCNQ3/5	Xenopus laevis oocytes	Two-electrode voltage clamp	% inhibition at 100 uM	25	%	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	KCNQ1/E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	15.2	uM	NA	mutation studies describe a novel  ginseoside binding site with key residues being  K318 V319,	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	T312S + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	15.2	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	K318E + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	32.4	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	K318G + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	19.2	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	K318V + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	30.8	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	K318Y + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	N.D.	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	V319E + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	35.1	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	V319I + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	41.4	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	V319K + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	24.7	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	V319Y + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	N.D.	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	P320A + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	N.C.	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	Q321A + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	16.1	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	T322A + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	N.C.	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	A336T + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	10.7	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	I337A + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	10.4	uM	NA	NA	NA	NULL
+(Choi, 2010, 10.1016/j.ejphar.2010.04.001)	ginsenoside Rg3	F339A + E1	Xenopus laevis oocytes	two-electrode voltage-clamp	EC50	31.5	uM	NA	NA	NA	NULL
+(Choi, 2013, 10.5142/jgr.2013.37.324)	protopanaxatriol (PPT)	KCNQ1	Xenopus laevis oocytes	Two-electrode voltage clamp	IC50	10	uM	NA	ginsenoside binding site likely	NA	NULL
+(Choi, 2013, 10.5142/jgr.2013.37.324)	Compound K (CK)	KCNQ1	Xenopus laevis oocytes	Two-electrode voltage clamp	IC50	27.65	uM	NA	ginsenoside binding site likely	NA	NULL
+(Liu, 2007, 10.1016/j.neuropharm.2007.11.012)	mepyramine	KCNQ1	HEK293/ Rat SCG neuron	whole cell patch clamp	IC50	59.2	uM	NA	NA	0	NULL
+(Liu, 2007, 10.1016/j.neuropharm.2007.11.012)	mepyramine	KCNQ2	HEK293/ Rat SCG neuron	whole cell patch clamp	IC50	20.7	uM	NA	NA	0	NULL
+(Liu, 2007, 10.1016/j.neuropharm.2007.11.012)	mepyramine	KCNQ3	HEK293/ Rat SCG neuron	whole cell patch clamp	IC50	9.1	uM	NA	NA	0	NULL
+(Liu, 2007, 10.1016/j.neuropharm.2007.11.012)	mepyramine	KCNQ4	HEK293/ Rat SCG neuron	whole cell patch clamp	IC50	24.5	uM	NA	NA	0	NULL
+(Liu, 2007, 10.1016/j.neuropharm.2007.11.012)	mepyramine	KCNQ2/3	HEK293/ Rat SCG neuron	whole cell patch clamp	IC50	12.5	uM	NA	predicted to directly inhibit KCNQ channels from outside the membrane	0	NULL
+(Liu, 2007, 10.1016/j.neuropharm.2007.11.012)	mepyramine	KCNQ3/5	HEK293/ Rat SCG neuron	whole cell patch clamp	IC50	4.2	uM	NA	NA	0	NULL
+(Liu, 2007, 10.1016/j.neuropharm.2007.11.012)	mepyramine	M channel	HEK293/ Rat SCG neuron	whole cell patch clamp	IC50	21.5	uM	NA	NA	0	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_6	KCNQ2/3	CHO	Rb+ efflux assay	EC50	2.27	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_7	KCNQ2/3	CHO	Rb+ efflux assay	EC50	1.46	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_8	KCNQ2/3	CHO	Rb+ efflux assay	EC50	-	uM	NA	retigabine binding site predicted	0	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_9	KCNQ2/3	CHO	Rb+ efflux assay	EC50	-	uM	NA	retigabine binding site predicted	0	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_10	KCNQ2/3	CHO	Rb+ efflux assay	EC50	-	uM	NA	retigabine binding site predicted	0	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_11	KCNQ2/3	CHO	Rb+ efflux assay	EC50	-	uM	NA	retigabine binding site predicted	0	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_12	KCNQ2/3	CHO	Rb+ efflux assay	EC50	-	uM	NA	retigabine binding site predicted	0	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_13	KCNQ2/3	CHO	Rb+ efflux assay	EC50	-	uM	NA	retigabine binding site predicted	0	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_14	KCNQ2/3	CHO	Rb+ efflux assay	EC50	-	uM	NA	retigabine binding site predicted	0	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_15	KCNQ2/3	CHO	Rb+ efflux assay	EC50	1.25	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_16	KCNQ2/3	CHO	Rb+ efflux assay	EC50	4.98	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_17	KCNQ2/3	CHO	Rb+ efflux assay	EC50	0.06	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_18	KCNQ2/3	CHO	Rb+ efflux assay	EC50	0.15	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_19	KCNQ2/3	CHO	Rb+ efflux assay	EC50	2.33	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_20	KCNQ2/3	CHO	Rb+ efflux assay	EC50	1.93	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_21	KCNQ2/3	CHO	Rb+ efflux assay	EC50	6.19	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_22	KCNQ2/3	CHO	Rb+ efflux assay	EC50	4.29	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_23	KCNQ2/3	CHO	Rb+ efflux assay	EC50	0.6	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_24	KCNQ2/3	CHO	Rb+ efflux assay	EC50	0.57	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_25	KCNQ2/3	CHO	Rb+ efflux assay	EC50	0.23	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_26	KCNQ2/3	CHO	Rb+ efflux assay	EC50	0.58	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_27	KCNQ2/3	CHO	Rb+ efflux assay	EC50	0.16	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_28	KCNQ2/3	CHO	Rb+ efflux assay	EC50	19.3	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_29	KCNQ2/3	CHO	Rb+ efflux assay	EC50	2.06	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_30	KCNQ2/3	CHO	Rb+ efflux assay	EC50	0.21	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	retigabine	KCNQ1	CHO	Rb+ efflux assay	EC50	-	uM	NA	retigabine binding site predicted	0	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Znpy pyrithione	KCNQ1	CHO	Rb+ efflux assay	EC50	2.27	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_17	KCNQ1	CHO	Rb+ efflux assay	EC50	49.29	uM	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_7	KCNQ2/3	CHO	whole cell patch clamp	Activation voltage change @ 100uM	+	increase over baseline	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_6	KCNQ2/3	CHO	whole cell patch clamp	Activation voltage change @ 100uM	+	increase over baseline	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_17	KCNQ2/3	CHO	whole cell patch clamp	Activation voltage change @ 10uM	+	increase over baseline	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	Qi_Mar2011_18	KCNQ2/3	CHO	whole cell patch clamp	Activation voltage change @ 10uM	+	increase over baseline	NA	retigabine binding site predicted	1	NULL
+(Qi, 2011, 10.1016/j.ejmech.2011.01.010)	retigabine	KCNQ2/3	CHO	whole cell patch clamp	Activation voltage change @ 10uM	+	increase over baseline	NA	retigabine binding site predicted	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-26	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	2.27	uM	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-28	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	1.46	uM	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-29	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	-	uM	NA	NA	0	NULL
+(Jia, 2011, 10.1159/000327384)	QO-30	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	-	uM	NA	NA	0	NULL
+(Jia, 2011, 10.1159/000327384)	QO-31	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	-	uM	NA	NA	0	NULL
+(Jia, 2011, 10.1159/000327384)	QO-32	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	-	uM	NA	NA	0	NULL
+(Jia, 2011, 10.1159/000327384)	QO-33	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	-	uM	NA	NA	0	NULL
+(Jia, 2011, 10.1159/000327384)	QO-34	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	-	uM	NA	NA	0	NULL
+(Jia, 2011, 10.1159/000327384)	QO-40	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	1.25	uM	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-41	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	4.98	uM	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	retigabine	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.34	uM	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-26	KCNQ2/3	CHO	voltage clamp	activity change @ 200uM	+	increase over baseline	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-28	KCNQ2/3	CHO	voltage clamp	activity change @ 100uM	+	increase over baseline	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-40	KCNQ2/3	CHO	voltage clamp	activity change @ 100uM	+	increase over baseline	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-41	KCNQ2/3	CHO	voltage clamp	activity change @ 30uM	+	increase over baseline	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	retigabine	KCNQ2/3	CHO	voltage clamp	activity change @ 30uM	+	increase over baseline	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-26	KCNQ2/3	CHO	voltage clamp	EC50	11.69	uM	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-28	KCNQ2/3	CHO	voltage clamp	EC50	4.54	uM	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-40	KCNQ2/3	CHO	voltage clamp	EC50	6.94	uM	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	QO-41	KCNQ2/3	CHO	voltage clamp	EC50	2.22	uM	NA	NA	1	NULL
+(Jia, 2011, 10.1159/000327384)	retigabine	KCNQ2/3	CHO	voltage clamp	EC50	0.86	uM	NA	NA	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ2/3	HEK293	whole cell patch clamp	EC50	9.8	nM	NA	100x more potent than retigabine	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ2	HEK293	whole cell patch clamp	EC50	26.3	nM	NA	NA	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ3	HEK293	whole cell patch clamp	EC50	11.2	nM	NA	NA	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ4	HEK293	whole cell patch clamp	EC50	28.8	nM	NA	NA	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ3/5	HEK293	whole cell patch clamp	EC50	11.1	nM	NA	NA	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ2/3	HEK293	whole cell patch clamp	ΔV1/2 @ 1uM	35	mV	NA	NA	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ2	HEK293	whole cell patch clamp	ΔV1/2 @ 1uM	41.3	mV	NA	NA	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ3	HEK293	whole cell patch clamp	ΔV1/2 @ 1uM	37.8	mV	NA	NA	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ4	HEK293	whole cell patch clamp	ΔV1/2 @ 1uM	23.7	mV	NA	NA	1	NULL
+(Zhang, 2019, 10.1096/fj.201802848RR)	SCR-2682	KCNQ3/5	HEK293	whole cell patch clamp	ΔV1/2 @ 1uM	30.2	mV	NA	NA	1	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	mallotoxin (MTX, Rottlerin)	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	9.9	uM	NA	binds to S4-S5 linker	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	3-ethyl-2-hydroxy-2-cyclopenten-1-one (CPT1)	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	0.8	uM	NA	binds to S4-S5 linker	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	glutaconic acid	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	activity change @100uM	-	increase over baseline	NA	NA	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	1-heptane	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	activity change @100uM	-	increase over baseline	NA	NA	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	isovaleric acid	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	activity change @100uM	-	increase over baseline	NA	NA	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	2-Mercaptophenol	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	activity change @100uM	-	increase over baseline	NA	NA	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	oleamide	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	activity change @100uM	-	increase over baseline	NA	NA	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	palmitic acid	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	activity change @100uM	-	increase over baseline	NA	NA	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	sorbic acid	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	activity change @100uM	-	increase over baseline	NA	NA	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	valeric acid	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	activity change @100uM	-	increase over baseline	NA	NA	0	NULL
+(De Silva, 2018, 10.1126/sciadv.aav0824)	mallotoxin (MTX, Rottlerin)	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	activity change @100uM	+	increase over baseline	NA	binds to S4-S5 linker	0	NULL
+(Chadha, 2012, 10.1111/j.1476-5381.2012.01863.x)	HMR1556	NA	Xenopus Leavis Oocytes	Two-electrode voltage clamp	NA	NULL	NA	NA	NA	NA	NULL
+(Chadha, 2012, 10.1111/j.1476-5381.2012.01863.x)	L-768,673	NA	Xenopus Leavis Oocytes	Two-electrode voltage clamp	NA	NULL	NA	NA	NA	NA	NULL
+(Chadha, 2012, 10.1111/j.1476-5381.2012.01863.x)	JNJ-39490282	NA	Xenopus Leavis Oocytes	Two-electrode voltage clamp	NA	NULL	NA	NA	NA	NA	NULL
+(Chadha, 2012, 10.1111/j.1476-5381.2012.01863.x)	mefenamic acid	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	NA	NULL	NA	NA	NA	NA	NULL
+(Chadha, 2012, 10.1111/j.1476-5381.2012.01863.x)	L-364373 (R-L3)	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	6.3	uM	NA	NA	NA	NULL
+(Manville, 2018, 10.1124/mol.118.112953)	gabapentin	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	4.2	nM	NA	binds below W265	1	NULL
+(Manville, 2018, 10.1124/mol.118.112953)	gabapentin	KCNQ3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	5.3	nM	NA	NA	1	NULL
+(Manville, 2018, 10.1124/mol.118.112953)	gabapentin	KCNQ5	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	1.9	nM	NA	NA	1	NULL
+(Manville, 2018, 10.1124/mol.118.112953)	pregabalin	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	glycine	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	binds below W265	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	GABA	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	220	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	retigabine	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	6.9	uM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	4FPG	KCNQ4	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	49	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	4FPG	KCNQ2	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	69	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	4FPG	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	90	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	4FPG	KCNQ3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	4FPG	KCNQ5	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	2FPG	KCNQ2	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	322	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	2FPG	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	2FPG	KCNQ3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	2FPG	KCNQ4	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	2FPG	KCNQ5	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	3FMSG	KCNQ3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	18	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	3FMSG	KCNQ5	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	171	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	3FMSG	KCNQ1	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	3FMSG	KCNQ2	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	3FMSG	KCNQ4	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	-	nM	NA	NA	0	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	2FPG	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	184	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	3FMSG	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	51	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	4FPG	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	61	nM	NA	NA	1	NULL
+(Manville, 2019, 10.1038/s42003-019-0648-3)	Retigabine	KCNQ2/3	Xenopus Leavis Oocytes	Two-electrode voltage clamp	EC50	6.87	nM	NA	NA	1	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	Lemmerhirt_2015_20	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	1.9	uM	NA	NA	1	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	retigabine	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	1.9	uM	NA	NA	1	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	Lemmerhirt_2015_21	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	2.6	uM	NA	NA	1	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	Lemmerhirt_2015_22	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	3.5	uM	NA	NA	1	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	Lemmerhirt_2015_5	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	>100	uM	NA	NA	0	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	Lemmerhirt_2015_7	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	>100	uM	NA	NA	0	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	Lemmerhirt_2015_27	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	>100	uM	NA	NA	0	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	Lemmerhirt_2015_4	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	>100	uM	NA	NA	0	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	Lemmerhirt_2015_28	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	>100	uM	NA	NA	0	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	Lemmerhirt_2015_23	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	>100	uM	NA	NA	0	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	acetaminophen	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	ND	uM	NA	NA	0	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	N-methylacetaminophen	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	ND	uM	NA	NA	0	NULL
+(Lemmerhirt, 2015, 10.1002/cmdc.201402442)	flupirtine	KCNQ2/3	HEK293	FluxOR Potassium Ion Channel Assay protocol	EC50	3.6	uM	NA	NA	1	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	flupirtine	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.9	uM	NA	NA	1	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_6a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	1.3	uM	NA	NA	1	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_6b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	1.8	uM	NA	NA	1	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_6c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.8	uM	NA	NA	1	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_6d	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.2	uM	NA	NA	1	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_7a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_7b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_7c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_7d	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_8a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_8b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_8c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Bock, 2018, 10.1039/C8OB02530D)	Bock_2018_8d	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1002/open.201800244)	flupirtine	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.918	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_9a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.26	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_9b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.253	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_9c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_9d	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_9e	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_9f	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_9g	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.015	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_9h	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.269	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_10a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_10b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_10c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1002/open.201800244)	Surur_Jan2019_10d	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	flupirtine	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.918	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	retigabine	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.147	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7d	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7e	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7f	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7g	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7h	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7i	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7j	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_7k	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_11a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	1.074	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_11b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	2.039	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_11c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	5.688	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_11d	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_11e	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_11f	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.133	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_11g	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	1.865	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_11h	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.109	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	3.26	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12d	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12e	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	12.92	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12f	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	2.13	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12g	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.36	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12h	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.3	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12i	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.023	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12j	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12k	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_12l	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_16a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.065	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_16b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.0038	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_21a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_21b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.073	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_22a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_22b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	>10	uM	NA	NA	0	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_22c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	4.814	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_22d	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.0042	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_22e	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.0037	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_25a	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.026	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_25b	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	0.0113	uM	NA	NA	1	NULL
+(Surur, 2019, 10.1039/C9OB00511K)	Surur_Apr2019_25c	KCNQ2/3	HEK293	FLIPR® Potassium Assay Kit	EC50	5.817	uM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	retigabine	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	536	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	PF-05020182	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	334	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	PF-05020183	KCNQ4	CHO	Two-electrode voltage clamp	EC50	625	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	PF-05020184	KCNQ3/5	CHO	Two-electrode voltage clamp	EC50	588	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	PF-05020185	KCNQ1/KCNE1	CHO	Two-electrode voltage clamp	EC50	1e+05	nM	NA	NA	0	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_2	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	334	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_3	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	24	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_4	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	50	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_5	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	62	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_6	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	64	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_7	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	110	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_8	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	164	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_9	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	206	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_10	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	358	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_11	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	961	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_12	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	1887	nM	NA	NA	0	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_13	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	9187	nM	NA	NA	0	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_14	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	40	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_15	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	162	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_16	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	304	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_17	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	343	nM	NA	NA	1	NULL
+(Davoren, 2015, 10.1016/j.bmcl.2015.04.074)	Davoren_2015_18	KCNQ2/3	CHO	Two-electrode voltage clamp	EC50	630	nM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_1	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	69.83	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_2	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	100	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_3	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	110.34	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_4	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	0.83	% @ 10uM	NA	NA	0	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_5	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	10.34	% @ 10uM	NA	NA	0	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_6	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	0.02	% @ 10uM	NA	NA	0	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_7	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	1.13	% @ 10uM	NA	NA	0	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_8	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	0.63	% @ 10uM	NA	NA	0	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_9	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	43.96	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_10	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	-47.16	% @ 10uM	NA	NA	0	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_11	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	151.94	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_12	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	149.12	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_13	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	168.2	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_14	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	41.2	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_15	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	88.34	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_16	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	29.74	% @ 10uM	NA	NA	0	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_17	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	42.64	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_18	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	52.06	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_19	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	88.34	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_20	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	0.28	% @ 10uM	NA	NA	0	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_21	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	5.11	% @ 10uM	NA	NA	0	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_22	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	138.84	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	retigabine	KCNQ2	CHO	fluorescence-based thallium influx assay	activation ratio	40.21	% @ 10uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	retigabine	KCNQ2	CHO	patch clamp	EC50	0.35	uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_2	KCNQ2	CHO	patch clamp	EC50	1.58	uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_3	KCNQ2	CHO	patch clamp	EC50	0.13	uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_11	KCNQ2	CHO	patch clamp	EC50	0.22	uM	NA	NA	1	NULL
+(Yang, 2018, 10.1016/j.bmcl.2018.04.040)	Yang_2018_22	KCNQ2	CHO	patch clamp	EC50	0.33	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_15	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.2	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_16	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.16	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_8	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.04	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_17	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.08	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_18	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.08	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_19	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.02	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_20	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.13	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_21	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.25	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_22	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.79	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_23	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	1.3	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_24	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.2	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_14	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.3	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_25	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.08	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_14	KCNQ2/3	CHO	SyncroPatch patch clamp	EC50	0.1	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_19	KCNQ2/3	CHO	SyncroPatch patch clamp	EC50	0.06	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_20	KCNQ2/3	CHO	SyncroPatch patch clamp	EC50	0.2	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_24	KCNQ2/3	CHO	SyncroPatch patch clamp	EC50	0.4	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_25	KCNQ2/3	CHO	SyncroPatch patch clamp	EC50	0.05	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	ML-213	KCNQ2/3	CHO	SyncroPatch patch clamp	EC50	0.04	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	ICA-27243	KCNQ2/3	CHO	SyncroPatch patch clamp	EC50	0.46	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_14	KCNQ3/5	CHO	SyncroPatch patch clamp	EC50	0.36	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_19	KCNQ3/5	CHO	SyncroPatch patch clamp	EC50	0.08	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_20	KCNQ3/5	CHO	SyncroPatch patch clamp	EC50	0.2	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_24	KCNQ3/5	CHO	SyncroPatch patch clamp	EC50	0.4	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_25	KCNQ3/5	CHO	SyncroPatch patch clamp	EC50	0.25	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	ML-213	KCNQ3/5	CHO	SyncroPatch patch clamp	EC50	0.5	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	ICA-27243	KCNQ3/5	CHO	SyncroPatch patch clamp	EC50	>10	uM	NA	NA	0	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_14	KCNQ4	CHO	SyncroPatch patch clamp	EC50	0.1	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_19	KCNQ4	CHO	SyncroPatch patch clamp	EC50	>10	uM	NA	NA	0	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_20	KCNQ4	CHO	SyncroPatch patch clamp	EC50	0.16	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_24	KCNQ4	CHO	SyncroPatch patch clamp	EC50	4	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Seefeld_2018_25	KCNQ4	CHO	SyncroPatch patch clamp	EC50	0.02	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	ML-213	KCNQ4	CHO	SyncroPatch patch clamp	EC50	1.6	uM	NA	NA	1	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	ICA-27243	KCNQ4	CHO	SyncroPatch patch clamp	EC50	>10	uM	NA	NA	0	NULL
+(Seefeld, 2018, 10.1016/j.bmcl.2018.09.036)	Retigabine	KCNQ2/3	CHO	Rb + Efflux Assay	EC50	0.32	uM	NA	NA	1	NULL
+(Greene, 2017, 10.1124/jpet.117.241679)	XE-991	KCNQ2/3	CHO	whole cell patch clamp	1/2 inhibition potential	-50.7	mV	NA	NA	1	NULL
+(Greene, 2017, 10.1124/jpet.117.241679)	linopirdine	KCNQ2/3	CHO	whole cell patch clamp	1/2 inhibition potential	-	mV	NA	NA	1	NULL
+(Greene, 2017, 10.1124/jpet.117.241679)	XE-991	KCNQ2	CHO	whole cell patch clamp	1/2 inhibition potential	-51	mV	NA	NA	1	NULL
+(Greene, 2017, 10.1124/jpet.117.241679)	linopirdine	KCNQ2	CHO	whole cell patch clamp	1/2 inhibition potential	-55.7	mV	NA	NA	1	NULL
+(Yu, 2018, 10.1177/1744806918793229)	XE-991	M current	rat DRG neuron	whole cell patch clamp	current vs control	1	pA/pF	NA	NA	NA	NULL
+(Tatulian, 2003, 10.1113/jphysiol.2003.039842)	retigabine	KCNQ2/3	CHO	whole cell patch clamp	Δ1/2 activation potential	-11.5	mV	NA	NA	1	NULL
+(Tatulian, 2001, 10.1523/JNEUROSCI.21-15-05535.2001)	retigabine	KCNQ2/3	CHO	whole cell patch clamp	EC50	1.9	uM	NA	NA	1	NULL
+(Tatulian, 2001, 10.1523/JNEUROSCI.21-15-05535.2001)	retigabine	KCNQ1	CHO	whole cell patch clamp	EC50	100	uM	NA	NA	0	NULL
+(Tatulian, 2001, 10.1523/JNEUROSCI.21-15-05535.2001)	retigabine	KCNQ2	CHO	whole cell patch clamp	EC50	2.5	uM	NA	NA	1	NULL
+(Tatulian, 2001, 10.1523/JNEUROSCI.21-15-05535.2001)	retigabine	KCNQ3	CHO	whole cell patch clamp	EC50	0.6	uM	NA	NA	1	NULL
+(Tatulian, 2001, 10.1523/JNEUROSCI.21-15-05535.2001)	retigabine	KCNQ4	CHO	whole cell patch clamp	EC50	5.2	uM	NA	NA	1	NULL
+(Redford, 2020, 10.1038/s42003-020-1089-8)	quercetin	KCNQ2	Xenopus laevis oocyte	Two-electrode voltage clamp	ΔV0.5activation	-3.4	mV	NA	NA	1	NULL
+(Redford, 2020, 10.1038/s42003-020-1089-8)	quercetin	KCNQ3	Xenopus laevis oocyte	Two-electrode voltage clamp	ΔV0.5activation	-4.2	mV	NA	NA	1	NULL
+(Redford, 2020, 10.1038/s42003-020-1089-8)	quercetin	KCNQ1	Xenopus laevis oocyte	Two-electrode voltage clamp	ΔV0.5activation	-20	mV	NA	NA	1	NULL
+(Redford, 2020, 10.1038/s42003-020-1089-8)	rutin	KCNQ1	Xenopus laevis oocyte	Two-electrode voltage clamp	ΔV0.5activation	-	mV	NA	NA	0	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	(E)-2-dodecenal	KCNQ2	Xenopus laevis oocyte	Two-electrode voltage clamp	EC50	60	uM	NA	NA	1	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	(E)-2-dodecenal	KCNQ2/3	Xenopus laevis oocyte	Two-electrode voltage clamp	NA	60	mV	NA	NA	NA	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	(E)-2-dodecenal	KCNQ2-W236L/KCNQ3	Xenopus laevis oocyte	Two-electrode voltage clamp	NA	5.07	mV	NA	NA	NA	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	(E)-2-dodecenal	KCNQ2/KCNQ3-W265L	Xenopus laevis oocyte	Two-electrode voltage clamp	NA	270	mV	NA	NA	NA	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	(E)-2-dodecenal	KCNQ3	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	-	difference from control	NA	NA	0	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	(E)-2-dodecenal	KCNQ1	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	+	difference from control	NA	NA	1	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	(E)-2-dodecenal	KCNQ1/KCNE1	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	+	difference from control	NA	NA	1	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	(E)-2-dodecenal	KCNQ1/KCNE3	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	+	difference from control	NA	NA	1	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	decanal	KCNQ2/3	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	-	NA	NA	NA	0	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	undecanal	KCNQ2/3	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	-	NA	NA	NA	0	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	(E)-2-undecenal	KCNQ2/3	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	-	NA	NA	NA	0	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	tridecanal	KCNQ2/3	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	-	NA	NA	NA	0	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	phytol	KCNQ2/3	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	-	NA	NA	NA	0	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	vanillic acid	KCNQ2/3	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	-	NA	NA	NA	0	NULL
+(Manville, 2019, 10.1096/fj.201900485R)	3,4-dihydroxybenzoic acid	KCNQ2/3	Xenopus laevis oocyte	Two-electrode voltage clamp	% change from control	-	NA	NA	NA	0	NULL
+(Mackie, 2008, 10.1124/jpet.107.135764)	arginine vasopressin	KCNQ ensamble	MASMCs	Whole Cell Patch-Clamp Recording	NA	inhibitor	NA	NA	NA	NA	NULL
+(Khammy, 2018, 10.1111/bph.14097)	4-Aminopyridine	KCNQ4	Xenopus laevis oocyte/HEK	Two-electrode voltage clamp	% change from control	+	NA	NA	NA	1	NULL
+(Khammy, 2018, 10.1111/bph.14097)	4-Aminopyridine	KCNQ5	Xenopus laevis oocyte/HEK	Two-electrode voltage clamp	% change from control	-	NA	NA	NA	0	NULL
+(Seebohm, 2003, 10.1124/mol.64.1.70)	L-735821	KCNQ1	Xenopus laevis oocytes	Two-electrode voltage clamp	IC50	173	nM	NA	NA	NA	NULL
+(Seebohm, 2003, 10.1124/mol.64.1.70)	L-735821	KCNQ1/KCNE1	Xenopus laevis oocytes	Two-electrode voltage clamp	IC50	37	nM	NA	decent amount of mutation work showing that residue identify and L-7 blocking are not corallated	NA	NULL
+(Liu, 2020, s42003-020-1104-0)	CP1	KCNQ1	Xenopus laevis oocytes	Two-electrode voltage clamp	EC50	8.73	uM	NA	NA	NA	NULL
+(SHANGHAI ZHIMENG BIOPHARMA INC, 2020, WO-2020238917-A1)	ztz240	KCNQ3	NA	NA	EC50	8.23	uM	NA	NA	NA	NULL
+(SHANGHAI ZHIMENG BIOPHARMA INC, 2020, WO-2020238917-A1)	szbi_Dec2020_A1	KCNQ3	NA	NA	EC50	0.083	uM	NA	NA	NA	NULL
+(SHANGHAI ZHIMENG BIOPHARMA INC, 2020, WO-2020238917-A1)	szbi_Dec2020_A2	KCNQ3	NA	NA	EC50	0.037	uM	NA	NA	NA	NULL
+(SHANGHAI ZHIMENG BIOPHARMA INC, 2020, WO-2020238917-A1)	szbi_Dec2020_A3	KCNQ3	NA	NA	EC50	0.271	uM	NA	NA	NA	NULL
+(SHANGHAI ZHIMENG BIOPHARMA INC, 2020, WO-2020238917-A1)	szbi_Dec2020_A4	KCNQ3	NA	NA	EC50	0.165	uM	NA	NA	NA	NULL
+(SHANGHAI ZHIMENG BIOPHARMA INC, 2020, WO-2020238917-A1)	szbi_Dec2020_A5	KCNQ3	NA	NA	EC50	0.133	uM	NA	NA	NA	NULL
+(SHANGHAI ZHIMENG BIOPHARMA INC, 2020, WO-2020238917-A1)	szbi_Dec2020_A6	KCNQ3	NA	NA	EC50	0.021	uM	NA	NA	NA	NULL
+(SHANGHAI ZHIMENG BIOPHARMA INC, 2020, WO-2020238917-A1)	szbi_Dec2020_A7	KCNQ3	NA	NA	EC50	0.016	uM	NA	NA	NA	NULL
+(SHANGHAI ZHIMENG BIOPHARMA INC, 2020, WO-2020238917-A1)	szbi_Dec2020_A8	KCNQ3	NA	NA	EC50	0.048	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	Peretz_Oct2020_NH29	KCNQ2/3	NA	NA	EC50	14	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	Peretz_Oct2020_NH34	KCNQ2/3	NA	NA	EC50	17.5	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	Peretz_Oct2020_NH43	KCNQ2/3	NA	NA	EC50	0.6	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	Peretz_Oct2020_NH66	KCNQ2/3	NA	NA	EC50	1	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	Peretz_Oct2020_NH82	KCNQ2/3	NA	NA	EC50	0.5	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	Peretz_Oct2020_NH83	KCNQ2/3	NA	NA	EC50	0.6	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	Peretz_Oct2020_NH91	KCNQ2/3	NA	NA	EC50	2	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	Peretz_Oct2020_NH101	KCNQ2/3	NA	NA	EC50	0.2	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	Peretz_Oct2020_NH110	KCNQ2/3	NA	NA	EC50	7.3	uM	NA	NA	NA	NULL
+(Peretz, 2020, US-20200308102-A1)	retigabine	KCNQ2/3	NA	NA	EC50	2	uM	NA	NA	NA	NULL
+(Szekeres, 2020, WO-2020163268-A1)	Szekeres_Aug2020_1	KCNQ2/3	NA	NA	EC50	2	uM	NA	NA	NA	NULL
+(Szekeres, 2020, WO-2020163268-A1)	Szekeres_Aug2020_2	KCNQ2/3	NA	NA	EC50	1.1	uM	NA	NA	NA	NULL
+(Szekeres, 2020, WO-2020163268-A1)	Szekeres_Aug2020_3	KCNQ2/3	NA	NA	EC50	0.1	uM	NA	NA	NA	NULL
+(Yue, 2016, 10.1038/aps.2015.142)	ZG2083	KCNQ2	CHO	Whole cell patch-clamp recording	EC50	1.37	uM	NA	NA	1	NULL
+(Yue, 2016, 10.1038/aps.2015.142)	ZG1732	KCNQ2	CHO	Whole cell patch-clamp recording	EC50	1.04	uM	NA	NA	1	NULL
+(Hou, 2019, 10.7554/eLife.48576)	ML-277	KCNQ1	Xenopus laevis oocytes	Two-electrode voltage clamp	EC50	260	nM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Retigabine	KCNQ2	CHO	Whole cell patch-clamp recording	EC50	0.93	uM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Retigabine	KCNQ2/3	CHO	Whole cell patch-clamp recording	EC50	1.72	nM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Retigabine	KCNQ3	CHO	Whole cell patch-clamp recording	EC50	3.9	uM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Retigabine	KCNQ4	CHO	Whole cell patch-clamp recording	EC50	1.98	nM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Ostacolo23a	KCNQ2	CHO	Whole cell patch-clamp recording	EC50	0.08	uM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Ostacolo23a	KCNQ2/3	CHO	Whole cell patch-clamp recording	EC50	0.21	nM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Ostacolo23a	KCNQ3	CHO	Whole cell patch-clamp recording	EC50	10.5	uM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Ostacolo23a	KCNQ4	CHO	Whole cell patch-clamp recording	EC50	0.1	nM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Ostacolo24a	KCNQ2	CHO	Whole cell patch-clamp recording	EC50	0.63	uM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Ostacolo24a	KCNQ2/3	CHO	Whole cell patch-clamp recording	EC50	0.34	nM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Ostacolo24a	KCNQ3	CHO	Whole cell patch-clamp recording	EC50	0.92	uM	NA	NA	1	NULL
+(Ostacolo, 2019, 10.1021/acs.jmedchem.9b00796)	Ostacolo24a	KCNQ4	CHO	Whole cell patch-clamp recording	EC50	0.08	nM	NA	NA	1	NULL

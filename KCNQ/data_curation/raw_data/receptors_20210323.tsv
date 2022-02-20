@@ -1,0 +1,291 @@
+gene_name	species	mutations	mutation_comment	reference	measurements
+KCNQ1	Human	Wildtype	NA	https://www.uniprot.org/uniprot/P51787	NA
+KCNQ2	Human	Wildtype	NA	https://www.uniprot.org/uniprot/O43526	NA
+KCNQ3	Human	Wildtype	NA	https://www.uniprot.org/uniprot/O43525	NA
+KCNQ4	Human	Wildtype	NA	https://www.uniprot.org/uniprot/P56696	NA
+KCNQ5	Human	Wildtype	NA	https://www.uniprot.org/uniprot/Q9NR82	NA
+KCNQ2/3	Human	Wildtype	NA	CorumID6712	NA
+KCNQ2	Human	R214D	NA	(Greene, 2017, 10.1124/jpet.117.241679)	NA
+KCNQ3	Human	A253V	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	I254V	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	C255F	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	A256I	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	S258R	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	K259Q	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	A264T	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	W265L	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ1	Human	wildtype	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ2	Human	wildtype	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	wildtype	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ4	Human	wildtype	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ5	Human	wildtype	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ2	Human	W236L	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ4	Human	W242L	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ5	Human	W235L	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ1	Human	L266W	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	(S5-P-S6;Q1)	replaced the pore-lining segments (S5–S6) of KCNQ3 with the corresponding stretch of KCNQ1	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	currents that were 10-fold larger than KCNQ3 currents (Figs. 1C, 2C) and that were not changed by applying 10 uM retigabine
+KCNQ1	Human	(S5-P-S6;Q3)	replaced the pore-lining segments (S5–S6) of KCNQ1 with the corresponding stretch of KCNQ3	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	did not yield measurable currents
+KCNQ3	Human	(TD;Q1)	extracellular “turret” domain from KCNQ1	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	gave large currents that were approximately 15- to 20-fold higher than those of KCNQ3 (Figs.1C, 3B,D) and activated at voltages at approximately 60 mV
+KCNQ3	Human	(P;Q1)	Pore domain from KCNQ1	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	gave large currents that were approximately 15- to 20-fold higher than those of KCNQ3 (Figs.1C, 3B,D) and activated at voltages at approximately 60 mV
+KCNQ3	Human	(pS5TD;Q1)	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	(P-S6;Q1)	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	(S5-TD;Q1)	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KCNQ3	Human	(dS5-S6;Q1)	NA	(Schenzer, 2005, 10.1523/JNEUROSCI.0128-05.2005)	NA
+KNCQ2	Human	W236L	NA	(Blom, 2009, 10.1371/journal.pone.0008251)	NA
+KNCQ4	Human	G285S	NA	(Blom, 2009, 10.1371/journal.pone.0008251)	NA
+KNCQ4	Human	W242L	NA	(Blom, 2009, 10.1371/journal.pone.0008251)	NA
+KNCQ2	Human	W236L	NA	(Blom, 2014, 10.1371/journal.pone.0100209)	NA
+KCNQ4	Human	W242L	NA	(Blom, 2014, 10.1371/journal.pone.0100209)	NA
+KCNQ2	Human	L275V	NA	(Blom, 2014, 10.1371/journal.pone.0100209)	NA
+KCNQ2	Human	L299V	NA	(Blom, 2014, 10.1371/journal.pone.0100209)	NA
+KCNQ4	Human	L305V	NA	(Blom, 2014, 10.1371/journal.pone.0100209)	NA
+KCNQ2	Human	W236L	NA	(Gao, 2010, 10.1074/jbc.M110.116392)	NA
+KCNQ2	Human	L249A	NA	(Gao, 2010, 10.1074/jbc.M110.116392)	NA
+KCNQ2	Human	L275A	NA	(Gao, 2010, 10.1074/jbc.M110.116392)	NA
+KCNQ2	Human	L249A/L275A	NA	(Gao, 2010, 10.1074/jbc.M110.116392)	NA
+KCNQ2	Human	A309C	NA	(Gao, 2010, 10.1074/jbc.M110.116392)	NA
+KCNQ2	Human	A309V	NA	(Gao, 2010, 10.1074/jbc.M110.116392)	NA
+KCNQ2	Human	A309G	NA	(Gao, 2010, 10.1074/jbc.M110.116392)	NA
+KCNQ2	Human	W236L	NA	(Manville, 2019, 10.1096/fj.201900485R)	NA
+KCNQ3	Human	W265L	NA	(Manville, 2019, 10.1096/fj.201900485R)	NA
+KCNQ2	Human	R213A	NA	(Manville, 2019, 10.1096/fj.201900485R)	NA
+KCNQ3	Human	R242A	NA	(Manville, 2019, 10.1096/fj.201900485R)	NA
+KCNQ2	Human	(S5-S6;Q1)	retained sensitivity to L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	(S5-P,Q2)	even more sensitive to L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	(pore loop;Q2)	insensitive to L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	(pore loop-S6;Q2)	insensitive to L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	T309S	Did not express	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	P343A	Did not express	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	G345A	Did not express	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	I346A	Did not express	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	L347A	Did not express	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	F335A	relatively normal	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	V310L	activated more slowly and was less blocked by L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	T312S	deactivated more slowly than wt channels but were inhibited only slightly by 3 uM L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	I337A	deactivated more slowly than wt channels but were inhibited only slightly by 3 uM L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	F339A	inactivated more than wt channels and were relatively insensitive to 3 uM L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	F340A	inactivated more than wt channels and were relatively insensitive to 3 uM L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	A344C	like wt w/out drug, 0.1 or 1 uM L-7 caused a 15 mV shift in the voltage dependence of activation	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	F340Y	insensitive to 10 uM L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ1	Human	I337V	insensitive to 10 uM L-7	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ2	Human	G301A, V302I, L275V	did not functionally express	(Seebohm, 2003, 10.1124/mol.64.1.70)	NA
+KCNQ2	Human	R207W	NA	(Xiong, 2007, 10.1038/nchembio874)	ZnPy could increase the overall currents of all three BFNC mutants
+KCNQ2	Human	Y284C	NA	(Xiong, 2007, 10.1038/nchembio874)	ZnPy could increase the overall currents of all three BFNC mutants
+KCNQ2	Human	A306T	NA	(Xiong, 2007, 10.1038/nchembio874)	ZnPy could increase the overall currents of all three BFNC mutants
+KCNQ2	Human	W236L	NA	(Xiong, 2008, 10.1073/pnas.0712256105)	RTG insensitive, but ZnPy still has efficacy
+KCNQ2	Human	I238A	NA	(Xiong, 2008, 10.1073/pnas.0712256105)	"non-conductive upon voltage depolarization; 100 uM RTG, membrane depolarization remains ineffective; 10 uM ZnPy currents similar to that of wild-type KCNQ2 channel; In the presence of ZnPy, it became sensitive to RTG, revealing a hyperpolarizing shift of the V1/2, accompanied by a slight reduction of current
+amplitudes"
+KCNE1	Human	WT	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	WT	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	C107A	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNQ1	Human	WT	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	del10-39,94-130	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	del39-43	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	A45C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	L46C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	Y47C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	I48C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	L49C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	M50C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	V51C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	L52C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	G53C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	F54C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	F55C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	G56C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	F57C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	F58C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	T59C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	L60C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	G61C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	I62C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	M63C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	L64C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	S65C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	Y66C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	I67C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	R68C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	S69C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	K70C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	K71C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	L72C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	E73C	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNE1	Rat	del73-129	NA	(Lerche, 2000, 10.1038/sj.bjp.0703734)	Measured 293B IC50 on Iks current
+KCNQ1	Human	A46T	Case 100% 0 0.6 Normal Normal 14	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V110I	Control 40% 30 Normal Severe LOF Dysfunctional 15	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	Y111C	Case 0% Absent Severe LOF Dysfunctional 16	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	L114P	Case 0% Absent Severe LOF Dysfunctional 16	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	P117L	Case 0% Impaired Severe LOF Dysfunctional 16	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	S140G	Case 150% Severe GOF Dysfunctional 17	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V141M	Case 300% 0 Severe GOF Dysfunctional 18	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	Q147R	Case 60% 0 Mild LOF Normal 19	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G168R	Case 5% Severe LOF Dysfunctional 20	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R174C	Case 47% 17 1 Mild LOF Dysfunctional 21	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	A178T	Case 41% 45 1.68 0.86 Impaired Severe LOF Dysfunctional 22	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G179S	Control 54% -12 Mild LOF Normal 20	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R190Q	Case 0% Severe LOF Dysfunctional 23	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	L191P	Case 22% 0 Impaired Severe LOF Dysfunctional 24	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	F193L	Case 80% 0 1.83 Severe LOF Dysfunctional 25	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	D202E	Case 11% 54.6 1 0.33 Severe LOF Dysfunctional 26	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	D202H	Case 41% 16.6 0.83 0.26 Normal Severe LOF Dysfunctional 26	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	D202N	Case 20% 23.8 0.55 0.09 Normal Severe LOF Dysfunctional 26	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	I204F	Case 23% 53.3 7.25 0.43 Normal Severe LOF Dysfunctional 26	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	I204M	Case 34% 36.1 1.16 0.65 Normal Severe LOF Dysfunctional 26	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	I204N	Case 32.9 2.47 0.7 Severe LOF Dysfunctional 26	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V205M	Case 36% 20 1.48 0.42 Severe LOF Dysfunctional 27	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V207M	Control 93% 7.1 1.4 1.2 Normal Normal 26	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	S209F	Case 35% -48.7 Severe LOF Dysfunctional 26	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	S209P	Case 200% -42.4 5.7 Severe GOF Dysfunctional 28	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V215M	Case 41% 20.2 Severe LOF Dysfunctional 26	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	S225L	Case 10% 11 Normal Severe LOF Dysfunctional 29	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R231C	Case 5% Severe LOF Dysfunctional 30	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R231H	Case 15% 40 Severe LOF Dysfunctional 30	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	I235N	Case 10% Severe LOF Dysfunctional 31	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	L236R	Case 0% 54 Impaired Severe LOF Dysfunctional 32	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R243C	Case 12% 67 1 Severe LOF Dysfunctional 21	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R243H	Case 13% Normal Severe LOF Dysfunctional 33	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	W248R	Case 0% Severe LOF Dysfunctional 34	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	L251P	Case 0% Normal Severe LOF Dysfunctional 35	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V254M	Case 7% 41.5 Severe LOF Dysfunctional 36	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	H258R	Case 5% -44 0.5 2.5 Impaired Severe LOF Dysfunctional 37	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R259C	Case 30% 10 Severe LOF Dysfunctional 38	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R259H	Case 200% 1 1.7 Normal Severe GOF Dysfunctional 39	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	E261D	Case 9% Severe LOF Dysfunctional 33	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	E261K	Case 5% Severe LOF Dysfunctional 34	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	T265I	Case 100% 8 2 Severe LOF Dysfunctional 14	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G269D	Case 0% Severe LOF Dysfunctional 40	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G269S	Case 15% 70.7 1 0.4 Impaired Severe LOF Dysfunctional 41	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G272V	Case 34% 10 Severe LOF Dysfunctional 42	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	F275S	Case 34% 27 1.5 2 Impaired Severe LOF Dysfunctional 43	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	S277L	Case 0% -8.7 Severe LOF Dysfunctional 44	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	F279I	Case 150% -25 0.42 1 Normal Severe GOF Dysfunctional 45	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	Y281C	Case 0% Normal Severe LOF Dysfunctional 29	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	A283T	Case 20% 9 Severe LOF Dysfunctional 46	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	F296S	Case 12% -10 Severe LOF Dysfunctional 14	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	A300T	Control 15% -19 Normal Severe LOF Dysfunctional 29	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	A302V	Case 5% Severe LOF Dysfunctional 14	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	W305S	Case 0% Severe LOF Dysfunctional 40	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V307L	Case 130% -18 0.52 Severe GOF Dysfunctional 47	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V310I	Case 0% 60 Severe LOF Dysfunctional 20	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	I313K	Case 0% Severe LOF Dysfunctional 48	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G314S	Case 12% Severe LOF Dysfunctional 49	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	Y315C	Case 0% Normal Severe LOF Dysfunctional 29	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	Y315S	Case 0% Severe LOF Dysfunctional 40	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G316E	Case 18% 0 Severe LOF Dysfunctional 14	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	P320A	Case 0% Severe LOF Dysfunctional 50	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	P320H	Case 0% Severe LOF Dysfunctional 50	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	T322A	Case 0% Impaired Severe LOF Dysfunctional 51	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	T322M	Case 0% Impaired Severe LOF Dysfunctional 51	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G325R	Case 0% Severe LOF Dysfunctional 52	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	S338F	Case 5% 12 Normal Severe LOF Dysfunctional 53	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	F339S	Case 4% 1 Normal Severe LOF Dysfunctional 53	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	A341V	Case 6% 60 5.59 0.29 Normal Severe LOF Dysfunctional 54	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	L342F	Case 0% Severe LOF Dysfunctional 40	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	P343S	Case 0% Severe LOF Dysfunctional 55	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	A344V	Case 100% 40 Severe LOF Dysfunctional 56	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	Q357R	Case 27% 20 3 1 Impaired Severe LOF Dysfunctional 57	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R360G	Case 20% Severe LOF Dysfunctional 14	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R366P	Case 0% 24.1 Severe LOF Dysfunctional 58	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R366Q	Case 22% 29 1 Severe LOF Dysfunctional 21	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R366W	Case 30% 39.2 Impaired Severe LOF Dysfunctional 58	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	A371T	Case 0% 21.9 Severe LOF Dysfunctional 58	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	S373P	Case 5% 37.9 Impaired Severe LOF Dysfunctional 58	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	W379R	Case 0% Impaired Severe LOF Dysfunctional 32	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R380S	Case 33% 0 Normal Mild LOF Dysfunctional 59	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	T391I	Case 85% 0 Normal Normal 20	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	W392R	Case 0% 28.3 Severe LOF Dysfunctional 58	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	K393M	Case 33% 0 Normal Mild LOF Dysfunctional 59	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	K393N	Control 100% 13.3 Normal Normal 58	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R397Q	Control 90% 0 Impaired Normal Normal 60	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R397W	Control 40% 0 1 1 Normal Mild LOF Dysfunctional 59	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V417M	Case 100% 0 1 Normal Normal 36	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	P448R	Control 120% 0 Normal Normal 20	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	H455Y	Case 43% 0 0.6 Mild LOF Dysfunctional 14	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	M520R	Case 0% Absent Severe LOF Dysfunctional 61	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	Y522S	Case 10% 7 Impaired Severe LOF Dysfunctional 32	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	A525T	Case 36% 22 1.34 1.08 Impaired Severe LOF Dysfunctional 22	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R533W	Case 72% 13.9 1 Normal Normal 23	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R539W	Case 17% 33.9 1 0.41 Severe LOF Dysfunctional 23	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	S546L	Case 25% 50.7 1.3 0.81 Normal Severe LOF Dysfunctional 62	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R555C	Case 25% 60 Severe LOF Dysfunctional 40	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R555H	Case 12% 50 1.1 0.72 Normal Severe LOF Dysfunctional 63	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	K557E	Case 0% Normal Severe LOF Dysfunctional 64	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R562M	Case 43% 43.3 1.55 1.07 Normal Severe LOF Dysfunctional 62	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R583H	Case 100% 0 Normal Normal 65	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G589D	Case 15% 33 Impaired Severe LOF Dysfunctional 66	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	A590T	Case 45% 10 Normal Mild LOF Dysfunctional 67	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	R594Q	Case 5% 60 Severe LOF Dysfunctional 20	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	D611Y	Case 100% 0 Normal Normal 68	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	L619M	Case 1% Normal Severe LOF Dysfunctional 63	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	G643S	Control 35% 1.1 1 0.72 Mild LOF Normal 69	(Bian, 2017, 10.1161/CIRCGENETICS.117.001754)	Naturally occuring (see reference for source)
+KCNQ1	Human	V100I	113 ± 14 91 ± 5 101 ± 3 ND3 H4	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	A102S	282 ± 39 96 ± 5 107 ± 5 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	T104I	22 ± 4 65 ± 5 89 ± 5 90 ± 6 H5 Depolarizing shift in V1/2 for activation	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	T104S	82 ± 13 93 ± 6 102 ± 5 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	H105L	131 ± 17 80 ± 8 98 ± 4 ND H Hyperpolarizing shift in V1/2 for activation	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	H105N	72 ± 9 106 ± 7 132 ± 6 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	H105Y	151 ± 21 78 ± 6 95 ± 3 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	V106I	121 ± 18 104 ± 4 121 ± 8 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	Q107H	36 ± 6 6 ± 2 20 ± 3 29 ± 1 M	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	R109L	223 ± 35 92 ± 6 114 ± 3 ND H Hyperpolarizing shift in V1/2 for activation	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	V110I	25 ± 5 96 ± 6 114 ± 6 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	Y111C	-2 ± 3 2.0 ± 1.1 18 ± 3 19 ± 2 S6	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	L114P	-1 ± 4 2.0 ± 1.2 16 ± 2 6 ± 3 X	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	E115G	-7 ± 3 1.9 ± 1.0 19 ± 1 21 ± 2 M	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	P117L	-5 ± 3 5.5 ± 1.4 26 ± 3 28 ± 1 S	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	T118S	76 ± 14 101 ± 7 111 ± 2 ND H Depolarizing shift in V1/2 for activation	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	C122Y	-4 ± 3 73 ± 4 96 ± 11 88 ± 6 H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	V124I	92 ± 12 113 ± 4 112 ± 15 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	Y125D	1 ± 3 2.1 ± 0.6 13 ± 2 23 ± 3 S	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	H126L	4 ± 3 3.7 ± 0.9 32 ± 3 40 ± 4 M	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	F127L	80 ± 13 111 ± 4 108 ± 5 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	A128T	74 ± 11 113 ± 5 102 ± 9 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	V129I	83 ± 16 132 ± 7 121 ± 8 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	L131P	6 ± 3 45 ± 4 42 ± 5 132 ± 7 S	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	I132L	112 ± 23 104 ± 7 110 ± 6 ND H Slow deactivation	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	V133I	67 ± 16 95 ± 4 111 ± 7 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	L134P	3 ± 2 100 ± 12 60 ± 3 123 ± 4 H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	V135A	78 ± 15 92 ± 5 103 ± 5 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	V135I	100 ± 11 84 ± 8 99 ± 9 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	A149V	107 ± 34 73 ± 10 66 ± 3 93 ± 5 H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	A150T	58 ± 9 156 ± 11 117 ± 8 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	A150V	52 ±17 97 ± 5 91 ± 6 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	E160K	-4 ± 3 16 ± 2 36 ± 3 62 ± 2 H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	∆F167	2 ± 2 2.0 ± 1.3 14 ± 3 9 ± 1 X	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	T169M	65 ± 10 87 ± 5 88 ± 5 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	R174C	0 ± 2 2.2 ± 1.2 14 ± 4 19 ± 2 S	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	R174H	-1 ± 3 4.2 ± 1.3 20 ± 3 30 ± 2 S	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	R174L	3 ± 3 9.7 ± 1.8 18 ± 2 33 ± 1 S	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	W176R	1 ± 2 2.5 ± 1.7 11 ± 2 10 ± 1 X	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	G179S	10 ± 3 4.1 ± 2.2 18 ± 3 31 ± 2 M Depolarizing shift in V1/2 for activation	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	G189A	-5 ± 2 2.4 ± 1.7 14 ± 1 13 ± 1 M6	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	R195P	-1 ± 3 2.0 ± 1.6 17 ± 3 10 ± 1 X	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	K196T	20 ± 5 58 ± 3 62 ± 4 79 ± 2 H Increased V1/2 Fast deactivation	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	P197L	147 ± 23 59 ± 4 68 ± 3 75 ± 2 H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	P197S	17 ± 4 21 ± 2 40 ± 4 53 ± 2 M Increased V1/2	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	V207M	88 ± 15 71 ± 4 86 ± 5 82 ± 2 H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	K218E	46 ± 9 102 ± 4 93 ± 5 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	I227L	22 ± 5 143 ± 10 116 ± 8 ND H Increased V1/2Slow deactivation	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	Q234P	3 ± 4 132 ± 2 116 ± 7 ND H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	L236P	3 ± 4 47 ± 8 78 ± 5 104 ± 5 H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ1	Human	L236R	1 ± 4 16 ± 4 56 ± 3 88 ± 4 H	(Huang, 2018, 10.1126/sciadv.aar2631)	Max Current (%WT); Surface Expression (%WT); Total Expression (%WT); WT/mutant Heterozygous Surface Expression (%WT/WT); NMR; Comment
+KCNQ2	Human	W236L	NA	(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	NA
+KCNQ3	Human	W265L	NA	(Dalby-Brown, 2013, 10.1016/j.ejphar.2013.03.039)	NA
+KCNQ5	Human	Q5{CQ2}	NA	(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	NA
+KCNQ5	Human	Q5{N,CQ2}	NA	(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	NA
+KCNQ5	Human	Q5{S1-S6Q2}	NA	(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	NA
+KCNQ5	Human	Q5{N,S1-S6Q2}	NA	(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	NA
+KCNQ5	Human	Q5{NQ2}	NA	(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	NA
+KCNQ5	Human	Q5{S4-S6Q2}	NA	(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	NA
+KCNQ5	Human	Q5{S1-S3Q2}	NA	(Padilla, 2009, 10.1016/j.neulet.2009.08.071)	NA
+KCNQ1	Human	R228A	NA	(Redford, 2020, 10.1038/s42003-020-1089-8)	positive-shifted the voltage dependence of KCNQ1 activation
+KCNQ1	Human	R231A	NA	(Redford, 2020, 10.1038/s42003-020-1089-8)	NA
+KCNQ1	Human	K218A	NA	(Panaghie, 2007, 10.1085/jgp.200609612)	NA
+KCNQ1	Human	R228A	NA	(Panaghie, 2007, 10.1085/jgp.200609612)	NA
+KCNQ1	Human	R231A	NA	(Panaghie, 2007, 10.1085/jgp.200609612)	NA
+KCNQ1	Human	R237A	NA	(Panaghie, 2007, 10.1085/jgp.200609612)	NA
+KCNQ1	Human	D242A	NA	(Panaghie, 2007, 10.1085/jgp.200609612)	NA
+KCNQ1	Human	R243A	NA	(Panaghie, 2007, 10.1085/jgp.200609612)	NA
+KCNQ1	Human	R249A	NA	(Panaghie, 2007, 10.1085/jgp.200609612)	NA
+KCNQ1	Human	R259A	NA	(Panaghie, 2007, 10.1085/jgp.200609612)	NA
+KCNQ1	Human	E261A	NA	(Panaghie, 2007, 10.1085/jgp.200609612)	NA

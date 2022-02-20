@@ -1,0 +1,32 @@
+#!/bin/csh 
+# this is modifed from jji .cshrc cluster 2
+# # echo "start sourceing .cshrc file"
+if ! ($?MANPATH) setenv MANPATH ""
+if ! ($?LD_LIBRARY_PATH)  setenv LD_LIBRARY_PATH ""
+
+setenv LD_LIBRARY_PATH  /nfs/home/tbalius/zzz.lib/tmp.lib32:$LD_LIBRARY_PATH
+setenv LD_LIBRARY_PATH  /mnt/nfs/soft/python/current/lib:$LD_LIBRARY_PATH
+setenv TMPDIR "/scratch"
+
+setenv DOCK_BASE "/nfs/home/tbalius/zzz.svn/dockenv/trunk"
+#setenv DOCKBASE "/nfs/home/tbalius/zzz.github/DOCK"
+setenv DOCKBASE "/nfs/home/tbalius/zzz.github/DOCK_2018_01_17"
+source /nfs/soft/labenv/vars.csh
+unset autologout
+source $SOFT/labenv/env.csh
+source $SOFT/jchem/current/env.csh
+source $SOFT/openbabel/current/env.csh
+
+set noclobber
+
+source $SOFT/python/envs/complete/python-2.7.7/env.csh
+
+setenv OBABELBASE "/mnt/nfs/soft/openbabel/current/bin"
+setenv OE_LICENSE /nfs/soft/openeye/oe_license.txt
+
+#setenv OMEGA_ENERGY_WINDOW 12
+#setenv OMEGA_MAX_CONFS 200
+
+# plus corina to build
+source /nfs/soft/corina/current/env.csh
+setenv EMBED_PROTOMERS_3D_EXE $DOCKBASE/ligand/3D/embed3d_corina.sh

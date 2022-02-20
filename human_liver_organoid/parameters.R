@@ -18,5 +18,18 @@ parameters <- list(
     marker_genes_googlesheet_id = "1R_dd-ccWajPZxOWkcjfX8EWNkAalNHmq0HfWn75-8Hk",
     marker_genes_googlesheet_sheet = "Marker Genes",
 
-    marker_genes_fname = "raw_data/marker_genes_20210306.tsv"
+    marker_genes_fname = "raw_data/marker_genes_20210306.tsv",
+
+    scratch_dir = "/scratch/maom_root/maom99/maom/HLOs",
+
+    # cluster scratch used for computing expression profiles
+    expression_scratch_dir = "/scratch/maom_root/maom99/maom",
+    reference_genome_path = "/scratch/maom_root/maom99/maom/HLOs/ref_genome_GRCh38",
+    bowtie2_path = "/home/maom/opt/bowtie2-2.3.4.1-linux-x86_64",
+    fastq_dump_program = "/home/maom/opt/bin/fastq-dump",
+    rsem_prepare_reference_program = "/home/maom/opt/RSEM/rsem-prepare-reference",
+    rsem_calculate_expression_program = "/home/maom/opt/RSEM/rsem-calculate-expression",
+    slurm_account = "maom99",
+    slurm_mail_user = "maom@umich.edu",
+    slurm_partition = "standard"
 )

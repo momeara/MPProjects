@@ -70,7 +70,7 @@ cds_CZ_CZ_2 <- cds_CZ_CZ_2 %>%
     monocle3::cluster_cells(
         resolution = 5e-4,
         verbose = TRUE)
-cds_CZ_CZ_2 %>% save(file = "intermediate_data/cds_CZ_CZ_2.Rdata")
+save(cds_CZ_CZ_2, file = "intermediate_data/cds_CZ_CZ_2.Rdata")
 
 
 
@@ -100,6 +100,45 @@ plot <- cds_CZ_CZ_2 %>%
         max.size = 3)
 
 ggplot2::ggsave("product/figures/CZ_CZ_2/top_speciic_markers_heatmap_5e-4_20210210.pdf")
+
+
+#####################
+# combine some of the on-chip treatments
+cds_CZ_treat <- monocle3::combine_cds(
+    cds_list = list(
+        Control = get_dataset("2602-CZ-2"),
+        Fialuridine = get_dataset("2602-CZ-3"),
+        Tenofovir = get_dataset("2602-CZ-4"),
+        Tenofovir_Inarigivir = get_dataset("2602-CZ-6")))
+
+
+cds_CZ_treat <- cds_CZ_treat %>%
+    monocle3::preprocess_cds(num_dim = 100)
+
+
+cds_CZ_treat <- cds_CZ_treat %>%
+    monocle3::reduce_dimension(
+        preprocess_method = "PCA",
+        verbose = TRUE)
+
+# resolution: 1e-5
+#   Modularity is 0.734636987448508
+#   Quality is 2116543.19454
+#   Significance is 868460.182810843
+#   Number of clusters is 12
+# resolution: 1e-06;
+#   Modularity is 0.446991090433721;
+#   Quality is 2125276.611134;
+#   Significance is 318007.466408565;
+#   Number of clusters is 8
+cds_CZ_treat <- cds_CZ_treat %>%
+    monocle3::cluster_cells(
+        resolution = 1e-5,
+        verbose = TRUE)
+
+save(cds_CZ_treat, file = "intermediate_data/cds_CZ_treat.Rdata")
+
+
 
 ######
 
@@ -135,22 +174,25 @@ cds_CZ_x <- cds_CZ_x %>%
     monocle3::preprocess_cds(num_dim = 100)
 
 
+# Don't align because they were all run in the same lane
+#cds_CZ_x <- cds_CZ_x %>%
+#    monocle3::align_cds(
+#        num_dim = 100,
+#        alignment_group = "sample",
+#        alignment_k = 200,
+#        verbose = TRUE)
+
+
 cds_CZ_x <- cds_CZ_x %>%
-    monocle3::align_cds(
-        num_dim = 100,
-        alignment_group = "sample",
-        alignment_k = 200,
+    monocle3::reduce_dimension(
+        preprocess_method = "PCA",
         verbose = TRUE)
-
-
-cds_CZ_x <- cds_CZ_x %>%
-    monocle3::reduce_dimension(preprocess_method = "Aligned")
 
 cds_CZ_x <- cds_CZ_x %>%
     monocle3::cluster_cells(
         resolution = 1e-5,
         verbose = TRUE)
-cds_CZ_x %>% save(file = "intermediate_data/cds_CZ_x.Rdata")
+save(cds_CZ_x, file = "intermediate_data/cds_CZ_x.Rdata")
 
 ###
 # look for specific bio-markers in each cluster
@@ -214,7 +256,7 @@ cds_Ouchi2019 <- cds_Ouchi2019 %>%
     monocle3::cluster_cells(
         resolution = 1e-4,
         verbose = TRUE)
-cds_Ouchi2019 %>% save(file = "intermediate_data/cds_Ouchi2019.Rdata")
+save(cds_Ouchi2019, file = "intermediate_data/cds_Ouchi2019.Rdata")
 
 
 ##################
@@ -244,7 +286,7 @@ cds_Ouchi2019_CZ_2 <- cds_Ouchi2019_CZ_2 %>%
     monocle3::cluster_cells(
         resolution = 1e-5,
         verbose = TRUE)
-cds_Ouchi2019_CZ_2 %>% save(file = "intermediate_data/cds_Ouchi2019_CZ_2.Rdata")
+save(cds_Ouchi2019_CZ_2, file = "intermediate_data/cds_Ouchi2019_CZ_2.Rdata")
 
 
 
@@ -281,7 +323,35 @@ cds_Ouchi2019_CZ_x <- cds_Ouchi2019_CZ_x %>%
     monocle3::cluster_cells(
         resolution = 1e-5,
         verbose = TRUE)
-cds_Ouchi2019_CZ_x %>% save(file = "intermediate_data/cds_Ouchi2019_CZ_x.Rdata")
+save(cds_Ouchi2019_CZ_x, file = "intermediate_data/cds_Ouchi2019_CZ_x.Rdata")
+
+
+
+###############################
+# On Chip Hepatocyte clusters #
+###############################
+cds_CZ_x_hepatocyte <- cds_CZ_x
+cds_CZ_x_hepatocyte <- cds_CZ_x_hepatocyte %>%
+    MPStats::compute_qc_covariates()
+
+cds_CZ_x_hepatocyte <- cds_CZ_x_hepatocyte[
+    # genes that are observed in at least 5 cells
+    SingleCellExperiment::counts(cds_CZ_x_hepatocyte) %>% Matrix::rowSums() >= 5,
+    # hepatocyte cluster
+    (monocle3::clusters(cds_CZ_x_hepatocyte, reduction_method = "UMAP") %in% c(1, 4, 7, 9, 11)) &
+    # cells that have at least 1000 reads which are at most 30% mitochondrial
+    (SummarizedExperiment::colData(cds_CZ_x_hepatocyte)[["count_depth"]] >= 10000) &
+    (SummarizedExperiment::colData(cds_CZ_x_hepatocyte)[["mt_fraction"]] < .3)]
+
+cds_CZ_x_hepatocyte <- cds_CZ_x_hepatocyte %>%
+    monocle3::preprocess_cds(num_dim = 100)
+
+cds_CZ_x_hepatocyte <- cds_CZ_x_hepatocyte %>%
+    monocle3::reduce_dimension(
+        preprocess_method = "PCA",
+        verbose = TRUE)
+
+save(cds_CZ_x_hepatocyte, file = "intermediate_data/cds_CZ_x_hepatocyte.Rdata")
 
 
 ###
