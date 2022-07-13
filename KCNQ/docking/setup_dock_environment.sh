@@ -15,7 +15,8 @@ export SCRATCH_DIR=/scratch/maom_root/maom0/maom
 
 export DOCK_TEMPLATE=/home/maom/opt/dock_campaign_template
 
-export DOCKBASE=/home/maom/opt/DOCK37
+#export DOCKBASE=/home/maom/opt/DOCK37
+export DOCKBASE=/home/maom/opt/DOCK
 export PATH="${PATH}:${DOCKBASE}/bin:${DOCK_TEMPLATE}/scripts"
 
 export OMEGA_ENERGY_WINDOW=12
