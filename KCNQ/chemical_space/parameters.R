@@ -37,6 +37,13 @@ get_parameters <- function(
             featurize_substances_program = "~/opt/miniconda3/envs/mplearn/bin/featurize_substances",
             embed_umap_program = "~/opt/miniconda3/envs/mplearn/bin/embed_umap"
         )
+    }
+    if (system_id %>% stringr::str_detect("maom@lenny.dcmb.med.umich.edu")) {
+        parameters <- c(
+            parameters,
+            featurize_substances_program = "~/opt/miniconda3/envs/main/bin/featurize_substances",
+            embed_umap_program = "~/opt/miniconda3/envs/main/bin/embed_umap"
+        )
     } else if (system_id == "momeara@gimel.cluster.ucsf.bkslab.org") {
         parameters <- c(
             parameters,

@@ -1,5 +1,3 @@
-
-
 library(plyr)
 library(tidyverse)
 library(arrow)
@@ -16,7 +14,7 @@ project_substance_ids <- arrow::read_parquet(
     file = "intermediate_data/project_substances_APDP_20210323/fingerprints.parquet",
     col_select = "substance_id") %>%
     dplyr::mutate(database = "project_substances")
-    
+
 project_substances <- readr::read_tsv(
     file = "raw_data/substances_20210323.tsv") %>%
     dplyr::select(
@@ -26,7 +24,7 @@ project_substances <- readr::read_tsv(
     dplyr::mutate(
         substance_source = ifelse(substance_name == "SCR-2682", "", substance_source)) %>%
     dplyr::mutate(substance_dock_id = substance_dock_id %>% stringr::str_sub(-14, -1))
-    
+
 
 project_substances_docked_features <- readr::read_tsv(
     file = "intermediate_data/KCNQ2_7CR2_retigabine_AB_20201028,project_20210323,,20210402/docking_features.tsv") %>%
@@ -70,18 +68,16 @@ chembl25_substances <- arrow::read_parquet(
 substance_ids <- dplyr::bind_rows(
     project_substance_ids,
     project_decoy_ids)
-
-    chembl25_substance_ids)
+#    chembl25_substance_ids)
 
 substances <- dplyr::bind_rows(
     project_substances,
     project_decoys)
-
-    chembl25_substances)
+#    chembl25_substances)
 
 
 source("scripts/plot_embedding.R")
-for(dir in Sys.glob("intermediate_data/project_substances_decoys_APDP_a=1,b=1.8,metric=cosine_20210323")) {    
+for(dir in Sys.glob("intermediate_data/project_substances_decoys_APDP_a=1,b=1.8,metric=cosine_20210323")) {
 #for(dir in Sys.glob("intermediate_data/project_substances_decoys_chembl25_275k_a=1,b=1.8,n_neighbors=100,metric=cosine_20210323")) {
 #for (dir in c("intermediate_data/project_substances_decoys_chembl25-50k_20210323")) {
     tag <- dir %>% stringr::str_replace("intermediate_data/", "")
@@ -96,7 +92,7 @@ for(dir in Sys.glob("intermediate_data/project_substances_decoys_APDP_a=1,b=1.8,
                     substance_ids,
                     substance_umap),
                 by = c("substance_name" = "substance_id"))
-        background_data <- dplyr::bind_rows(project_decoys) %>%        
+        background_data <- dplyr::bind_rows(project_decoys) %>%
 #        background_data <- dplyr::bind_rows(project_decoys, chembl25_substances) %>%
             dplyr::inner_join(
                 dplyr::bind_cols(
@@ -164,3 +160,61 @@ substance_data %>%
         data.frame()
     })
 
+##### Plot Embedding for ChemGPT Fingerprints ###
+
+tag <- "project_substances_ChemGPT-4.7M"
+dir.create(paste0("product/figures/", tag))
+
+
+
+source("scripts/plot_embedding.R")
+Sys.glob("intermediate_data/project_substances_decoys_ChemGPT-1.2B_a=1,b=2*") %>%
+    tibble::tibble(dir = .) %>%
+    dplyr::mutate(embedding_tag = dir %>% stringr::str_replace("intermediate_data/", "")) %>%
+    dplyr::rowwise() %>%
+    dplyr::do({
+        embedding_tag <- .$embedding_tag
+        cat("plotting ", embedding_tag, "\n", sep = "")
+
+        substance_umap <- arrow::read_parquet(
+            file = paste0("intermediate_data/", embedding_tag, "/umap_embedding.parquet"))
+
+        substance_data <- project_substances %>%
+            dplyr::inner_join(
+                dplyr::bind_cols(
+                    substance_ids,
+                    substance_umap),
+                by = c("substance_name" = "substance_id"))
+        background_data <- dplyr::bind_rows(project_decoys) %>%
+#        background_data <- dplyr::bind_rows(project_decoys, chembl25_substances) %>%
+            dplyr::inner_join(
+                dplyr::bind_cols(
+                    substance_ids,
+                    substance_umap),
+                by = c("substance_name" = "substance_id"))
+        plot_embedding(
+            substance_data = substance_data,
+            label = substance_source,
+            background_data = background_data,
+            dataset_tag = embedding_tag,
+            plot_tag = "source")
+        plot_embedding(
+            substance_data = substance_data,
+            label = score_tranche,
+            background_data = background_data,
+            dataset_tag = embedding_tag,
+            plot_tag = "score_tranche")
+        substance_data <- substance_data %>%
+            dplyr::mutate(
+                to_classify = ifelse(
+                    is.na(substance_source),
+                    substance_name,
+                    "classified"))
+        plot_embedding(
+            substance_data = substance_data,
+            label = to_classify,
+            background_data = background_data,
+            dataset_tag = embedding_tag,
+            plot_tag = "to_classify")
+        data.frame()
+    })

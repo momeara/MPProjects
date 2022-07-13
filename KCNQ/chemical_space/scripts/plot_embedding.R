@@ -13,8 +13,11 @@ plot_embedding <- function(
         dir.create(output_path)
     }
 
+    assertthat::assert_that(
+        deparse(substitute(label)) %in% names(substance_data))
+
     cat("Adding ", nrow(substance_data), " substances ...\n", sep = "")
-    
+
     label_data <- substance_data %>%
         dplyr::group_by({{label}}) %>%
         dplyr::summarize(
@@ -40,7 +43,7 @@ plot_embedding <- function(
                 alpha = .3,
                 shape = 16)
     }
-    
+
     plot <- plot +
         ggplot2::geom_point(
             data = substance_data,
@@ -57,7 +60,7 @@ plot_embedding <- function(
                 label = {{label}}),
             force = 10) +
         ggplot2::ggtitle(
-            label = "Emedding based on ECP4 fingerprints",
+            label = "Emedding based on fingerprints",
             subtitle = "Literature reported substances")
     if(save_plot) {
         fname <- paste0(
@@ -70,7 +73,7 @@ plot_embedding <- function(
             width = 12,
             height = 12,
             useDingbats = FALSE)
-    
+
         fname <- paste0(
             "product/figures/",
             dataset_tag, "/",

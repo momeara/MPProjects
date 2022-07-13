@@ -33,4 +33,8 @@ chembl25_fingerprints %>%
 load("raw_data/chembl27_substances_20210323.Rdata")
 
 full_chembl_data %>%
-    readr::write_tsv("raw_data/chembl27_substances_20210323.tsv")
+    dplyr::mutate(
+        smiles = smiles %>% stringr::str_replace("\\\\", "\\")) %>%
+    readr::write_tsv(
+        "raw_data/chembl27_substances_20220711.tsv",
+        quote = "needed")
