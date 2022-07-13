@@ -38,7 +38,20 @@ activities_summary <- googlesheets4::read_sheet(
 activities_summary %>% readr::write_tsv(
     file = paste0("raw_data/activities_summary_", parameters$date_code, ".tsv"))
 
+ 
+# check for unique substance names
+# it appears that in some papers, several compounds are reported multiple times
+activities_summary %>%
+    dplyr::distinct(substance_name, .keep_all=TRUE) %>%
+    dplyr::count(substance_smiles) %>%
+    dplyr::filter(n>1) %>%
+    dplyr::left_join(activities_summary %>% dplyr::select(substance_name, substance_smiles, by="substance_name")) %>%
+    data.frame()
 
+### SUBSTANCES ###
+substances <- googlesheets4::read_sheet(
+    ss = parameters$project_data_googlesheets_id,
+    sheet = "Substances")
 
 substances <- activities_summary %>%
     dplyr::distinct(substance_smiles, .keep_all = TRUE) %>%
@@ -61,6 +74,8 @@ substances %>% readr::write_tsv(
     file = paste0("raw_data/substances_", parameters$date_code, ".tsv"))
 
 
+
+### RECEPTORS ###
 receptors <- googlesheets4::read_sheet(
     ss = parameters$project_data_googlesheets_id,
     sheet = "Receptors") %>%
@@ -74,6 +89,7 @@ receptors <- googlesheets4::read_sheet(
 receptors %>% readr::write_tsv(
     file = paste0("raw_data/receptors_", parameters$date_code, ".tsv"))
 
+### REFERENCES ###
 references <- googlesheets4::read_sheet(
     ss = parameters$project_data_googlesheets_id,
     sheet = "References") %>%
@@ -87,6 +103,7 @@ references %>% readr::write_tsv(
     file = paste0("raw_data/references_", parameters$date_code, ".tsv"))
 
 
+### ACTIVITIES ###
 activities <- googlesheets4::read_sheet(
     ss = parameters$project_data_googlesheets_id,
     sheet = "Activity Annotations") %>%
