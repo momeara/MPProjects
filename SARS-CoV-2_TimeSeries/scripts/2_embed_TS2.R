@@ -9,12 +9,17 @@ library(readxl)
 library(MPStats)
 library(arrow)
 library(rdist)
+library(monocle3)
+library(tictoc)
+
 
 cell_feature_columns <- readr::read_tsv(
-    "product/cell_feature_columns_TS_202008.tsv")
+    "product/cell_feature_columns_TS_202008.tsv",
+    show_col_types = FALSE)
 
 cell_metadata_columns <- readr::read_tsv(
-    "product/cell_metadata_columns_TS_202008.tsv")
+    "product/cell_metadata_columns_TS_202008.tsv",
+    show_col_types = FALSE)
 
 
 
@@ -103,36 +108,99 @@ system("
 # cluster all cells #
 #####################
 
-cell_features <- dplyr::bind_cols(
-    arrow::read_parquet(
-        file = "product/TS2_plate_scaled_Cell_MasterDataTable.parquet"),
-    arrow::read_parquet(
-        file = "intermediate_data/UMAP_embedding_into_TS2_2M_epochs=2000_20200901/umap_embedding.parquet"))
 
-###n_cells	k	runtime min	n_clusters	Total Memory(Gb)
-###500000	15	3		39		19
-###500000	200	18		5		29.5
-###2000000	15	10		147		49
+###n_cells	k	resolution	runtime min	n_clusters	Total Memory(Gb)
+###500000	15	1e-5		3		39		19
+###500000	200	1e-5		18		5		29.5
+###2000000	15	1e-5		10		147		49
+###2000000	15	1e-5		10		147		49
+###3274296	100	1e-4		5000		5		<180
+###3274296	100	1e-7		6397		
+###6399650	100	1e-2		15614           5674            ~150
+###6399650	100	1e-4		16563           240             ~150
+###6399650	100	1e-7		18473           5            	~150
 
+cell_features <- arrow::read_parquet(
+    file = "product/TS2_plate_scaled_Cell_MasterDataTable.parquet",
+    col_select = c(
+        cell_feature_columns %>% head(3) %>% dplyr::pull("feature"),
+        cell_metadata_columns$feature))
 
+embedding <- arrow::read_parquet(
+    file = "intermediate_data/UMAP_embedding_into_TS2_2M_epochs=2000_20200901/umap_embedding.parquet")
+    
 all_cds <- MPStats::populate_cds(
     cell_features = cell_features,
-    cell_feature_columns = cell_feature_columns,
+    cell_feature_columns = cell_feature_columns %>% head(3),
     cell_metadata_columns = cell_metadata_columns,
     embedding_type = c("UMAP"),
-    embedding = cell_features %>% dplyr::select(UMAP_1, UMAP_2),
+    embedding = embedding,
     verbose = TRUE)
 
 # as resolution gets bigger --> more clusters
+tictoc::tic(msg = "Compute cell clusters")
+k <- 100
+resolution <- 1e-7
+num_iter <- 10
 all_cds <- all_cds %>%
     monocle3::cluster_cells(
-        k = 200,
-        resolution = .00001,
-        num_iter = 10,
+        k = k,
+        resolution = resolution,
+        num_iter = num_iter,
         verbose = TRUE)
+tictoc::toc()
 
 all_cds %>% MPStats::serialize_clusters(
-    output_fname = "intermediate_data/UMAP_embedding_TS2_2M_epochs=2000_20200901/clusters_leiden_k=15_res=1e-5.parquet")
+    output_fname = paste0(
+        "intermediate_data/UMAP_embedding_into_TS2_2M_epochs=2000_20200901/",
+        "clusters_leiden_k=", k, "_res=", resolution, "_num_iter=", num_iter, ".parquet"))
+
+
+#####################
+# cluster all cells #
+#####################
+
+cell_features <- dplyr::bind_cols(
+    arrow::read_parquet(
+        file = "product/TS2_plate_scaled_Cell_MasterDataTable.parquet",
+        col_select = c(
+            cell_feature_columns %>% head(3) %>% dplyr::pull("feature"),
+            cell_metadata_columns$feature)),
+    arrow::read_parquet(
+        file = "intermediate_data/UMAP_embedding_into_TS2_2M_epochs=2000_20200901/umap_embedding.parquet"))
+
+cell_features_train <- cell_features %>%
+    dplyr::filter(row <= 8)
+
+embedding_train <- cell_features_train %>%
+    dplyr::select(UMAP_1, UMAP_2)
+    
+train_cds <- MPStats::populate_cds(
+    cell_features = cell_features_train,
+    cell_feature_columns = cell_feature_columns %>% head(3),
+    cell_metadata_columns = cell_metadata_columns,
+    embedding_type = c("UMAP"),
+    embedding = embedding_train,
+    verbose = TRUE)
+
+# as resolution gets bigger --> more clusters
+tictoc::tic(msg = "Compute cell clusters for training set")
+k <- 100
+resolution <- 1e-4
+num_iter <- 10
+train_cds <- train_cds %>%
+    monocle3::cluster_cells(
+        k = k,
+        resolution = resolution,
+        num_iter = num_iter,
+        verbose = TRUE)
+tictoc::toc()
+
+train_cds %>% MPStats::serialize_clusters(
+    output_fname = paste0(
+        "intermediate_data/UMAP_embedding_into_TS2_2M_epochs=2000_20200901/",
+        "clusters_train_leiden_k=", k, "_res=", resolution, "_num_iter=", num_iter, ".parquet"))
+
 
 
 #################################

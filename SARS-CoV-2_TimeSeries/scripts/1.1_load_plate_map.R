@@ -3,9 +3,9 @@ library(plyr)
 library(magrittr)
 library(googlesheets4)
 options(tidyverse.quiet = TRUE)
-library(tidyverse, quietly=TRUE)
+library(tidyverse, quietly = TRUE)
 library(readxl)
-library(arrow, quietly=TRUE, warn.conflicts = FALSE)
+library(arrow, quietly = TRUE, warn.conflicts = FALSE)
 
 source("parameters.R")
 
@@ -25,7 +25,7 @@ plate_map_TS <- googlesheets4::read_sheet(
         Concentration = ifelse(is.na(Concentration), 0, Concentration),
         row = Well_ID %>%
             stringr::str_extract("^[A-Z]") %>%
-            purrr::map_int(~which(LETTERS==., arr.ind=T)),
+            purrr::map_int(~which(LETTERS == ., arr.ind = T)),
         column = Well_ID %>%
             stringr::str_extract("[0-9]+$") %>%
             as.integer(),

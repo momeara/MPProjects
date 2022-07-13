@@ -72,8 +72,8 @@ da_milo <- milo %>%
 milo <- milo %>% miloR::buildNhoodGraph()
 
 z <- scater::plotUMAP(milo) +
-    miloR::plotNhoodGraphDA(milo, da_milo, alpha=1, layout="UMAP") +
-    patchwork::plot_layout(guides="collect")
+    miloR::plotNhoodGraphDA(milo, da_milo, alpha = 1, layout = "UMAP") +
+    patchwork::plot_layout(guides = "collect")
 
 ggplot2::ggsave(
     paste0("product/figures/TS2/milo/umap_nhoods_", n_cells, "_20210128.pdf"),
